@@ -47,8 +47,6 @@ You are provided a [Data Science Virtual Machine - Windows 2016](https://azurema
 
 Launch msi provided in **Desktop** and follow the instructions to install **Azure Machine Learning Workbench** on the virtual machine. Please note that it might take 45 minutes to an hour sometimes for installation.
 
-# Initial setup for lab environment
-
 # Known Issues
 
 * Docker for Windows is not starting
@@ -62,13 +60,21 @@ Launch msi provided in **Desktop** and follow the instructions to install **Azur
 
 # Notes to Instructors / Proctors
 
-* Linux Ubuntu DSVM Virtual Machine Creation
+* **Avoid Quota Issue** for Linux Ubuntu DSVM Virtual Machine Creation
 
 If your users are provided with user@microsofthol.onmicrosoft.com account, they should create Linux Ubuntu DSVM in South Central US with NV6 compute family. Otherwise, they will get error due to quota issues.
 
+* **Configure Lower Size** for Azure Resources
+
+As you walk through attendees through lab steps, request them to create resources in the lower size / capacity, specifically for the following:
+
+ * Machine Learning Model Management - DEVTEST or S1
+ * Machine Learning Experimentation - DEVTEST or S1
+ * HDInsight Cluster (Spark 2.1 on Linux) - Least size available with **only one worker node**.
+
 # Help and Support
 
-If you require any help during the workshop, please reach out to the instructor / proctors.
+If you require any help during the workshop, please reach out to the instructor / proctors. Instructors / proctors might escalate the issue to remote support team, at that time, please pass on your AAD User ID (aad_user_xyz), so that it is easier to look up your environment.
 
 
 
