@@ -52,13 +52,13 @@ Launch msi provided in **Desktop** and follow the instructions to install **Azur
 * Docker for Windows is not starting
 
 > **Possible Solutions**:
- * Check and ensure if Docker is running in 'Linux Containers' mode
- * Virtual Machine may not be running in a nested-virtualization supported family. Check if it is D4_v3 or D4S_v3.
+ ** Check and ensure if Docker is running in 'Linux Containers' mode
+ ** Virtual Machine may not be running in a nested-virtualization supported family. Check if it is D4_v3 or D4S_v3.
 
 * Failure while trying to create NC6 virtual machines
 
 > **Possible Solutions**:
- * Mostly this could be quota issue. You can delete the current VM, and try to create another VM in South Central US, with NV6 size. If you are provided user@microsofthol.onmicrosoft.com account, then you should try NV6 in South Central US, irrespective of the resource group region.
+ ** Mostly this could be quota issue. You can delete the current VM, and try to create another VM in South Central US, with NV6 size. If you are provided user@microsofthol.onmicrosoft.com account, then you should try NV6 in South Central US, irrespective of the resource group region.
 
 # Notes to Instructors / Proctors
 
@@ -70,9 +70,9 @@ If your users are provided with user@microsofthol.onmicrosoft.com account, they 
 
 As you walk through attendees through lab steps, request them to create resources in the lower size / capacity, specifically for the following:
 
- * Machine Learning Model Management - DEVTEST or S1
- * Machine Learning Experimentation - DEVTEST or S1
- * HDInsight Cluster (Spark 2.1 on Linux) - Least size available with **only one worker node**.
+ ** Machine Learning Model Management - DEVTEST or S1
+ ** Machine Learning Experimentation - DEVTEST or S1
+ ** HDInsight Cluster (Spark 2.1 on Linux) - Least size available with **only one worker node**.
 
 # Help and Support
 
