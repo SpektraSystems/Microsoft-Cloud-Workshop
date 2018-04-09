@@ -38,7 +38,7 @@ It could be some configuration issue.
 ### Not showing Telemetry data in sample Telemetry under App Insight, Lab guide page number: 55 and further steps of App Insight.
 It could be some configuration issue.
 
-### SavePlateData and queuePlateForManualCheckup is not trigered by event trigger.
+### SavePlateData and queuePlateForManualCheckup is not triggered by event trigger.
 
 # Help and Support
 
