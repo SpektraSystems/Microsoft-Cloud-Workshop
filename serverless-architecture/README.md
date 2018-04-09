@@ -40,6 +40,8 @@ It could be some configuration issue.
 
 ### SavePlateData and queuePlateForManualCheckup is not triggered by event trigger.
 
+### Computer vision api OCR not proccessed.
+
 # Help and Support
 
 If you require any help during the workshop, please reach out to the instructor / proctors. Instructors / proctors might escalate the issue to remote support team, at that time, please pass on your AAD User ID (aad_user_xyz), so that it is easier to look up your environment.
