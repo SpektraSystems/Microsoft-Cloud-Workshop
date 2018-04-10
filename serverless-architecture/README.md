@@ -31,12 +31,10 @@ You can go to following directory to find project solution file: C:\Hackathon\To
 # Known Issues
 
 ### Not showing Telemetry data in sample Telemetry under App Insight, Lab guide page number: 55 and further steps of App Insight.
-It could be some configuration issue.
+Please re-verify previous steps of lab, most likely you missed some configuration part.
 
 # Notes to Instructors / Proctors
 
-### Not showing Telemetry data in sample Telemetry under App Insight, Lab guide page number: 55 and further steps of App Insight.
-It could be some configuration issue.
 
 ### SavePlateData and queuePlateForManualCheckup is not triggered by event trigger.
 
