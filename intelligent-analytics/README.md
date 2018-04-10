@@ -32,6 +32,8 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
+You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with additional softwares configured.FQDN of the virtual machine and administrator credentials are provided in the lab details page.
+
 # Known Issues
 
 # Notes to Instructors / Proctors
