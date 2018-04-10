@@ -1,5 +1,15 @@
 # Introduction
 
+Participants will enable intelligent conversation in a machine learning-enabled, real-time chat pipeline to allow hotel guests to chat with one another, and to communicate directly with the concierge. They will also apply analytics to visualize customer sentiment in real-time. 
+
+After completion, students will be better able to implement a lambda architecture, and enable web-based real-time messaging thru Web Sockets, Event Hubs, and Services Bus. In addition, participants will better understand how to:
+* Leverage Cognitive Services (LUIS & Text Analytics API)
+* Process Events with Web Jobs
+* Index with Search
+* Archive with Cosmos DB
+* Visualize with Power BI QA
+
+
 # Sign-up for Workshop Environment
 
 To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
