@@ -38,6 +38,8 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 # Notes to Instructors / Proctors
 
+The lab files are downloaded and stored in the location C:\LAB\ConciergePlus_Clean.
+
 # Help and Support
 
 If you require any help during the workshop, please reach out to the instructor / proctors. Instructors / proctors might escalate the issue to remote support team, at that time, please pass on your AAD User ID (aad_user_xyz), so that it is easier to look up your environment.
