@@ -34,7 +34,7 @@ You are also provided a **Microsoft Machine Learning Server 9.3.0 on Ubuntu 16.0
 * **SQL Server** 
 * **Face API (Congnitive Srvices)** 
 * **Azure HDInsight Cluster**   
-* Other Azure resources such as **Virtual Network, Public IP, Network Interface, Load Balancer, Storage accounts** as required by HDInsight and VMs.
+* Other Azure resources such as **Virtual Network, Public IP, Network Interface, Load Balancer, Storage accounts** as required by the HDInsight and VMs.
 
 # Known Issues
 ### Failure while running the following command:
@@ -43,19 +43,20 @@ You are also provided a **Microsoft Machine Learning Server 9.3.0 on Ubuntu 16.0
 
 > **Possible Solutions**:
 
- * I any attendee face any issue while running this command,  try following these steps.
+ * I any attendee face any issue while running this command, try following these steps.
    * Run the command : **az ml admin node setup --onebox**
-   * Then it will ask for Admin Password : provide the password Password.1!!
+   * Then it will ask for Admin Password : provide the password: **Password.1!!**
    * Confirm the password.
 
 ### Not able to see "Take Picture" option:
 (Exercise 3 > Task 5 > step 7)
 > **Possible Solutions**:
 
- * Try maximizing and minimizing the window , you can see the part of that "take button" option at the bottom of the window.
+ * Try maximizing and minimizing the window , you can see the part of that "**Take Picture**" option at the bottom of the window.
 
 # Notes to Instructors / Proctors
 * Attendees need not to deploy any Azure resources except a Storage account creating in Exercise 1 > Task 4. All other Azure resources are automated and attendees can use those resources during the workshop.
+* Attendees can refer **Registration Page/Email** for all details of the resources deployed. 
 
 # Help and Support
 
