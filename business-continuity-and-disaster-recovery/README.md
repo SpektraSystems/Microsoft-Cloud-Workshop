@@ -1,5 +1,7 @@
 # Introduction
 
+In this workshop, attendees will implement three different environments and use Azure BCDR technologies to achieve three distinct goals for each environment type.  These will include a migration to Azure, Azure region to region failover using Azure Site Recovery (ASR) and a PaaS implementation using BCDR technologies to ensure high availably of an application.
+
 # Sign-up for Workshop Environment
 
 To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
@@ -22,9 +24,13 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
+You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with additional softwares configured. FQDN of the LABVM virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials.
+
 # Known Issues
 
 # Notes to Instructors / Proctors
+* User need to perform only creation of Resource Groups task in Before Hands on Lab
+* LABVM is already deployed in **ODL_bcdr-XXXXX-01** Resource Group and configured with all the requirements such as SQL Server 2017, SQL Server Management Studio and Student Files are already downloaded into the VM in C:\HOL. 
 
 # Help and Support
 
