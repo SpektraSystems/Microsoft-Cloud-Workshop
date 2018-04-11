@@ -26,15 +26,15 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
-You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with additional softwares configured.FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials and validate the following:
+You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with additional softwares configured.FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials.
 
 > Note: VM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
 
-* **Helper codes folder** ans **Hands-on Lab Guide** is downloaded on the virtual machine. You should see the icon on **Desktop** or else, you can find / search it from the **Start Menu** 
+* **Helper codes folder** ans **Hands-on Lab Guide** is downloaded on the virtual machine. You should see the icon on **Desktop** or else, you can find / search it from the **Start Menu**
 
 # Known Issues
 
-Webpage might takes 25-30 minutes to come up.Refresh the browser after 25-30 mins to view the web page.
+Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mins to view the web page.
 
 # Notes to Instructors / Proctors
 
