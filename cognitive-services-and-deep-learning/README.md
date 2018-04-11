@@ -22,9 +22,12 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
-You are provided a * Data Science Virtual Machine - Windows 2016 * with additional softwares configured. FQDN of the virtual machine and administrator credentials are provided in the lab details page.
+You are provided a Data Science Virtual Machine - Windows 2016 with additional softwares configured. FQDN of the virtual machine and administrator credentials are provided in the lab details page.
 
 # Known Issues
+
+In exercise 2 they are creating cluster environment with new resource group. 
+
 
 # Notes to Instructors / Proctors
 
