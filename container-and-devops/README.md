@@ -32,7 +32,7 @@ You are provided a Ubuntu Server 16.04 from Canonical with additional tools conf
 
 # Known Issues
 
-RDP may not get active for some VMs, the user can sign up again and get a new instance.
+Some instance can have problem with RDP, such users can sign up again and get a new instance.
 
 # Notes to Instructors / Proctors
 
