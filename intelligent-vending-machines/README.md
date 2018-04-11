@@ -22,9 +22,41 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
+You are provided a [Data Science Virtual Machine - Windows 2016](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-ads.windows-data-science-vm) with additional softwares configured. FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials and validate the following:
+
+> Note: DSVM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
+
+You are also provided a **Microsoft Machine Learning Server 9.3.0 on Ubuntu 16.04** VM running Microsoft Machine Learning Server. You will use this machine to host the R Server Operationalization service.
+
+## Verify other Azure resources
+* **IoT Hub** is provisioned in the resource group, in which you have access.
+* **SQL Database** 
+* **SQL Server** 
+* **Face API (Congnitive Srvices)** 
+* **Azure HDInsight Cluster**   
+* Other Azure resources such as **Virtual Network, Public IP, Network Interface, Load Balancer, Storage accounts** as required by the HDInsight and VMs.
+
 # Known Issues
+### Failure while running the following command:
+(Exercise 2 > Task 4 > step 23)
+> az ml admin node setup --onebox --admin-password Password.1!! --confirm-password Password.1!!
+
+> **Possible Solutions**:
+
+ * I any attendee face any issue while running this command, try following these steps.
+   * Run the command : **az ml admin node setup --onebox**
+   * Then it will ask for Admin Password : provide the password: **Password.1!!**
+   * Confirm the password.
+
+### Not able to see "Take Picture" option:
+(Exercise 3 > Task 5 > step 7)
+> **Possible Solutions**:
+
+ * Try maximizing and minimizing the window , you can see the part of that "**Take Picture**" option at the bottom of the window.
 
 # Notes to Instructors / Proctors
+* Attendees need not to deploy any Azure resources except a Storage account creating in Exercise 1 > Task 4. All other Azure resources are automated and attendees can use those resources during the workshop.
+* Attendees can refer **Registration Page/Email** for all details of the resources deployed. 
 
 # Help and Support
 
