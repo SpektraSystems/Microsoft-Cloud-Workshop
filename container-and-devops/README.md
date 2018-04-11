@@ -28,7 +28,7 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
-You are provided a Ubuntu Server 16.04 from Canonical with additional softwares configured as well as RDP enabled. FQDN of the virtual machine and administrator credentials are provided in the lab details page.
+You are provided a Ubuntu Server 16.04 from Canonical with additional tools configured as well as RDP enabled. FQDN of the virtual machine and administrator credentials are provided in the lab details page.
 
 # Known Issues
 
