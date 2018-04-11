@@ -58,6 +58,7 @@ Launch msi provided in **Desktop** and follow the instructions to install **Azur
 > **Possible Solutions**:
  
  * Mostly this could be quota issue. You can delete the current VM, and try to create another VM in South Central US, with NV6 size. If you are provided user@microsofthol.onmicrosoft.com account, then you should try NV6 in South Central US, irrespective of the resource group region.
+ * For NV6 VM, By default it selects SSD disk type. user need to change SSD disk type to HDD dik type.
 
 # Notes to Instructors / Proctors
 
