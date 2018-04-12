@@ -29,7 +29,7 @@ You are provided a Data Science Virtual Machine - Windows 2016 with additional s
 # Notes to Instructors / Proctors
 
 * LABVM is already deployed in ODL_csdl-XXXXX Resource Group and configured with all the requirements.
-* Instalation of AzureML Workbench Setup will take 30-40 minutes to install.
+* Installation of AzureML Workbench Setup will take around 30-45 minutes to install.
 
 # Help and Support
 
