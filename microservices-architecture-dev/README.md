@@ -1,5 +1,13 @@
 # Introduction
 
+Microservices and serverless architectures is one day workshp lead by Microsoft and Microsoft partners.These day focus on hands-on activities and helping an online concert ticket vendor survive the first 5 minutes of crushing load. It will handle the client's scaling needs through microservices built on top of Service Fabric, and apply smooth updates or roll back failing updates.Attendees will design an implementation of load testing to optimize the architecture for handling spikes in traffic.
+
+Attendees will learn how to:
+•	Implement scale and resiliency with Service Fabric
+•	Enable serverless solutions with Azure Functions
+•	Control API access with API Management
+•	Provide query flexibility with Cosmos DB
+
 # Sign-up for Workshop Environment
 
 To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
@@ -22,9 +30,17 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
+You are provided a Visual Studio 2017 Community edition with additional softwares configured. FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials and validate the following:
+
+> Note: VM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
+
 # Known Issues
 
+While opening the visual studio project, it will show the pop-up for upgrade the contosoeventsapp file. User need to click yes.
+
 # Notes to Instructors / Proctors
+
+User need to create the same resources which is provided in document.
 
 # Help and Support
 
