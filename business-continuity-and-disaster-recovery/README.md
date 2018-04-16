@@ -31,6 +31,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 # Notes to Instructors / Proctors
 * User need to perform only creation of Resource Groups task in Before Hands on Lab
 * LABVM is already deployed in **ODL_bcdr-XXXXX-01** Resource Group and configured with all the requirements such as SQL Server 2017, SQL Server Management Studio and Student Files are already downloaded into the VM in C:\HOL. 
+* Users should **use** the **Azure Credentials** given to them to login to **Visual Studio**
 
 # Help and Support
 
