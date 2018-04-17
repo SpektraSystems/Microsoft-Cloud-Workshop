@@ -55,7 +55,8 @@ Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mi
 1. Before deploying any template via Visual Studio,  In the Solution Explorer, open the **Deploy-AzureResourceGroup.ps1** under the solution. 
  
 2. Next, in the Param section, edit the “[string] $StorageContainerName” line; replacing it with this code.    
-* **[string] $StorageContainerName = 'stageartifacts',**
+
+   **[string] $StorageContainerName = 'stageartifacts',**
 
 3. Save your changes to the Deploy-AzureResourceGroup.ps1 template file and continue with the deploment. 
 
