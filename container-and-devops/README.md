@@ -62,7 +62,7 @@ connecting to the linux agent using SSH Client.
 If the user is using Windows local machine and putty to login to the Linux VM, go to step 2.  
 Else If the user is using a Linux terminal or Mac bash terminal or Git Client for Windows, go to step 14 
 
-* **Using RDP Client from your local machine:**
+ **Using RDP Client from your local machine:**
  Start with step 16 
 
 2.	Now Download a SSH Client from here, if you don’t already have one. http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
