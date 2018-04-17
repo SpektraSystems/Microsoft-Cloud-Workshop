@@ -30,7 +30,7 @@ You are provided a Data Science Virtual Machine - Windows 2016 with additional s
 
 * LABVM is already deployed in ODL_csdl-XXXXX Resource Group and configured with all the requirements.
 * Installation of AzureML Workbench Setup will take around 30-45 minutes to install.
-* In exercise 2, task 1 you need to edit the command for creating the cluster environment by running the following command:
+* In exercise 2, task 1 you need to edit the command for creating the cluster environment with the following command:
 ```
 az ml env setup -c -g <resource group> -n mcwailabenv --location eastus2
 ```
