@@ -18,6 +18,20 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
  
 # Verify the pre-provisioned Environment
 
+1. Launch a browser using incognite or in-private mode, and navigate to https://portal.azure.com. Once prompted, login with the Microsoft Azure credentials you received.   
+
+2. Once you are logged in to the portal, navigate to Resource Groups. 
+ 
+3. Note that you have access to three resource groups – ODL_ARM-xxxxx-01, ODL_ARM-xxxxx-02 and ODL_ARM-xxxxx-03. Note: ODL_ARM-xxxxx-01 has the pre-deployed environment **ODL_ARM-xxxxx-02** and **ODL_ARM-xxxxx-03** is a Resource group with one storage account only. Also you will use **ODL_ARM-xxxxx-02** and **ODL_ARM-xxxxx-03** to deploy new resources. 
+
+4. Navigate to the resource group **ODL_ARM-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine, Disk, etc
+
+5. Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
+
+6. Now go to -> C:\Hackathon, you will see the 4 files
+
+7. Now go to Desktop and find the helper-codes folder.  
+
 ## Verify Azure Access
 
 Open a browser instance in private or incognito mode and login to [Microsoft Azure Portal](https://portal.azure.com) using the credentials provided.
@@ -30,7 +44,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 > Note: VM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
 
-* **Helper codes folder** ans **Hands-on Lab Guide** is downloaded on the virtual machine. You should see the icon on **Desktop** or else, you can find / search it from the **Start Menu**
+* **Helper codes folder** and **Hands-on Lab Guide** is downloaded on the virtual machine. You should see the icon on **Desktop** or else, you can find / search it from the **Start Menu**
 
 # Known Issues
 
@@ -38,7 +52,18 @@ Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mi
 
 # Notes to Instructors / Proctors
 
-User can use the same size of vm which is provided in document.
+1. Before deploying any template via Visual Studio,  In the Solution Explorer, open the **Deploy-AzureResourceGroup.ps1** under the solution. 
+ 
+2. Next, in the Param section, edit the “[string] $StorageContainerName” line; replacing it with this code.    
+* **[string] $StorageContainerName = 'stageartifacts',**
+
+3. Save your changes to the Deploy-AzureResourceGroup.ps1 template file and continue with the deploment. 
+
+* For Exercise 1, 2 and 3, users should use the **ODL_ARM-xxxxx-02** resource group to deploy any resoure or template
+* For Exercise 4 and 5, users should use the **ODL_ARM-xxxxx-03** resource group to deploy any resource or template
+* For deploying template from Visual Studio, users should use  **stage*********** as the Artifact storage account 
+* Users should use the same size of vm which is provided in document.
+* Users should use the Azure Credentials given to them to login to Visual Studio
 
 # Help and Support
 
