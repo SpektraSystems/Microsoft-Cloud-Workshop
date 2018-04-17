@@ -39,7 +39,7 @@ While doing **Before the Hands-on-lab** section, follow the below mentioned step
 1. Do not create **Service Fabric Cluster** specified in **Task 1**, since it is pre-created.
 2. Do not create **Lab Virtual Machine** specified in **Task 2**, since it is pre-created.
 3. You can skip **Task 3**, since Internet Explorer Enhanced Security Configuration is already off  
-4. Don’t install **Google Chrome browser** specified in **Task 4**, since it’s preinstalled in Lab VM
+4. Don’t install **Google Chrome browser** specified in **Task 4**, since it’s pre-installed in Lab VM
 5. In **Task 5**, you need not to download **Microsoft Azure Service Fabric SDK**. You can install it by opening the **Service Fabric SDK** setup file provided inside a folder in the **Desktop**
 6. In **Task 6**, you will **Validate Service Fabric ports**</br></br>
 
