@@ -1,6 +1,6 @@
 # Introduction
 
-In this workshop, you will complete a web app using Machine Learning to predict travel delays given flight delay data and weather conditions, plan the bulk data import operation, followed by preparation tasks, such as cleaning and manipulating the data for testing, and training your Machine Learning model. You can find details about the worksohp [here](https://spektraazurelabs.blob.core.windows.net/bigdata-visualization/Hands-on lab step-by step - Big data and visualization-updated.docx).
+In this workshop, you will complete a web app using Machine Learning to predict travel delays given flight delay data and weather conditions, plan the bulk data import operation, followed by preparation tasks, such as cleaning and manipulating the data for testing, and training your Machine Learning model. You can find details about the worksohp [here](https://spektraazurelabs.blob.core.windows.net/bigdata-visualization/Hands-on lab step-by step - Big data and visualization-updated.docx).</br></br>
 
 # Sign-up for Workshop Environment
 
@@ -15,7 +15,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 * Wait for the lab environment to be provisioned. Sometimes this can take upto **10 minutes**. Once environment provisioning is complete, you will receive details in email as well as in the browser.
  ![alt text](Images/04_lab_env_details.png)
  
- > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed.
+ > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed.</br></br>
 
 # Verify the pre-provisioned Environment
 
@@ -44,22 +44,22 @@ You are provided a [Data Science Virtual Machine - Windows 2016](https://azurema
 While doing **Before the Hands-on-lab** section, follow the below steps.
 1. You need not to execute **Task 1** in **Before the Hands-on-lab** section, since it is pre-created. You can use the pre-created resources during the lab.
 2. You should perform **Task 2**. In this task, you will **register for a trial API account at WeatherUnderground.com**
-3. Don’t deploy Lab Virtual Machine specified in **Task 3**, since it is pre-created.
-4. Don’t install PowerBi Desktop specified in **Task 4**, since it’s preinstalled in DSVM.
-5. Don’t install SSH Client specified in **Task 5**, since it’s preinstalled in DSVM.
+3. Don’t deploy **Lab Virtual Machine** specified in **Task 3**, since it is pre-created.
+4. Don’t install **PowerBi Desktop** specified in **Task 4**, since it’s preinstalled in DSVM.
+5. Don’t install **SSH Client** specified in **Task 5**, since it’s preinstalled in DSVM.</br></br>
 # Known Issues
 
 ### Failure while creating Data Factory
 
 > **Possible Solutions**:
 
- * Check and ensure if the Data Factory Version used is V1.
+ * Check and ensure if the Data Factory Version used is V1.</br></br>
 
 # Notes to Instructors / Proctors
 
 ###  Replace Exercise 7 with the following Exercise in this document
 
-Instead of Exercise 7 in the lab guide, atendees should continue the lab with Exercise 7 provided in this document. .
+Instead of Exercise 7 in the lab guide, atendees should continue the lab with Exercise 7 provided in this document.</br></br>
 
 # 7: Deploy intelligent web app
 Duration: 20 minutes</br></br>
@@ -92,7 +92,7 @@ In this exercise, you will deploy an intelligent web application to Azure from G
 8.	You can find the chances of delay by providing **origin, destination, date, and time** in the application. Your newly deployed web application will look like this.
 ![alt text](Images/07_adventure_wt.png)
 9.	Try with few different combinations of origin, destination, date, and time in the application. The information you are shown is the result of both the ML API you published, as well as information retrieved from the Weather Underground API.
-10.	Congratulations! You have built and deployed an intelligent system to Azure. 
+10.	Congratulations! You have built and deployed an intelligent system to Azure. </br></br>
 # After the hands-on lab 
 Duration: 10 minutes</br></br>
 In this exercise, attendees will deprovision any Azure resources that were created in support of the lab.
@@ -100,7 +100,7 @@ In this exercise, attendees will deprovision any Azure resources that were creat
 1.	Using the Azure portal, navigate to the Resource group you used throughout this hands-on lab by selecting Resource groups in the left menu.</br>
 2.	Search for the name of your research group and select it from the list.</br>
 3.	Select Delete in the command bar and confirm the deletion by re-typing the Resource group name and selecting Delete.</br>
-You should follow all steps provided after attending the Hands-on lab.</br>
+You should follow all steps provided after attending the Hands-on lab.</br></br>
 
 # Help and Support
 
