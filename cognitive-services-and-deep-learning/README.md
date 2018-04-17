@@ -20,11 +20,13 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 > Note: You might have an existing Azure Credential. For the pre-provisioned environment, new Microsoft Azure environment is provisioned and new AAD user is created for you. To prevent conflict with your existing accounts, it is advised to use In Private mode of IE / IE Edge or Incognito mode of Chrome browser.
 
-## Verify Virtual Machine
+## Verify Pre-requisite Azure Resources
 
-You are provided a Data Science Virtual Machine - Windows 2016 with additional softwares configured. FQDN of the virtual machine and administrator credentials are provided in the lab details page.You can remote into the virutal machine using the provided credentials.
+You are provided a Data Science Virtual Machine - Windows 2016 with additional softwares configured in advance. FQDN of the virtual machine and administrator credentials are provided in the lab details page.You can remote into the virutal machine using the provided credentials. Please use this VM during the lab instead of create new VM as specified in Task-1.
+
 
 # Known Issues
+
 
 # Notes to Instructors / Proctors
 
