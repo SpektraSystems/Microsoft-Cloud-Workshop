@@ -30,17 +30,34 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
-You are provided a Visual Studio 2017 Community edition with additional softwares configured. FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials and validate the following:
+You are provided a **Visual Studio 2017 Community edition** with additional softwares configured. FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials and validate the following:
 
 > Note: VM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
 
+## Verify other Azure resources
+* **Service Fabric Cluster** is provisioned in the resource group, in which you have access.  
+* Other Azure resources such as **Virtual Network, Public IP, Network Interface, Load Balancer, Storage accounts and Virtual Machine Scale Set** as required by the Service Fabric Cluster and VM.
+
 # Known Issues
 
-While opening the visual studio project, it will show the pop-up for upgrade the contosoeventsapp file. User need to click yes.
+### Powershell option is not available in the Queue Trigger box
+(Exercise 3 > Task 5 > Step 29)
+> **Possible Solutions**:
+
+ * Before going to Step 29, attendees should perform the following step.
+   * In the top-right corner of the **Choose a Template** page, **Enable** the **Experimental Language Support**.
+   
+ ### Debug the contosoEvents.web
+ (Exercise 6 > TASK 2)
+ > **Possible Solutions**:
+ 
+ * After debugging it will shows exception error, user need to update homecontroller.cs file in line no.18 & 19.
+      //if (events.Any())
+       if (events != null)
 
 # Notes to Instructors / Proctors
 
-User need to create the same resources which is provided in document.
+* For installing Service Fabric SDK, setup file is already provided in the desktop inside a folder. User can click on the setup file to install Service Fabric SDK.
 
 # Help and Support
 
