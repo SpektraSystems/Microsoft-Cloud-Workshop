@@ -25,12 +25,12 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 > Note: You might have an existing Azure Credential. For the pre-provisioned environment, new Microsoft Azure environment is provisioned and new AAD user is created for you. To prevent conflict with your existing accounts, it is advised to use In Private mode of IE / IE Edge or Incognito mode of Chrome browser.
 
-## Verify Virtual Machine
+## Verify Data Science Virtual Machine
 
 You are provided a [Data Science Virtual Machine - Windows 2016](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-ads.windows-data-science-vm) with additional softwares configured. FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials and validate the following:
 
 > Note: DSVM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
-## Verify the following Azure resources
+## Verify the Pre-requisite Azure resources
 * **Machine Learning Studio Workspace** is provisioned in the resource group, in which you have access.
 
 * **Azure HDInsight Cluster** : Refer registration page/email for cluster credentials and cluster ssh credentials. .  
