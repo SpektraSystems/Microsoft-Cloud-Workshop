@@ -16,6 +16,14 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 # Verify the pre-provisioned Environment
 
+* Users can use the **Azure Credentials** given to them to login to the Azure Portal
+* Resource Group **ODL_bcdr-XXXXX-01** will be already created in the Users Azure Environment with the LABVM deployed in it.
+* Users can select **LABVM** and click on **Connect** to download the RDP file
+* Open the RDP file to connect to the LABVM. Provide the credentials you received to login to the VM
+* Once you login to the LABVM, server manager will open. Select Local Server and verify that IE Enhanced Security Configuration has also been turned off
+* Now go to C:\HOL directory and verify the student files are there
+* Also verify that SQL Server Express 2017 as well as SQL Server Management Studio is installed 
+
 ## Verify Azure Access
 
 Open a browser instance in private or incognito mode and login to [Microsoft Azure Portal](https://portal.azure.com) using the credentials provided.
@@ -24,9 +32,9 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
-You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with additional softwares configured. FQDN of the LABVM virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials.
+You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with additional softwares configured. FQDN of the LABVM virtual machine and administrator credentials are provided in the lab details page. You can remote into the virtual machine using the provided credentials.
 
-# Known Issues
+# Known IssueS
 
 # Notes to Instructors / Proctors
 * User need to perform only creation of Resource Groups task in Before Hands on Lab
