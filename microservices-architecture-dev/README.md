@@ -1,5 +1,13 @@
 # Introduction
 
+Microservices and serverless architectures is one day workshp lead by Microsoft and Microsoft partners.These day focus on hands-on activities and helping an online concert ticket vendor survive the first 5 minutes of crushing load. It will handle the client's scaling needs through microservices built on top of Service Fabric, and apply smooth updates or roll back failing updates.Attendees will design an implementation of load testing to optimize the architecture for handling spikes in traffic.
+
+Attendees will learn how to:
+•	Implement scale and resiliency with Service Fabric
+•	Enable serverless solutions with Azure Functions
+•	Control API access with API Management
+•	Provide query flexibility with Cosmos DB
+
 # Sign-up for Workshop Environment
 
 To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
@@ -22,9 +30,34 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
+You are provided a **Visual Studio 2017 Community edition** with additional softwares configured. FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials and validate the following:
+
+> Note: VM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
+
+## Verify other Azure resources
+* **Service Fabric Cluster** is provisioned in the resource group, in which you have access.  
+* Other Azure resources such as **Virtual Network, Public IP, Network Interface, Load Balancer, Storage accounts and Virtual Machine Scale Set** as required by the Service Fabric Cluster and VM.
+
 # Known Issues
 
+### Powershell option is not available in the Queue Trigger box
+(Exercise 3 > Task 5 > Step 29)
+> **Possible Solutions**:
+
+ * Before going to Step 29, attendees should perform the following step.
+   * In the top-right corner of the **Choose a Template** page, **Enable** the **Experimental Language Support**.
+   
+ ### Debug the contosoEvents.web
+ (Exercise 6 > TASK 2)
+ > **Possible Solutions**:
+ 
+ * After debugging it will shows exception error, user need to update homecontroller.cs file in line no.18 & 19.
+      //if (events.Any())
+       if (events != null)
+
 # Notes to Instructors / Proctors
+
+* For installing Service Fabric SDK, setup file is already provided in the desktop inside a folder. User can click on the setup file to install Service Fabric SDK.
 
 # Help and Support
 

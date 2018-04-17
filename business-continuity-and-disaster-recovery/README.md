@@ -1,5 +1,7 @@
 # Introduction
 
+In this workshop, attendees will implement three different environments and use Azure BCDR technologies to achieve three distinct goals for each environment type.  These will include a migration to Azure, Azure region to region failover using Azure Site Recovery (ASR) and a PaaS implementation using BCDR technologies to ensure high availably of an application.
+
 # Sign-up for Workshop Environment
 
 To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
@@ -14,6 +16,14 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 # Verify the pre-provisioned Environment
 
+* Users can use the **Azure Credentials** given to them to login to the Azure Portal
+* Resource Group **ODL_bcdr-XXXXX-01** will be already created in the Users Azure Environment with the LABVM deployed in it.
+* Users can select **LABVM** and click on **Connect** to download the RDP file
+* Open the RDP file to connect to the LABVM. Provide the credentials you received to login to the VM
+* Once you login to the LABVM, server manager will open. Select Local Server and verify that IE Enhanced Security Configuration has also been turned off
+* Now go to C:\HOL directory and verify the student files are there
+* Also verify that SQL Server Express 2017 as well as SQL Server Management Studio is installed 
+
 ## Verify Azure Access
 
 Open a browser instance in private or incognito mode and login to [Microsoft Azure Portal](https://portal.azure.com) using the credentials provided.
@@ -22,9 +32,14 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
-# Known Issues
+You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with additional softwares configured. FQDN of the LABVM virtual machine and administrator credentials are provided in the lab details page. You can remote into the virtual machine using the provided credentials.
+
+# Known IssueS
 
 # Notes to Instructors / Proctors
+* User need to perform only creation of Resource Groups task in Before Hands on Lab
+* LABVM is already deployed in **ODL_bcdr-XXXXX-01** Resource Group and configured with all the requirements such as SQL Server 2017, SQL Server Management Studio and Student Files are already downloaded into the VM in C:\HOL. 
+* Users should **use** the **Azure Credentials** given to them to login to **Visual Studio**
 
 # Help and Support
 

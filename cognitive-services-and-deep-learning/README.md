@@ -20,11 +20,22 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 > Note: You might have an existing Azure Credential. For the pre-provisioned environment, new Microsoft Azure environment is provisioned and new AAD user is created for you. To prevent conflict with your existing accounts, it is advised to use In Private mode of IE / IE Edge or Incognito mode of Chrome browser.
 
-## Verify Virtual Machine
+## Verify Pre-requisite Azure Resources
+
+You are provided a Data Science Virtual Machine - Windows 2016 with additional softwares configured in advance. FQDN of the virtual machine and administrator credentials are provided in the lab details page.You can remote into the virutal machine using the provided credentials. Please use this VM during the lab instead of create new VM as specified in Task-1.
+
 
 # Known Issues
 
+* In exercise 2, task 1 you need to edit the command for creating the cluster environment to specify using existing resource group which is pre-created for you, otherwise the deployment would fail. Make a note of name of your existing resource group and include in the command as specified below
+```
+az ml env setup -c -g <resource group> -n mcwailabenv --location eastus2
+```
+
 # Notes to Instructors / Proctors
+
+* LABVM is already deployed in ODL_csdl-XXXXX Resource Group and configured with all the requirements.
+* Installation of AzureML Workbench Setup will take around 30-45 minutes to install.
 
 # Help and Support
 
