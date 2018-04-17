@@ -36,6 +36,12 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 # Known Issues
 
+### Failure while running the following command
+
+Exercise 5 > Task 4 Task name > Re-deploy and Test :
+Messages are not displaying after clicking on the send button. 
+
+
 # Notes to Instructors / Proctors
 
 The lab files are downloaded and stored in the location C:\LAB\ConciergePlus_Clean.
