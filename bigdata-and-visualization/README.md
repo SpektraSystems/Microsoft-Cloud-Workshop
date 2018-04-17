@@ -21,7 +21,8 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 ## Verify Azure Access
 
-Open a browser instance in private or incognito mode and login to [Microsoft Azure Portal](https://portal.azure.com) using the credentials provided.
+Open a browser instance in private or incognito mode and login to [Microsoft Azure Portal](https://portal.azure.com) using the credentials provided. In Azure portal you can navigate to the Resource groups to see the pre-deployed Resource group.
+* You should use the existing Resource group during the lab.
 
 > Note: You might have an existing Azure Credential. For the pre-provisioned environment, new Microsoft Azure environment is provisioned and new AAD user is created for you. To prevent conflict with your existing accounts, it is advised to use In Private mode of IE / IE Edge or Incognito mode of Chrome browser.
 
@@ -30,12 +31,22 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 You are provided a [Data Science Virtual Machine - Windows 2016](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-ads.windows-data-science-vm) with additional softwares configured. FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials and validate the following:
 
 > Note: DSVM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
-## Verify the following Azure resources
-* **Machine Learning Studio Workspace** is provisioned in the resource group, in which you have access.
+## Verify the pre-requisite Azure resources
+1. **Machine Learning Studio Workspace** is provisioned in the resource group, in which you have access.
+2. **Azure HDInsight Cluster** : Refer registration page/email for cluster credentials and cluster ssh credentials. .  
+3. **Virtual Network**
+4. **Public IP**
+5. **Network Interface**
+6. **Load Balancer**
+7. **Storage accounts**
 
-* **Azure HDInsight Cluster** : Refer registration page/email for cluster credentials and cluster ssh credentials. .  
-* Other Azure resources such as **Virtual Network, Public IP, Network Interface, Load Balancer, Storage accounts** as required by HDInsight, VM and Machine learning studio.
-
+## Notes to Attendees
+While doing **Before the Hands-on-lab** section, follow the below steps.
+1. You need not to execute **Task 1** in **Before the Hands-on-lab** section, since it is pre-created. You can use the pre-created resources during the lab.
+2. You should perform **Task 2**. In this task, you will **register for a trial API account at WeatherUnderground.com**
+3. Don’t deploy Lab Virtual Machine specified in **Task 3**, since it is pre-created.
+4. Don’t install PowerBi Desktop specified in **Task 4**, since it’s preinstalled in DSVM.
+5. Don’t install SSH Client specified in **Task 5**, since it’s preinstalled in DSVM.
 # Known Issues
 
 ### Failure while creating Data Factory
