@@ -51,6 +51,60 @@ Users can verify that the VM is installed with Azure CLI 2.0, Kubernetes CLI by 
 Also verify that the user is able to RDP into the virtual machine as well as FabMedical directory is there in the users home directory
 FQDN of the virtual machine and administrator credentials are provided in the lab details page.
 
+# Connect to Build Agent Linux VM
+
+* **Users can connect to the Linux VM using SSH Client or RDP client and execute the commands from either SSH Client or Terminal inside Linux VM**
+* For SSH, If you are using a Windows machine, you would need a SSH client for connecting to a Linux Virtual Machine. Putty is the most widely used SSH client for windows. If you are using Mac or Linux based machines, you can use the bash terminal.
+* If the user is accessing the Linux VM via putty, he will need to enable tunnelling to the local machine.
+
+**Using SSH Client from your local machine:** 
+
+If the user is using Windows local machine and putty to login to the Linux VM, go to step 1.  
+Else If the user is using a Linux terminal or Mac bash terminal or Git Client for Windows, go to step 13 
+
+ **Using RDP Client from your local machine:**
+ 
+Start with step 15
+
+1.	Now Download a SSH Client from here, if you don’t already have one. http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+
+2.	Now run putty.exe from the users PC.
+
+3.	An application window pops up when user run putty.exe.
+
+4.	Enter the linuxVMDnsName of the VM to the Host Name (or IP address) box of the putty. Port will be 22 by default.
+
+5.	Go to the Tunnels section in PuTTY, 
+ 
+6.	Now, user will configure a specific Local port 8001, that will redirect to 8001 of the build agent Linux VM. 
+
+7.	Provide the following details and click on Add:
+   Source Port: 8001
+   Destination: 127.0.0.1:8001
+Then Click on Open.
+ 
+8.	Now a new terminal will pop and user will be connected to the build agent virtual machine.
+
+9.	The PuTTY Security Alert will pop up. Click on Yes.
+
+10.	Login using the adminUsername and adminPassword for the build agent Linux VM.
+ 
+11.	After entering the username and password user can start accessing the build agent Linux VM.
+ 
+12.	Now skip to Exercise 1 Task 1 Step 1
+
+13.	For Mac or Linux or git client( Windows), use the following command to SSH into the build agent VM
+ssh -L 8001:127.0.0.1:8001 labuser@[linuxVmDnsName]
+
+14.	Now, skip to Exercise 1 Task 1 Step 1
+
+15.	Login in to the Linux VM using environment credentials you received.
+ 
+16.	Once you are in the home screen, Click on Terminal Emulator at the bottom screen
+ 
+17.	Now terminal window will pop up and you can continue to Exercise 1 Task 1 Step 1
+
+
 # Known Issues
 
 * Some instance can have problem with RDP, such users can sign up again and get a new instance.
@@ -63,53 +117,8 @@ connecting to the linux agent using SSH Client.
 * All the tasks in Before Hands on Lab section is pre deployed and given to the user except Windows 10 Development VM
 * Windows Jump VM is not needed anymore to complete this workshop
 * RDP is enabled on build agent linux VM. Users can access this VM and complete the workshop
-* **Users can connect to the Linux VM using SSH Client or RDP client and execute the commands from either SSH Client or Terminal inside Linux VM**
-* For SSH, If you are using a Windows machine, you would need a SSH client for connecting to a Linux Virtual Machine. Putty is the most widely used SSH client for windows. If you are using Mac or Linux based machines, you can use the bash terminal.
-* If the user is accessing the Linux VM via putty, he will need to enable tunnelling to the local machine.
-1. **Using SSH Client from your local machine:** 
-If the user is using Windows local machine and putty to login to the Linux VM, go to step 2.  
-Else If the user is using a Linux terminal or Mac bash terminal or Git Client for Windows, go to step 14 
+* **Users can connect to the Linux VM using SSH Client or RDP client and execute the commands from either SSH Client or Terminal inside Linux VM** as mentioned in **Connect to Build Agent Linux VM**
 
- **Using RDP Client from your local machine:**
- Start with step 16 
-
-2.	Now Download a SSH Client from here, if you don’t already have one. http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
-
-3.	Now run putty.exe from the users PC.
-
-4.	An application window pops up when user run putty.exe.
-
-5.	Enter the linuxVMDnsName of the VM to the Host Name (or IP address) box of the putty. Port will be 22 by default.
-
-6.	Go to the Tunnels section in PuTTY, 
- 
-7.	Now, user will configure a specific Local port 8001, that will redirect to 8001 of the build agent Linux VM. 
-
-8.	Provide the following details and click on Add:
-   Source Port: 8001
-   Destination: 127.0.0.1:8001
-Then Click on Open.
- 
-9.	Now a new terminal will pop and user will be connected to the build agent virtual machine.
-
-10.	The PuTTY Security Alert will pop up. Click on Yes.
-
-11.	Login using the adminUsername and adminPassword for the build agent Linux VM.
- 
-12.	After entering the username and password user can start accessing the build agent Linux VM.
- 
-13.	Now skip to Exercise 1 Task 1 Step 1
-
-14.	For Mac or Linux or git client( Windows), use the following command to SSH into the build agent VM
-ssh -L 8001:127.0.0.1:8001 labuser@[linuxVmDnsName]
-
-15.	Now, skip to Exercise 1 Task 1 Step 1
-
-16.	Login in to the Linux VM using environment credentials you received.
- 
-17.	Once you are in the home screen, Click on Terminal Emulator at the bottom screen
- 
-18.	Now terminal window will pop up and you can continue to Exercise 1 Task 1 Step 1
 
 The FabMedical Starter files are already downloaded in the VM at users home directory.
 To avoid any issues while trying to copy from the document, kubernetes-web.yaml file is already added into the users home directory.
