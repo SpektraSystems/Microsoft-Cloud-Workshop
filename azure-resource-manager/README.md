@@ -28,7 +28,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 5. Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
 
-6. Now go to -> **C:\Hackathon**, you will see four files
+6. Now go to -> **C:\Hackathon**, you will see that the student files are already downloaded
 
 7. Now go to Desktop and find the helper-codes folder.  
 
