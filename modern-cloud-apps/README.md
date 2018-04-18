@@ -44,6 +44,9 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 # Notes to Instructors / Proctors
 
+* LABVM is already deployed in **ODL_bcdr-XXXXX-01** Resource Group and configured with all the requirements such as SQL Server Management Studio and application Files are already downloaded into the VM in C:\Hackathon. 
+* Users should **use** the **Azure Credentials** given to them to login to **Visual Studio**.
+
 # Help and Support
 
 If you require any help during the workshop, please reach out to the instructor / proctors. Instructors / proctors might escalate the issue to remote support team, at that time, please pass on your AAD User ID (aad_user_xyz), so that it is easier to look up your environment.
