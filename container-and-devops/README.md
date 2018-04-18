@@ -25,7 +25,10 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 * Once you are logged in to the portal, navigate to Resource Groups. 
 * Note that you have access to one resource group  
 * Navigate to the resource group and view the already existing resources such as Container Service, build agent Linux VM, etc.
-
+* Verify that following resources are predeployed:
+  1. Build Agent Linux VM
+  2. Azure Container Registry
+  3. Azure Container Service
 
 ## Verify Azure Access
 
