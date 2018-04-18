@@ -18,6 +18,11 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 * Users can use the **Azure Credentials** given to them to login to the Azure Portal
 * Resource Group **ODL_bcdr-XXXXX-01** will be already created in the Users Azure Environment with the LABVM deployed in it.
+* **LABVM** has been configured with the following:
+  1. IE Enhanced Security has been disabled
+  2. SQL Server Express 2017
+  3. SQL Server Management Studio 2017
+  4. Student files are downloaded into C:\HOL Directory
 * Users can select **LABVM** and click on **Connect** to download the RDP file
 * Open the RDP file to connect to the LABVM. Provide the credentials you received to login to the VM
 * Once you login to the LABVM, server manager will open. Select Local Server and verify that IE Enhanced Security Configuration has also been turned off
@@ -37,8 +42,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 # Known IssueS
 
 # Notes to Instructors / Proctors
-* User need to perform only creation of Resource Groups task in Before Hands on Lab
-* LABVM is already deployed in **ODL_bcdr-XXXXX-01** Resource Group and configured with all the requirements such as SQL Server 2017, SQL Server Management Studio and Student Files are already downloaded into the VM in C:\HOL. 
+* User need to perform only creation of Resource Groups task in Before Hands on Lab 
 * Users should **use** the **Azure Credentials** given to them to login to **Visual Studio**
 
 # Help and Support
