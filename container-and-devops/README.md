@@ -29,6 +29,11 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
   1. Build Agent Linux VM
   2. Azure Container Registry
   3. Azure Container Service
+* Build Agent Linux VM has been configured with the following:
+  1. Packages are updates and Docker engine is installed
+  2. Azure CLI 2.0
+  3. Kubernetes CLI
+  4. FabMedical files are downloaded into the User's home directory
 
 ## Verify Azure Access
 
@@ -43,7 +48,7 @@ Users can verify that the VM is installed with Azure CLI 2.0, Kubernetes CLI by 
 * az --version
 * kubectl 
 
-Also verify that the user is able to RDP into the virtual machine
+Also verify that the user is able to RDP into the virtual machine as well as FabMedical directory is there in the users home directory
 FQDN of the virtual machine and administrator credentials are provided in the lab details page.
 
 # Known Issues
@@ -58,7 +63,7 @@ connecting to the linux agent using SSH Client.
 * All the tasks in Before Hands on Lab section is pre deployed and given to the user except Windows 10 Development VM
 * Windows Jump VM is not needed anymore to complete this workshop
 * RDP is enabled on build agent linux VM. Users can access this VM and complete the workshop
-* Users can connect to the Linux VM using SSH Client or RDP client and execute the commands from either SSH Client or Terminal inside Linux VM
+* **Users can connect to the Linux VM using SSH Client or RDP client and execute the commands from either SSH Client or Terminal inside Linux VM**
 * For SSH, If you are using a Windows machine, you would need a SSH client for connecting to a Linux Virtual Machine. Putty is the most widely used SSH client for windows. If you are using Mac or Linux based machines, you can use the bash terminal.
 * If the user is accessing the Linux VM via putty, he will need to enable tunnelling to the local machine.
 1. **Using SSH Client from your local machine:** 
