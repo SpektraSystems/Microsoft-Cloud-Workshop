@@ -28,7 +28,6 @@ Contoso.Apps.SportsLeague.Data
 Contoso.Apps.SportsLeague.Offers 
 Contoso.Apps.PaymentGateway 
 ```
-* Now go to C:\HOL directory and verify the student files are there
 * Also SQL Server Management Studio is installed 
 
 ## Verify Azure Access
