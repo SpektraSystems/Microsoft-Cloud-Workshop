@@ -30,7 +30,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
   2. Azure Container Registry
   3. Azure Container Service
 * Build Agent Linux VM has been configured with the following:
-  1. Packages are updates and Docker engine is installed
+  1. Packages are updated and Docker engine is installed
   2. Azure CLI 2.0
   3. Kubernetes CLI
   4. FabMedical files are downloaded into the User's home directory
