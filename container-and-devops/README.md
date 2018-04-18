@@ -117,7 +117,7 @@ connecting to the linux agent using SSH Client.
 * All the tasks in Before Hands on Lab section is pre deployed and given to the user except Windows 10 Development VM
 * Windows Jump VM is not needed anymore to complete this workshop
 * RDP is enabled on build agent linux VM. Users can access this VM and complete the workshop
-* **Users can connect to the Linux VM using SSH Client or RDP client and execute the commands from either SSH Client or Terminal inside Linux VM** as mentioned in  [Connect to Build Agent Linux VM](https://github.com/PraveenAnil/Microsoft-Cloud-Workshop/tree/master/container-and-devops#verify-azure-access) section
+* **Users can connect to the Linux VM using SSH Client or RDP client and execute the commands from either SSH Client or Terminal inside Linux VM** as mentioned in  [Connect to Build Agent Linux VM](https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/container-and-devops/README.md#verify-azure-access) section
 
 
 The FabMedical Starter files are already downloaded in the VM at users home directory.
