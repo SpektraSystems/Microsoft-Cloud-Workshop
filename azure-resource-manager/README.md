@@ -52,6 +52,16 @@ Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mi
 
 # Notes to Instructors / Proctors
 
+* For Exercise 1, 2 and 3, users should use the **ODL_ARM-xxxxx-02** resource group to deploy any resoure or template
+
+* For Exercise 4 and 5, users should use the **ODL_ARM-xxxxx-03** resource group to deploy any resource or template
+
+* For deploying template from Visual Studio, users should use  **stage*********** as the Artifact storage account
+
+* Users should use the same size of vm which is provided in document while deploying templates
+
+* Users should use the Azure Credentials given to them to login to Visual Studio
+
 * While creating Automation Account, user need to select **No** for **Create Azure Run as account**
 
 * User should add the Azure Automation Credential before compiling the DSC files
@@ -64,11 +74,7 @@ Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mi
 
 3. Save your changes to the Deploy-AzureResourceGroup.ps1 template file and continue with the deploment. 
 
-* For Exercise 1, 2 and 3, users should use the **ODL_ARM-xxxxx-02** resource group to deploy any resoure or template
-* For Exercise 4 and 5, users should use the **ODL_ARM-xxxxx-03** resource group to deploy any resource or template
-* For deploying template from Visual Studio, users should use  **stage*********** as the Artifact storage account 
-* Users should use the same size of vm which is provided in document.
-* Users should use the Azure Credentials given to them to login to Visual Studio
+
 
 
 # Help and Support
