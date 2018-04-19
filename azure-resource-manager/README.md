@@ -44,7 +44,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 > Note: VM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
 
-* **Helper codes folder** and **Hands-on Lab Guide** is downloaded on the virtual machine. You should see the icon on **Desktop** or else, you can find / search it from the **Start Menu**
+* **Helper codes folder** is downloaded on the virtual machine. You should see the icon on **Desktop** or else, you can find / search it from the **Start Menu**
 
 # Known Issues
 
@@ -52,7 +52,23 @@ Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mi
 
 # Notes to Instructors / Proctors
 
-1. Before deploying any template via Visual Studio,  In the Solution Explorer, open the **Deploy-AzureResourceGroup.ps1** under the solution. 
+* For Exercise 1, 2 and 3, users should use the **ODL_ARM-xxxxx-02** resource group to deploy any resoure or template
+
+* For Exercise 4 and 5, users should use the **ODL_ARM-xxxxx-03** resource group to deploy any resource or template
+
+* For deploying template from Visual Studio, users should use  **stage*********** as the Artifact storage account
+
+* Users should use the same size of vm which is provided in document while deploying templates
+
+* Users should use the Azure Credentials given to them to login to Visual Studio
+
+* While creating Automation Account, user need to select **No** for **Create Azure Run as account**
+
+* User should add the Azure Automation Credential before compiling the DSC files
+
+* **Before deploying any template after Exercise 2 via Visual Studio**, users should execute the three steps given below:
+
+1. In the Solution Explorer, open the **Deploy-AzureResourceGroup.ps1** under the solution. 
  
 2. Next, in the Param section, edit the “[string] $StorageContainerName” line; replacing it with this code.    
 
@@ -60,11 +76,10 @@ Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mi
 
 3. Save your changes to the Deploy-AzureResourceGroup.ps1 template file and continue with the deploment. 
 
-* For Exercise 1, 2 and 3, users should use the **ODL_ARM-xxxxx-02** resource group to deploy any resoure or template
-* For Exercise 4 and 5, users should use the **ODL_ARM-xxxxx-03** resource group to deploy any resource or template
-* For deploying template from Visual Studio, users should use  **stage*********** as the Artifact storage account 
-* Users should use the same size of vm which is provided in document.
-* Users should use the Azure Credentials given to them to login to Visual Studio
+* Helper codes are given on the desktop to the user incase he face any issue while copying from the document
+
+
+
 
 # Help and Support
 
