@@ -44,7 +44,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 > Note: VM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
 
-* **Helper codes folder** and **Hands-on Lab Guide** is downloaded on the virtual machine. You should see the icon on **Desktop** or else, you can find / search it from the **Start Menu**
+* **Helper codes folder** is downloaded on the virtual machine. You should see the icon on **Desktop** or else, you can find / search it from the **Start Menu**
 
 # Known Issues
 
@@ -75,6 +75,8 @@ Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mi
    **[string] $StorageContainerName = 'stageartifacts',**
 
 3. Save your changes to the Deploy-AzureResourceGroup.ps1 template file and continue with the deploment. 
+
+* Helper codes are given on the desktop to the user incase he face any issue while copying from the document
 
 
 
