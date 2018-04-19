@@ -54,6 +54,8 @@ Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mi
 
 * While creating Automation Account, user need to select **No** for **Create Azure Run as account**
 
+* User should add the Azure Automation Credential before compiling the DSC files
+
 1. Before deploying any template via Visual Studio,  In the Solution Explorer, open the **Deploy-AzureResourceGroup.ps1** under the solution. 
  
 2. Next, in the Param section, edit the “[string] $StorageContainerName” line; replacing it with this code.    
