@@ -66,7 +66,7 @@ Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mi
 
 * User should add the Azure Automation Credential before compiling the DSC files
 
-* Before deploying any template via Visual Studio, users should execute the three steps given below
+* Before deploying any template via Visual Studio, users should execute the three steps given below:
 
 1. In the Solution Explorer, open the **Deploy-AzureResourceGroup.ps1** under the solution. 
  
