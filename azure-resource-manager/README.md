@@ -52,6 +52,8 @@ Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mi
 
 # Notes to Instructors / Proctors
 
+* While creating Automation Account, user need to select **No** for **Create Azure Run as account**
+
 1. Before deploying any template via Visual Studio,  In the Solution Explorer, open the **Deploy-AzureResourceGroup.ps1** under the solution. 
  
 2. Next, in the Param section, edit the “[string] $StorageContainerName” line; replacing it with this code.    
@@ -65,6 +67,7 @@ Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mi
 * For deploying template from Visual Studio, users should use  **stage*********** as the Artifact storage account 
 * Users should use the same size of vm which is provided in document.
 * Users should use the Azure Credentials given to them to login to Visual Studio
+
 
 # Help and Support
 
