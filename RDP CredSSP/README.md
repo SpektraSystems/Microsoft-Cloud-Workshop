@@ -13,4 +13,6 @@ Due to recent change, you might get the following issue in rdp connection.
     
 * You can read more about this at https://blogs.technet.microsoft.com/mckittrick/unable-to-rdp-to-virtual-machine-credssp-encryption-oracle-remediation/
 
-<kbd>![](Images/fix.jpg)</kbd>
+* If you cannot RDP to  VMs from your patched client, we can consider changing the policy settings on the client to temporarily gain RDP access to the servers. You can change the settings in Local Group Policy Editor. Execute gpedit.msc and browse to Computer Configuration / Administrative Templates / System / Credentials Delegation in the left pane:
+
+* <kbd>![](Images/fix.jpg)</kbd>
