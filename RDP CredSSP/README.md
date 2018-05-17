@@ -5,7 +5,7 @@ Due to recent change, you might get the following issue in rdp connection.
   This could be due to CredSSP encryption oracle remediation.
   For more information, see https://go.microsoft.com/fwlink/?linkid=866660
   
-  <kbd>![](Images/RDP credSSP.jpg)</kbd>
+  <kbd>![](Images/RDP-credSSP.jpg)</kbd>
   
 ## Following is fix for this: 
 * You can run the following dos command to make change in in registry setting
