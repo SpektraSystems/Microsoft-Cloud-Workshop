@@ -12,3 +12,5 @@ Due to recent change, you might get the following issue in rdp connection.
     > REG  ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters\ /v AllowEncryptionOracle /t REG_DWORD /d 2
     
 * You can read more about this at https://blogs.technet.microsoft.com/mckittrick/unable-to-rdp-to-virtual-machine-credssp-encryption-oracle-remediation/
+
+<kbd>![](Images/fix.jpg)</kbd>
