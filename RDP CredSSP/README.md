@@ -15,3 +15,6 @@ Due to recent change, you might get the following issue in rdp connection.
 
 * If you cannot RDP to  VMs from your patched client, we can consider changing the policy settings on the client to temporarily gain RDP access to the servers. You can change the settings in Local Group Policy Editor. Execute gpedit.msc and browse to Computer Configuration / Administrative Templates / System / Credentials Delegation in the left pane:
  <kbd>![](Images/fix.jpg)</kbd>
+ 
+* Change the Encryption Oracle Remediation policy to Enabled, and Protection Level to Vulnerable:
+
