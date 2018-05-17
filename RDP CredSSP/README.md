@@ -7,7 +7,7 @@ Due to recent change, you might get the following issue in rdp connection.
   
   <kbd>![](Images/RDP credSSP.jpg)</kbd>
   
-## Following is fix for this:
+## Following is fix for this: 
 * You can run the following dos command to make change in in registry setting
     > REG  ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters\ /v AllowEncryptionOracle /t REG_DWORD /d 2
     
