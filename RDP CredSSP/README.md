@@ -17,4 +17,4 @@ Due to recent change, you might get the following issue in rdp connection.
  <kbd>![](Images/fix.jpg)</kbd>
  
 * Change the Encryption Oracle Remediation policy to Enabled, and Protection Level to Vulnerable:
-
+  <kbd>![](Images/enable.jpg)</kbd>
