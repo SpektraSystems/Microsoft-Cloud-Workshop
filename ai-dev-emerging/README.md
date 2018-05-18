@@ -21,6 +21,8 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 > Note: You might have an existing Azure Credential. For the pre-provisioned environment, new Microsoft Azure environment is provisioned and new AAD user is created for you. To prevent conflict with your existing accounts, it is advised to use In Private mode of IE / IE Edge or Incognito mode of Chrome browser.
 
 ## Verify Virtual Machine
+
+# Known Issues
 ### Connecting DSVM with RDP having issue addresses CredSSP
 
 > **Possible Solutions**:
