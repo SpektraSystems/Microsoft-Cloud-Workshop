@@ -50,6 +50,14 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mins to view the web page.
 
+### Connecting DSVM with RDP having issue addresses CredSSP
+
+> **Possible Solutions**:
+
+* With the release of the March 2018 Security bulletin, there was a fix that addressed a CredSSP, “Remote Code Execution” vulnerability (CVE-2018-0886) which could impact RDP connections. 
+**Resolution**
+Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
+
 # Notes to Instructors / Proctors
 
 * For Exercise 1, 2 and 3, users should use the **ODL_ARM-xxxxx-02** resource group to deploy any resoure or template

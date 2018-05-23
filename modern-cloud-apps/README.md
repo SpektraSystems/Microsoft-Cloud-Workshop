@@ -41,6 +41,14 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 # Known Issues
 
+### Connecting DSVM with RDP having issue addresses CredSSP
+
+> **Possible Solutions**:
+
+* With the release of the March 2018 Security bulletin, there was a fix that addressed a CredSSP, “Remote Code Execution” vulnerability (CVE-2018-0886) which could impact RDP connections. 
+**Resolution**
+Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
+
 # Notes to Instructors / Proctors
 
 * LABVM is already deployed in **ODL_bcdr-XXXXX-01** Resource Group and configured with all the requirements such as SQL Server Management Studio and Application Files are already downloaded into the VM in C:\Hackathon. 
