@@ -37,7 +37,7 @@ You are provided a **Free License: SQL Server 2016 SP1 Developer on Windows Serv
 #### While doing **Before the Hands-on-lab** section, follow the below mentioned steps.
 1. Do not create **Free License: SQL Server 2016 SP1 Developer on Windows Server 2016** specified in **Task 1**, since it is pre-created.
 2. You need to **install** **Azure PowerShell command-line tools** by running the setup file provided in the **Desktop**.
-3. You can skip **step 1 to step 6** in **Task 2**, since all specified things are pre-configured.</br></br>
+3. You can skip **step 1 to step 6** in **Task 2**, since all specified things are pre-configured.</br>
 #### While doing **Exercise 1**, follow the below mentioned steps.
 1. While creating **Storage account** specified in Task 1, you need to select **Use Existing** under **Resource group** option and select **Resource group - 02** from the drop down.
 2. While creating **SQL Data Warehouse** specified in Task 2, you need to select **Use Existing** under **Resource group** option and select **Resource group - 03** from the drop down.
