@@ -42,7 +42,8 @@ You are provided a **Free License: SQL Server 2016 SP1 Developer on Windows Serv
 1. While creating **Storage account** specified in Task 1, you need to select **Use Existing** under **Resource group** option and select **Resource group - 02** from the drop down.
 2. While creating **SQL Data Warehouse** specified in Task 2, you need to select **Use Existing** under **Resource group** option and select **Resource group - 03** from the drop down.
 3. In **Task 3** you can skip the first four steps and you can use the same user details that you are logged in with while creating **Analysis Services**.
-4. In **step 7**, ensure that your username is populated automatically corresponding to **Administrator** column.</br></br>
+4. While creating **Analysis Service** specified in Task 3, you need to select **Use Existing** under **Resource group** option and select **Resource group - 03** from the drop down.
+5. In **Task 3, step 7**, ensure that your username is populated automatically corresponding to **Administrator** column.</br></br>
 # Known Issues
 ### Issue while installing Power Bi Desktop
 
