@@ -42,7 +42,8 @@ You are provided a **Visual Studio Community 2017 on Windows Server 2016 (x64)**
 1. Do not create **Virtual Machine** specified in **Task 1**, since it is pre-created.
 2. You can skip **Task 2** and **Task 3**, since all the configurations specified are already completed. 
 3. In **Task 4**, replace **Step 4** with the following step:
-* Click on the Resource group dropdown, followed by selecting **Resource group-02**. In the artifact **storage account** section, **Select** storage account with the name starting with **Stage**.
+* Click on the Resource group dropdown, followed by selecting **Resource group-02**. In the artifact **storage account** section, **Select** storage account with the name starting with **Stage** and Click on **Deploy**.
+![alt text](images/image-01.jpg)
 4. You can skip **Step 5** and **Step 6**.
 5. While creating **Traffic Manager** specified in **Exercise 1**>**Task 1**, you need to select **Use Existing** under **Resource group** option and select **Resource group - 03** from the drop down.
 6. While creating **API App** specified in **Exercise 3**>**Step 1**, you need to select **Use Existing** under **Resource group** option and select **Resource group - 04** from the drop down.
