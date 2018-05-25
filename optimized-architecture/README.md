@@ -39,20 +39,19 @@ You are provided a **Visual Studio Community 2017 on Windows Server 2016 (x64)**
 
 ## Notes to Attendees
 #### While doing **Before the Hands-on-lab** section, follow the below mentioned steps.
-1. Do not create **Free License: SQL Server 2016 SP1 Developer on Windows Server 2016** specified in **Task 1**, since it is pre-created.
-2. You need to **install** **Azure PowerShell command-line tools** by running the setup file provided in the **Desktop**.
-3. You can skip **step 1 to step 6** in **Task 2**, since all specified things are pre-configured.</br>
-#### While doing **Exercise 1**, follow the below mentioned steps.
-1. While creating **Storage account** specified in Task 1, you need to select **Use Existing** under **Resource group** option and select **Resource group - 02** from the drop down.
-2. While creating **SQL Data Warehouse** specified in Task 2, you need to select **Use Existing** under **Resource group** option and select **Resource group - 03** from the drop down.
-3. In **Task 3** you can skip the first four steps and you can use the same user details that you are logged in with while creating **Analysis Services**.
-4. While creating **Analysis Service** specified in Task 3, you need to select **Use Existing** under **Resource group** option and select **Resource group - 03** from the drop down.
-5. In **Task 3, step 7**, ensure that your username is populated automatically corresponding to **Administrator** column.</br></br>
+1. Do not create **Virtual Machine** specified in **Task 1**, since it is pre-created.
+2. You can skip **Task 2** and **Task 3**, since all the configurations specified are already completed. 
+3. In **Task 4**, replace **Step 4** with the following step:
+* Click on the Resource group dropdown, followed by selecting Resource group-02. In the artifact **storage account** section, **Select** storage account with the name starting with **Stage**.
+4. You can skip **Step 5** and **Step 6**.
+5. While creating **Traffic Manager** specified in **Exercise 1**>**Task 1**, you need to select **Use Existing** under **Resource group** option and select **Resource group - 03** from the drop down.
+6. While creating **API App** specified in **Exercise 3**>**Step 1**, you need to select **Use Existing** under **Resource group** option and select **Resource group - 04** from the drop down.
+7. While creating **Web App** specified in **Exercise 4**>**Step 1**, you need to select **Use Existing** under **Resource group** option and select **Resource group - 05** from the drop down.
+8. While creating **Web App** specified in **Exercise 5**>**Step 1**, you need to select **Use Existing** under **Resource group** option and select **Resource group - 06** from the drop down.
+9. While creating **Scheduler** specified in **Exercise 5**>**Step 3**>**11**, you need to select **Use Existing** under **Resource group** option and select **Resource group - 06** from the drop down.
+10. While creating **Web App** specified in **Exercise 8**>**Step 1**, you need to select **Use Existing** under **Resource group** option and select **Resource group - 07** from the drop down.</br></br>
 # Known Issues
-### Issue while installing Power Bi Desktop
 
-> **Possible Solutions**:
-Go to the link provided in the lab guide. Select **Advanced Download Options**. In the new page you can find a **Download** button. Click on the download button. 
 ### RDP Connection Error
 > **Possible Solutions**:
 If you find a RDP connection error (CredSSP encryption error),go to the below link and follow the steps. 
