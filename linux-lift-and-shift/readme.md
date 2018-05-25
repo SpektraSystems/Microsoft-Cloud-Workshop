@@ -46,7 +46,7 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with MYSQL Workbench installed.FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials.
 
-> Note: LAVVM is provisioned in the resource group **ODL_lift-shift-xxxxx-01**. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
+> Note: LAB VM is provisioned in the resource group **ODL_lift-shift-xxxxx-01**. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
 
 
 # Known Issues
