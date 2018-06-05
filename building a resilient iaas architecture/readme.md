@@ -29,7 +29,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
  
-3. Note that you have access to eight resource groups – ODL_iaas-arch-xxxxx-01, ODL_iaas-arch-xxxxx-02, ODL_iaas-arch-xxxxx-03,  ODL_iaas-arch-xxxxx-04 and ODL_iaas-arch-xxxxx-05, ODL_iaas-arch-xxxxx-06, ODL_iaas-arch-xxxxx-07, ODL_iaas-arch-xxxxx-08  Note: All these 8 resource groups has the pre-deployed environment. **User need not deploy any resource during the lab** 
+3. Note that you have access to eight resource groups – ODL_iaas-arch-xxxxx-01, ODL_iaas-arch-xxxxx-02, ODL_iaas-arch-xxxxx-03,  ODL_iaas-arch-xxxxx-04 and ODL_iaas-arch-xxxxx-05, ODL_iaas-arch-xxxxx-06, ODL_iaas-arch-xxxxx-07, ODL_iaas-arch-xxxxx-08.
 
 4. Navigate to the resource group **ODL_iaas-arch-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine, Disk, etc
 
@@ -61,9 +61,39 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 
 * In **Exercise-2** **Task 2** While creating Windows Server 2016 DataCenter VMs you may not see the option for **Enable Backup** so you can configure **Backup** after the deployment of VMs. In this case deploy a VM first and then configure the Backup.
 
-Please
+Please follow these steps to configure **Enable Backup** :
 
-![](images/virtualMachines1.png)
+Step 1. Click on **Virtual Machines** 
+
+![](images/virtualMachines.png)
+
+Step 2.  Select **LitwareDC01** VM 
+
+![](images/LitwareDC01.png)
+
+Step 3. Click on **Backup** under Opoerations menu
+
+![](images/backupDc02.png)
+
+Step 4. Click on Create new **Recovery Service Vault** named as **LitwareBackupVault** and Select Existing RG named as **ODL_iaas-arch-xxxxx-05**.
+
+![](images/finalbackup01.png)
+
+Step 5.
+
+![](images/virtualMachines.png)
+
+Step 6.
+
+![](images/virtualMachines.png)
+
+Step 7.
+
+![](images/virtualMachines.png)
+
+Step 8.
+
+![](images/virtualMachines.png)
 
 # Notes to Instructors / Proctors
 
