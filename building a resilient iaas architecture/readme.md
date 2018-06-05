@@ -79,15 +79,15 @@ Please follow these steps to configure **Enable Backup** :
 
 ![](images/finalbackup01.png)
 
-**Repeat same Step from  2 to 4** for **LitwareDC02** and select existing **RecoveryServiceVault** LitwareBackupVault.
+# **Repeat same Step from  2 to 4** for **LitwareDC02** and select existing **RecoveryServiceVault** LitwareBackupVault.
 
 ![](images/finalbackupDC02.png)
 
- **Repeat same Step from  2 to 4** for **LitwareDC03** and now Create new **RecoveryServiceVault** name as **LitwareBackupVault2**, Select existing RG **ODL_iaas-arch-xxxxx-07** 
+# **Repeat same Step from  2 to 4** for **LitwareDC03** and now Create new **RecoveryServiceVault** name as **LitwareBackupVault2**, Select existing RG **ODL_iaas-arch-xxxxx-07** 
  
  ![](images/finalbackupDC03.png)
  
- **Also repeat same Step from  2 to 4** for **LitwareDC04** and select existing **RecoveryServiceVault**  **LitwareBackupVault2**.
+# **Also repeat same Step from  2 to 4** for **LitwareDC04** and select existing **RecoveryServiceVault**  **LitwareBackupVault2**.
 
 ![](images/FinalbackupDC04.png)
 
