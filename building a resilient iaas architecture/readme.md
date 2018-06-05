@@ -29,13 +29,16 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
  
-3. Note that you have access to eight resource groups – ODL_iaas-arch-xxxxx-01, ODL_iaas-arch-xxxxx-02, ODL_iaas-arch-xxxxx-03,  ODL_iaas-arch-xxxxx-04 and ODL_iaas-arch-xxxxx-05, ODL_iaas-arch-xxxxx-06, ODL_iaas-arch-xxxxx-07, ODL_iaas-arch-xxxxx-08.
+3. Note that you have access to eight resource groups – **ODL_iaas-arch-xxxxx-01** - to - **ODL_iaas-arch-xxxxx-08**.These two RGs ODL_iaas-arch-xxxxx-01, ODL_iaas-arch-xxxxx-02 has the pre-deployed environment. User need to deploy other resources in other RGs during the lab.
 
 4. Navigate to the resource group **ODL_iaas-arch-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine, Disk, etc
 
-5. Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
+5.Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
+Now check if exercise files for the hands-on lab are already downloaded in C:\HOL
 
-6. Now check if students lab files are already downloaded in C:\HOL
+6.Navigate to the resource group **ODL_iaas-arch-xxxxx-02** and view the already existing resources such as ADVM and CloudshopSQL,    CloudshopWeb Virtual Machines, Disk and LitwareVNET, etc.
+
+
 
 
 ## Verify Azure Access
@@ -59,29 +62,29 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 **Resolution**
 Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
 
-* In **Exercise-2** **Task 2** While creating Windows Server 2016 DataCenter VMs you may not see the option for **Enable Backup** so you can configure **Backup** after the deployment of VMs. In this case deploy a VM first and then configure the Backup.
+* In **Exercise-2** **Task 2** While creating **Windows Server 2016 DataCenter** VMs, you may not see the option for **Enable Backup** so you can configure **Backup** after the deployment of VMs. In this case deploy the all four VMs first and then configure the Backup.
 
-Please follow these steps to configure **Enable Backup** :
+ Please follow these steps to configure **Backup** :
 
 **Step 1.** Click on **Virtual Machines** 
 
-![](images/virtualMachines.png)
+  ![](images/virtualMachines.png)
 
 **Step 2.**  Select **LitwareDC01** VM 
 
-![](images/LitwareDC01.png)
+  ![](images/LitwareDC01.png)
 
 **Step 3.** Click on **Backup** under Operations menu
 
-![](images/backupDC01.png)
+  ![](images/backupDC01.png)
 
 **Step 4.** Click on Create new **Recovery Service Vault** give name **LitwareBackupVault** and Select Existing RG named as **ODL_iaas-arch-xxxxx-05** and then click on **Enable backup**
 
-![](images/finalbackup01.png)
+ ![](images/finalbackup01.png)
 
 **Repeat same Step from  2 to 4** for **LitwareDC02** and select existing **RecoveryServiceVault** LitwareBackupVault.
 
-![](images/finalbackupDC02.png)
+ ![](images/finalbackupDC02.png)
 
 **Repeat same Step from  2 to 4** for **LitwareDC03** and now Create new **RecoveryServiceVault** name as **LitwareBackupVault2**, Select existing RG **ODL_iaas-arch-xxxxx-07** 
  
@@ -89,16 +92,16 @@ Please follow these steps to configure **Enable Backup** :
  
  **Also repeat same Step from  2 to 4** for **LitwareDC04** and select existing **RecoveryServiceVault**  **LitwareBackupVault2**.
 
-![](images/FinalbackupDC04.png)
+ ![](images/FinalbackupDC04.png)
 
 
 
 
 # Notes to Instructors / Proctors
 
-* For Exercise 1, users should navigate to the **ODL_lift-shift-xxxxx-02** resource group and use the already deployed resources
+* For Exercise 1, users should navigate to the **ODL_iaas-arch-xxxxx-03** resource group and use the already deployed resources
 
-* For Exercise 2 Task 1 and 2, users should use the **ODL_lift-shift-xxxxx-03** resource group and use the already deployed resources
+* For Exercise 2 Task 2 and 2, users should use the **ODL_lift-shift-xxxxx-04** resource group and use the already deployed resources
 
 * For Exercise 2 Task 3, 4 and 5, users should use the **ODL_lift-shift-xxxxx-04** resource group and use the already deployed resources
 
