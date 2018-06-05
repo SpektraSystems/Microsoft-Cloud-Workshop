@@ -63,37 +63,37 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 
 Please follow these steps to configure **Enable Backup** :
 
-Step 1. Click on **Virtual Machines** 
+**Step 1.** Click on **Virtual Machines** 
 
 ![](images/virtualMachines.png)
 
-Step 2.  Select **LitwareDC01** VM 
+**Step 2.**  Select **LitwareDC01** VM 
 
 ![](images/LitwareDC01.png)
 
-Step 3. Click on **Backup** under Opoerations menu
+**Step 3.** Click on **Backup** under Operations menu
 
-![](images/backupDc02.png)
+![](images/backupDc01.png)
 
-Step 4. Click on Create new **Recovery Service Vault** named as **LitwareBackupVault** and Select Existing RG named as **ODL_iaas-arch-xxxxx-05**.
+**Step 4.** Click on Create new **Recovery Service Vault** give name **LitwareBackupVault** and Select Existing RG named as **ODL_iaas-arch-xxxxx-05**.
 
 ![](images/finalbackup01.png)
+ 
+**Step 5.** Select **LitwareDC02** VM 
 
-Step 5.
+![](images/LitwareDC02.png)
 
-![](images/virtualMachines.png)
+**Step 6.** Click on **Backup** under Operations menu
 
-Step 6.
+![](images/backupDC02.png)
 
-![](images/virtualMachines.png)
+**Step 7.** Click on **Select Existing** **Recovery Service Vault** named **LitwareBackupVault** and Select Existing RG named as **ODL_iaas-arch-xxxxx-05**.
 
-Step 7.
+![](images/finalbackupDC02.png)
 
-![](images/virtualMachines.png)
+**Step 8.** Select **LitwareDC03** VM
 
-Step 8.
-
-![](images/virtualMachines.png)
+![](images/LitwareDC03.png)
 
 # Notes to Instructors / Proctors
 
