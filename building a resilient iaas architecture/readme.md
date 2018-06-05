@@ -1,12 +1,14 @@
 
 # Introduction
 
-Linux Lift and Shift is a one day workshop lead by Microsoft or Microsoft partners. 
-In this hands-on step-by-step lab, you will migrate an on-premises based helpdesk application called OsTicket to Azure.  This will be a two-phase project to lift and shift the application into Azure IaaS and then migrate it to Azure PaaS.  The application is Linux based using Apache, PHP and MySQL (LAMP).  During the process of these phases you will ensure zero data loss. 
+Building a Resilient IaaS architecture is a one day workshop lead by Microsoft or Microsoft partners. The student will assist a large organization in evaluating their current infrastructure deployments in Azure, and help identify single points of failure. Attention will be given to making the customer's current deployments more resilient and communicating best practices to ensure future deployments will follow best practices.
+Attendees will be better able to design resilient applications in Azure, for high availability and disaster recovery. Specific attention will be given to:
+ 
 
-*	Phase I:  Lift and shift the application from on-premises to Azure IaaS using an auto scaling Virtual Machine Scale Set and a MySQL cluster with 3 nodes.
-
-*	Phase II: Migrate to PaaS using Azure App Services with a Linux Docker Container and Azure Database for MySQL.
+*	The use of availability sets
+*	The use of Managed Disks
+*	Design principles when provisioning storage to VMs
+*	Effective employment of Azure Backup to provide point-in-time recovery
 
  
 # Sign-up for Workshop Environment
@@ -27,13 +29,13 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
  
-3. Note that you have access to five resource groups – ODL_lift-shift-xxxxx-01, ODL_lift-shift-xxxxx-02, ODL_lift-shift-xxxxx-03,  ODL_lift-shift-xxxxx-04 and ODL_lift-shift-xxxxx-05. Note: All these 5 resource groups has the pre-deployed environment. **User need not deploy any resource during the lab** 
+3. Note that you have access to eight resource groups – ODL_iaas-arch-xxxxx-01, ODL_iaas-arch-xxxxx-02, ODL_iaas-arch-xxxxx-03,  ODL_iaas-arch-xxxxx-04 and ODL_iaas-arch-xxxxx-05, ODL_iaas-arch-xxxxx-06, ODL_iaas-arch-xxxxx-07, ODL_iaas-arch-xxxxx-08  Note: All these 8 resource groups has the pre-deployed environment. **User need not deploy any resource during the lab** 
 
-4. Navigate to the resource group **ODL_lift-shift-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine, Disk, etc
+4. Navigate to the resource group **ODL_iaas-arch-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine, Disk, etc
 
 5. Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
 
-6. Now check if MySQL Workbench is already installed
+6. Now check if students lab files are already downloaded in C:\HOL
 
 
 ## Verify Azure Access
@@ -44,9 +46,9 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
-You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with MYSQL Workbench installed.FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials.
+You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft.FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials.
 
-> Note: LAB VM is provisioned in the resource group **ODL_lift-shift-xxxxx-01**. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
+> Note: LAB VM is provisioned in the resource group **ODL_iaas-arch-xxxxx-01**. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
 
 
 # Known Issues
@@ -56,6 +58,12 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 * With the release of the March 2018 Security bulletin, there was a fix that addressed a CredSSP, “Remote Code Execution” vulnerability (CVE-2018-0886) which could impact RDP connections. 
 **Resolution**
 Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
+
+* In **Exercise-2** **Task 2** While creating Windows Server 2016 DataCenter VMs you may not see the option for **Enable Backup** so you can configure **Backup** after the deployment of VMs. In this case deploy a VM first and then configure the Backup.
+
+Please
+
+![](images/virtualMachines1.png)
 
 # Notes to Instructors / Proctors
 
