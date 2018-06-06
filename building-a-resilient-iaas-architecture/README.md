@@ -80,7 +80,7 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 
 * **Step 4.** Click on create new RecoveryServiceVault enter name **LitwareBackupVault** and Select Existing RG **ODL_iaas-arch-xxxxx-05** and then click on **Enable backup**.
 
- ![](images/Finalbackup4.png)
+ <kbd>![](images/Finalbackup4.png)</kbd>
 
 * > **Repeat same Steps from  2 to 4** for **LitwareDC02** VM and select existing RecoveryServiceVault **LitwareBackupVault**.
 
