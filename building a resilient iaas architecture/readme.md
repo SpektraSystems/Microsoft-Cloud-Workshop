@@ -27,16 +27,16 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 1. Launch a browser using incognite or in-private mode, and navigate to https://portal.azure.com. Once prompted, login with the Microsoft Azure credentials you received.   
 
-2. Once you are logged in to the portal, navigate to Resource Groups. 
+ 2. Once you are logged in to the portal, navigate to Resource Groups. 
  
-3. Note that you have access to eight resource groups – **ODL_iaas-arch-xxxxx-01** - to - **ODL_iaas-arch-xxxxx-08**.These two RGs **ODL_iaas-arch-xxxxx-01, ODL_iaas-arch-xxxxx-02** has the pre-deployed environment. User need to deploy other resources in other RGs during the lab.
+ 3. Note that you have access to eight resource groups – **ODL_iaas-arch-xxxxx-01** - to - **ODL_iaas-arch-xxxxx-08**.These two RGs **ODL_iaas-arch-xxxxx-01, ODL_iaas-arch-xxxxx-02** has the pre-deployed environment. User need to deploy other resources in other RGs during the lab.
 
- 4. Navigate to the resource group **ODL_iaas-arch-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine, Disk, etc
+ 4. Navigate to the resource group **ODL_iaas-arch-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine,         Disk, etc
 
  5.Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
-Now check if exercise files for the hands-on lab are already downloaded in C:\HOL
+   Now check if exercise files for the hands-on lab are already downloaded in C:\HOL
 
- 6.Navigate to the resource group **ODL_iaas-arch-xxxxx-02** and view the already existing resources such as ADVM and CloudshopSQL,    CloudshopWeb Virtual Machines, Disk and LitwareVNET, etc.
+ 6.Navigate to the resource group **ODL_iaas-arch-xxxxx-02** and view the already existing resources such as ADVM and CloudshopSQL,        CloudshopWeb Virtual Machines, Disk and LitwareVNET, etc.
 
 
 
@@ -101,11 +101,11 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 
 * Please use the **same VM size** as per mentioned in **Lab guide** not go for other sizes as **policy** is applied so the deployment of   the VMs with other sizes will fail. 
 
-* For Exercise 1, users should navigate to the **ODL_iaas-arch-xxxxx-03** resource group and use the already deployed resources
+* For Exercise 1, Task 1 and 2 users should use the **ODL_iaas-arch-xxxxx-03** resource group.
 
-* For Exercise 2 Task 2 and 2, users should use the **ODL_lift-shift-xxxxx-04** resource group and use the already deployed resources
+* For Exercise 2 Task 1 Step 1 users should navigate the **ODL_lift-shift-xxxxx-02** resource group and use the already deployed       resources like ADVM. 
 
-* For Exercise 2 Task 3, 4 and 5, users should use the **ODL_lift-shift-xxxxx-04** resource group and use the already deployed resources
+* For Exercise 2 Task 1 users should use the **ODL_lift-shift-xxxxx-04** resource group for creating VMs **Location should be same   for the VM as per the location of LitwareVNET**.
 
 * For Exercise 3, users should use the **ODL_lift-shift-xxxxx-05** resource group and use the already deployed resources
 
