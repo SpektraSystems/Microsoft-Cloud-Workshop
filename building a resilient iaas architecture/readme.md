@@ -29,7 +29,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
  
-3. Note that you have access to eight resource groups – **ODL_iaas-arch-xxxxx-01** - to - **ODL_iaas-arch-xxxxx-08**.These two RGs         **ODL_iaas-arch-xxxxx-01, ODL_iaas-arch-xxxxx-02** has the pre-deployed environment. User need to deploy other resources in other RGs     during the lab.
+3. Note that you have access to eight resource groups – **ODL_iaas-arch-xxxxx-01** - to - **ODL_iaas-arch-xxxxx-08**.   **ODL_iaas-arch-xxxxx-01, ODL_iaas-arch-xxxxx-02** resource groups has the pre-deployed environment. User need to deploy other resources in other RGs during the lab.
 
 4. Navigate to the resource group **ODL_iaas-arch-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine,         Disk, etc
 
