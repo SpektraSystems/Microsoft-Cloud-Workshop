@@ -103,12 +103,22 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 
 * For Exercise 1, Task 1 and 2 users should use the **ODL_iaas-arch-xxxxx-03** resource group.
 
-* For Exercise 2 Task 1 Step 1 users should navigate the **ODL_iaas-arch-xxxxx-02** resource group and use the already deployed       resources like ADVM. 
+* For Exercise 2, Task 1 Step 1 users should navigate the **ODL_iaas-arch-xxxxx-02** resource group and use the already deployed         resources like ADVM. 
 
-* For Exercise 2 Task 1 users should use the **ODL_iaas-arch-xxxxx-04** resource group for creating first and second VM **Location should be same   for the VM as per the location of LitwareVNET**.
+* For Exercise 2, Task 1 users should use the **ODL_iaas-arch-xxxxx-04** resource group for creating first and second VM, Note   **Location should be same for the VM as per the location of LitwareVNET**.
 
-* For Exercise 2, Task 2 users should use the **ODL_iaas-arch-xxxxx-06** resource group creating third and fourth VM **Location should be same   for the VM as per the location of LitwareVNET2**.
+* For Exercise 2, Task 2 users should use the **ODL_iaas-arch-xxxxx-06** resource group creating third and fourth VM, Note **Location   should be same the VM as per the location of LitwareVNET2**.
 
+* For configure **Backup** users should use **ODL_iaas-arch-xxxxx-05** and **ODL_iaas-arch-xxxxx-07** Resource groups respectively.
+  for more details go through **Known Issues**.
+
+* For Exercise 3, Task 1 users should use **ODL_iaas-arch-xxxxx-08** Resource group for deploy the template Note Use **ODL_iaas-arch-xxxxx-02** for Existing Virtual Network LitwareVNET.
+
+* For Exercise 3, Task 2, Step 5 and 6 user should replace the resource group name **LitwareCloudshopRG** with **ODL_iaas-arch-xxxxx-08** and also Replace **SQLAVSet** with **SQLAvSet**.
+
+* For Exercise 3, Task 3 user should use again **ODL_iaas-arch-xxxxx-08** resource group for deploy the template and use **ODL_iaas-arch-xxxxx-02** for the exixting Virtual Network LitwareVNET.
+
+* For Exercise 4, Task 1 user should replace the Resource group name **LitwareCloudShopRG** with **ODL_iaas-arch-xxxxx-08**.
 
 # Help and Support
 
