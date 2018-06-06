@@ -66,31 +66,31 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 
  Please follow these steps to configure **Backup** :
 
-**Step 1.** Click on **Virtual Machines** 
+* **Step 1.** Click on **Virtual Machines** 
 
   ![](images/virtualMachines.png)
 
-**Step 2.**  Select **LitwareDC01** VM which is created by you.
+* **Step 2.**  Select **LitwareDC01** VM which is created by you.
 
   ![](images/LitwareDC01.png)
 
-**Step 3.** Click on **Backup** under Operations menu.
+* **Step 3.** Click on **Backup** under Operations menu.
 
   ![](images/backupDC01.png)
 
-**Step 4.** Click on Create new **Recovery Service Vault** give name **LitwareBackupVault** and Select Existing RG **ODL_iaas-arch-xxxxx-05** and then click on **Enable backup**.
+* **Step 4.** Click on create new RecoveryServiceVault enter name **LitwareBackupVault** and Select Existing RG **ODL_iaas-arch-xxxxx-05** and then click on **Enable backup**.
 
  ![](images/finalbackup01.png)
 
-> **Repeat same Steps from  2 to 4** for **LitwareDC02** VM and select existing **RecoveryServiceVault** LitwareBackupVault.
+* > **Repeat same Steps from  2 to 4** for **LitwareDC02** VM and select existing RecoveryServiceVault **LitwareBackupVault**.
 
  ![](images/finalbackupDC02.png)
 
-> **Repeat same Steps from  2 to 4** for **LitwareDC03** and now Create new **RecoveryServiceVault** name as **LitwareBackupVault2**, Select existing RG **ODL_iaas-arch-xxxxx-07**.
+* > **Repeat same Steps from  2 to 4** for **LitwareDC03**, now Create new RecoveryServiceVault enter name **LitwareBackupVault2** and Select existing RG **ODL_iaas-arch-xxxxx-07**.
  
  ![](images/finalbackupDC03.png)
  
- > **Also repeat same Steps from  2 to 4** for **LitwareDC04** and select existing **RecoveryServiceVault**  **LitwareBackupVault2**.
+* > **Also repeat same Steps from  2 to 4** for **LitwareDC04** and select existing RecoveryServiceVault  **LitwareBackupVault2**.
 
  ![](images/FinalbackupDC04.png)
 
