@@ -27,16 +27,16 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 1. Launch a browser using incognite or in-private mode, and navigate to https://portal.azure.com. Once prompted, login with the Microsoft Azure credentials you received.   
 
- 2. Once you are logged in to the portal, navigate to Resource Groups. 
+2. Once you are logged in to the portal, navigate to Resource Groups. 
  
- 3. Note that you have access to eight resource groups – **ODL_iaas-arch-xxxxx-01** - to - **ODL_iaas-arch-xxxxx-08**.These two RGs **ODL_iaas-arch-xxxxx-01, ODL_iaas-arch-xxxxx-02** has the pre-deployed environment. User need to deploy other resources in other RGs during the lab.
+3. Note that you have access to eight resource groups – **ODL_iaas-arch-xxxxx-01** - to - **ODL_iaas-arch-xxxxx-08**.These two RGs         **ODL_iaas-arch-xxxxx-01, ODL_iaas-arch-xxxxx-02** has the pre-deployed environment. User need to deploy other resources in other RGs     during the lab.
 
- 4. Navigate to the resource group **ODL_iaas-arch-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine,         Disk, etc
+4. Navigate to the resource group **ODL_iaas-arch-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine,         Disk, etc
 
- 5.Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
+5.Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
    Now check if exercise files for the hands-on lab are already downloaded in C:\HOL
 
- 6.Navigate to the resource group **ODL_iaas-arch-xxxxx-02** and view the already existing resources such as ADVM and CloudshopSQL,        CloudshopWeb Virtual Machines, Disk and LitwareVNET, etc.
+6.Navigate to the resource group **ODL_iaas-arch-xxxxx-02** and view the already existing resources such as ADVM and CloudshopSQL,        CloudshopWeb Virtual Machines, Disk and LitwareVNET, etc.
 
 
 
@@ -99,20 +99,19 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 
 # Notes to Instructors / Proctors
 
-* Please use the **same VM size** as per mentioned in **Lab guide** not go for other sizes as **policy** is applied so the deployment of   the VMs with other sizes will fail. 
+* Please use the **same VM size** as per mentioned in **Lab guide**, not go for other sizes as policy is applied so the deployment of    the VMs with other sizes will be fail. 
 
 * For Exercise 1, Task 1 and 2 users should use the **ODL_iaas-arch-xxxxx-03** resource group.
 
-* For Exercise 2, Task 1 Step 1 users should navigate the **ODL_iaas-arch-xxxxx-02** resource group and use the already deployed         resources like ADVM. 
+* For Exercise 2, Task 1, Step 1 users should navigate the **ODL_iaas-arch-xxxxx-02** resource group and use the already deployed         resources like ADVM. 
 
 * For Exercise 2, Task 1 users should use the **ODL_iaas-arch-xxxxx-04** resource group for creating first and second VM, Note   **Location should be same for the VM as per the location of LitwareVNET**.
 
-* For Exercise 2, Task 2 users should use the **ODL_iaas-arch-xxxxx-06** resource group creating third and fourth VM, Note **Location   should be same the VM as per the location of LitwareVNET2**.
+* For Exercise 2, Task 2 users should use the **ODL_iaas-arch-xxxxx-06** resource group creating third and fourth VM. ***Note*** **Location should be same the VM as per the location of LitwareVNET2**.
 
-* For configure **Backup** users should use **ODL_iaas-arch-xxxxx-05** and **ODL_iaas-arch-xxxxx-07** Resource groups respectively.
-  for more details go through **Known Issues**.
+* For configure **Backup** users should use **ODL_iaas-arch-xxxxx-05** and **ODL_iaas-arch-xxxxx-07** Resource groups and for more  details please go through **Known Issues**.
 
-* For Exercise 3, Task 1 users should use **ODL_iaas-arch-xxxxx-08** Resource group for deploy the template Note Use **ODL_iaas-arch-xxxxx-02** for Existing Virtual Network LitwareVNET.
+* For Exercise 3, Task 1 users should use **ODL_iaas-arch-xxxxx-08** Resource group for deploy the template. ***Note*** Use **ODL_iaas-arch-xxxxx-02** for Existing Virtual Network LitwareVNET.
 
 * For Exercise 3, Task 2, Step 5 and 6 user should replace the resource group name **LitwareCloudshopRG** with **ODL_iaas-arch-xxxxx-08** and also Replace **SQLAVSet** with **SQLAvSet**.
 
