@@ -103,11 +103,11 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 
 * For Exercise 1, Task 1 and 2 users should use the **ODL_iaas-arch-xxxxx-03** resource group.
 
-* For Exercise 2 Task 1 Step 1 users should navigate the **ODL_lift-shift-xxxxx-02** resource group and use the already deployed       resources like ADVM. 
+* For Exercise 2 Task 1 Step 1 users should navigate the **ODL_iaas-arch-xxxxx-02** resource group and use the already deployed       resources like ADVM. 
 
-* For Exercise 2 Task 1 users should use the **ODL_lift-shift-xxxxx-04** resource group for creating VMs **Location should be same   for the VM as per the location of LitwareVNET**.
+* For Exercise 2 Task 1 users should use the **ODL_iaas-arch-xxxxx-04** resource group for creating first and second VM **Location should be same   for the VM as per the location of LitwareVNET**.
 
-* For Exercise 3, users should use the **ODL_lift-shift-xxxxx-05** resource group and use the already deployed resources
+* For Exercise 2, Task 2 users should use the **ODL_iaas-arch-xxxxx-06** resource group creating third and fourth VM **Location should be same   for the VM as per the location of LitwareVNET2**.
 
 
 # Help and Support
