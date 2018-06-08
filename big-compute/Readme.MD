@@ -1,5 +1,7 @@
 # Introduction
 
+The Big Compute hands-on lab will enable you to understand how to implement big compute workloads targeted at 3D rendering and media processing in Azure using Azure Batch and Azure Storage. 
+
 # Sign-up for Workshop Environment
 
 To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
@@ -15,19 +17,13 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 # Verify the pre-provisioned Environment
 
 * Users can use the **Azure Credentials** given to them to login to the Azure Portal
-* Two resource groups **ODL_mca-XXXXX-01** and **ODL_mca-XXXXX-02** will be already created. In resource group **ODL_mca-XXXXX-01** you will get Azure Environment with the LABVM deployed in it
-* Users can select **labvm** and click on **Connect** to download the RDP file
+* One resource group **ODL_bigcompte-XXXXX-01** will be already created. In resource group **ODL_bigcompute-XXXXX-01** you will get Azure Environment with the LABVM deployed in it
+* Users can select **windows-vm** and click on **Connect** to download the RDP file
 * Open the RDP file to connect to the LABVM. Provide the credentials you received to login to the VM
 * Once you login to the LABVM, server manager will open. Select Local Server and verify that IE Enhanced Security Configuration has also been turned off 
-* Go to C:\Hackathon folder and verify application files are there such as:
-```
-Contoso.Apps.SportsLeague.Web 
-Contoso.Apps.SportsLeague.Admin 
-Contoso.Apps.SportsLeague.Data 
-Contoso.Apps.SportsLeague.Offers 
-Contoso.Apps.PaymentGateway 
-```
-* Also verify that SQL Server Management Studio is installed 
+* User need a SSH client for connecting to a Linux Virtual Machine i.e. batch-jumpvm (follow Connect to Linux VM step)
+* Verify that Azure Batch install on desktop
+* Also verify that Microsoft Azure Storage Explorer is installed 
 
 ## Verify Azure Access
 
@@ -37,7 +33,40 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
-You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with additional softwares configured. FQDN of the LABVM virtual machine and administrator credentials are provided in the lab details page. You can remote into the virtual machine using the provided credentials
+You are provided with Windows Server 2016 (x64)Microsoft and Ubuntu Server 16.04. FQDN of the LABVM virtual machine and administrator credentials are provided in the lab details page. You can remote into the virtual machine using the provided credentials
+
+# Connect to Linux VM
+
+* **Users can connect to the Linux VM using SSH Client**
+* For SSH, If you are using a Windows machine, you would need a SSH client for connecting to a Linux Virtual Machine. Putty is the most widely used SSH client for windows. If you are using Mac or Linux based machines, you can use the bash terminal.
+* If the user is accessing the Linux VM via putty, he will need to enable tunnelling to the local machine.
+
+**Using SSH Client from your local machine:** 
+
+1.	Now Download a SSH Client from here, if you don’t already have one. http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+
+2.	Now run putty.exe from the users PC.
+
+3.	An application window pops up when user run putty.exe.
+
+4.	Enter the linuxVMDnsName of the VM to the Host Name (or IP address) box of the putty. Port will be 22 by default.
+
+5.	Go to the Tunnels section in PuTTY, 
+ 
+6.	Now, user will configure a specific Local port 8001, that will redirect to 8001 of the build agent Linux VM. 
+
+7.	Provide the following details and click on Add:
+   Source Port: 8001
+   Destination: 127.0.0.1:8001
+Then Click on Open.
+ 
+8.	Now a new terminal will pop and user will be connected to the build agent virtual machine.
+
+9.	The PuTTY Security Alert will pop up. Click on Yes.
+
+10.	Login using the adminUsername and adminPassword for the build agent Linux VM.
+ 
+11.	After entering the username and password user can start accessing the build agent Linux VM.
 
 # Known Issues
 
@@ -51,7 +80,7 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 
 # Notes to Instructors / Proctors
 
-* LABVM is already deployed in **ODL_bcdr-XXXXX-01** Resource Group and configured with all the requirements such as SQL Server Management Studio and Application Files are already downloaded into the VM in C:\Hackathon. 
+* Windows-vm and batch-jumpbox is already deployed in **ODL_bigcompute-XXXXX-01** Resource Group and configured with all the requirements such as Microsoft Azure Storage Explorer, Azure CLI and Azure Batch Lab are already downloaded. 
 * Users should **use** the **Azure Credentials** given to them to login to **Visual Studio**.
 
 # Help and Support
