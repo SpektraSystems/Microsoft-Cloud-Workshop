@@ -37,7 +37,7 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with additional softwares configured. FQDN of the LABVM virtual machine and administrator credentials are provided in the lab details page. You can remote into the virtual machine using the provided credentials.
 
-# Known IssueS
+# Known Issues
 ### Connecting DSVM with RDP having issue addresses CredSSP
 
 > **Possible Solutions**:
