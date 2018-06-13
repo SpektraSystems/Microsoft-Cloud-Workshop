@@ -16,7 +16,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 # Verify the pre-provisioned Environment
 
 * Users can use the **Azure Credentials** given to them to login to the Azure Portal
-* Verify seven resource groups with added suffix -01 to -07. Ex: **ODL_ecn-xxxxx-01, ODL_ecn-xxxxx-02 ................ ODL_ecn-xxxxx-07**. Here **xxxxx** is unique ID for users.
+* Verify seven resource groups with added suffix -01 to -07. Ex: **ODL_ecn-xxxxx-01, ODL_ecn-xxxxx-02 ............................ ODL_ecn-xxxxx-07**. Here **xxxxx** is unique ID for users.
 * Resource Group **ODL_ecn-XXXXX-01** will be already created in the Users Azure Environment with the LABVM deployed in it.
 * **LABVM** has been configured with the following:
   1. IE Enhanced Security has been disabled
