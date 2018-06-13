@@ -57,6 +57,10 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
      * Edit following template parameters values:    
      * existingVirtualNetworkName: **WGVNet2**    
      * existingVirtualNetworkResourceGroup: **ODL_ecn-xxxxx-03** ,here change **xxxxx** with particular user unique ID.
+  5. In Task 1 of Exercise 5 use existing RG **ODL_ecn-xxxxx-05** instead of creating new RG to deploy management VM Windows Server 2016 Datacenter. Use **Standard F1S** size for virtual machine inthis step.
+  6. In Task 1 of Exercise 7 use existing RG **ODL_ecn-xxxxx-06** instead of creating new RG to deploy cloudgen firewall for azure BYOL (VM)
+  7. In Task 1 of Exercise 9 use existing RG **ODL_ecn-xxxxx-07** instead of creating new RG to deploy **on-prem virtual network**
+     * Deploy On-prem Virtual Network in **East US** region.
 * Users should **use** the **Azure Credentials** given to them to login to **Visual Studio**
 
 # Help and Support
