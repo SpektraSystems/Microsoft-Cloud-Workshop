@@ -49,10 +49,13 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 # Notes to Instructors / Proctors
 * As users doesn't have permissions to create new **resource group**. They should choose existing resource groups. 
   1. Resource Group **ODL_ecn-xxxxx-01** having LABVM. User will not deply anything in this RG.
-  2. In task 1 of exercise 1 use existing RG **ODL_ecn-xxxxx-02** instead of creating new RG to deploy virtual network **WGVNet1**.
-    > **Make sure to deploy all Resources in RG location** Ex: If resource group is in **West US** then deploy virtual network in West US only. 
-  3. In task 1 of exercise 1 use existing RG **ODL_ecn-xxxxx-03** instead of creating new RG to deploy virtual network **WGVNet2**.
-  4. 
+  2. In Task 1 of Exercise 1 use existing RG **ODL_ecn-xxxxx-02** instead of creating new RG to deploy virtual network **WGVNet1**.
+    > **Make sure to deploy all Resources in RG location** Ex: If resource group is in **West US** then deploy **virtual network in West US** only. 
+  3. In Task 1 of Exercise 1 use existing RG **ODL_ecn-xxxxx-03** instead of creating new RG to deploy virtual network **WGVNet2**.
+  4. In Task 1 of Exercise 4 use existing RG **ODL_ecn-xxxxx-04** instead of creating new RG to deploy template **n-tier application**
+    > Change template parameters:
+    > existingVirtualNetworkName: **WGVNet2**
+    > existingVirtualNetworkResourceGroup: **ODL_ecn-xxxxx-03** ,here change **XXxXX** with your unique ID.
 * Users should **use** the **Azure Credentials** given to them to login to **Visual Studio**
 
 # Help and Support
