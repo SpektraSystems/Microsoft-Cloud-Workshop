@@ -25,8 +25,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 * Users can select **LABVM** and click on **Connect** to download the RDP file
 * Open the RDP file to connect to the LABVM. Provide the credentials you received to login to the VM
 * Once you login to the LABVM, server manager will open. Select Local Server and verify that IE Enhanced Security Configuration has also been turned off
-* Now go to C:\HOL directory and verify the student files are there
-* Also verify that SQL Server Express 2017 as well as SQL Server Management Studio is installed 
+* Now go to C:\ECN-Hackathon directory and verify the student files are there 
 
 ## Verify Azure Access
 
