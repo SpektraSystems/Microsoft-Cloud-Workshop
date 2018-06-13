@@ -16,6 +16,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 # Verify the pre-provisioned Environment
 
 * Users can use the **Azure Credentials** given to them to login to the Azure Portal
+* Verify seven resource groups with added suffix -01 to -07. Ex: **ODL_ecn-xxxx-01, ODL_ecn-xxxx-02 .... ODL_ecn-xxxx-07**
 * Resource Group **ODL_ecn-XXXXX-01** will be already created in the Users Azure Environment with the LABVM deployed in it.
 * **LABVM** has been configured with the following:
   1. IE Enhanced Security has been disabled
@@ -47,6 +48,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
 
 # Notes to Instructors / Proctors
+* As users doesn't have permissions to create new **resource group**. They should choose existing resource groups. 
 * Users should **use** the **Azure Credentials** given to them to login to **Visual Studio**
 
 # Help and Support
