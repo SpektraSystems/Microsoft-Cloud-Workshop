@@ -54,8 +54,10 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
   3. In Task 1 of Exercise 1 use existing RG **ODL_ecn-xxxxx-03** instead of creating new RG to deploy virtual network **WGVNet2**.
   4. In Task 1 of Exercise 4 use existing RG **ODL_ecn-xxxxx-04** instead of creating new RG to deploy template **n-tier application**
     > Change template parameters:
+    
     > existingVirtualNetworkName: **WGVNet2**
-    > existingVirtualNetworkResourceGroup: **ODL_ecn-xxxxx-03** ,here change **XXxXX** with your unique ID.
+    
+    > existingVirtualNetworkResourceGroup: **ODL_ecn-xxxxx-03** ,here change **xxxxx** with particular user unique ID.
 * Users should **use** the **Azure Credentials** given to them to login to **Visual Studio**
 
 # Help and Support
