@@ -33,10 +33,10 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
  
 3. Note that you have access to four resource groups – **ODL_azure-security-xxxxx-01** - to - **ODL_azure-security-xxxxx-04**.    Resource group **ODL_azure-security-xxxxx-01 has the pre-deployed environment. Users need to deploy other resources in other RGs during the lab.
 
-4. Navigate to the resource group **ODL_iaas-arch-xxxxx-01** and view the already existing resources such as **LABVM** Virtual Machine,         Vnet etc
+4. Navigate to the resource group **ODL_azure-security-xxxxx-01** and view the already existing resources such as **LABVM** Virtual Machine, Vnet etc.
 
 5. Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
-   Now check if exercise files for the hands-on lab are already downloaded in C:\HOL
+   Now check if exercise files for the hands-on lab are already downloaded in **C:\HOL**
 
 
 
@@ -61,7 +61,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 **Resolution**
 Please follow the instructions under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md  
 
-* In **Exercise-4** **Task 1** after **Step 21** Users should follow below steps to proceed:
+* In **Exercise-4**, **Task 1** after **Step no. 21** users should follow below steps to proceed:-
 
 * **Step 22.** Click on **Open in MIcrosoft Azure Portal** 
 
