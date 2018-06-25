@@ -35,7 +35,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 4. Navigate to the resource group **ODL_iaas-arch-xxxxx-01** and view the already existing resources such as **LABVM** Virtual Machine,         Vnet etc
 
-5.Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
+5. Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
    Now check if exercise files for the hands-on lab are already downloaded in C:\HOL
 
 
