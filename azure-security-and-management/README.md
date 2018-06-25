@@ -61,13 +61,11 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 **Resolution**
 Please follow the instructions under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md  
 
-* In **Exercise-2** **Task 2** While creating **Windows Server 2016 DataCenter VMs**, you may not see the option for **Enable Backup** so you can configure **Backup** after the deployment of VMs. In this case deploy the all four VMs first and then configure the Backup.
+* In **Exercise-4** **Task 1** after **Step 21** please follow below steps to proceed:
 
- Please follow these steps to configure **Backup** :
+* **Step 22.** Click on **Open in MIcrosoft Azure Portal** 
 
-* **Step 1.** Click on **Virtual Machines** 
-
-  ![](images/VirtualMachines1.png)
+  ![](images/microsoftazure1.png)
 
 * **Step 2.**  Select **LitwareDC01** VM which is created by you.
 
@@ -97,8 +95,7 @@ Please follow the instructions under https://github.com/SpektraSystems/Microsoft
 
 
 # Notes to Instructors / Proctors
-
-* Please use the **same VM size** as per mentioned in **Lab guide**, not go for other sizes as policy is applied so the deployment of    the VMs with other sizes will be fail. 
+ 
 
 * For Exercise 1, Task 1 and 2 users should use the **ODL_iaas-arch-xxxxx-03** resource group.
 
