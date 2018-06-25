@@ -61,36 +61,25 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 **Resolution**
 Please follow the instructions under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md  
 
-* In **Exercise-4** **Task 1** after **Step 21** please follow below steps to proceed:
+* In **Exercise-4** **Task 1** after **Step 21** Users should follow below steps to proceed:
 
 * **Step 22.** Click on **Open in MIcrosoft Azure Portal** 
 
   ![](images/microsoftazure1.png)
 
-* **Step 2.**  Select **LitwareDC01** VM which is created by you.
+* **Step 23.**  Click on **Application map** under Investigate menu.
 
-  ![](images/LitwareDC2.png)
+  ![](images/image2.png)
 
-* **Step 3.** Click on **Backup** under Operations menu.
+* **Step 23.** You can now see application map as shown in following image:
 
-  ![](images/BackupDC3.png)
+  ![](images/image3.png)
 
-* **Step 4.** Click on create new RecoveryServiceVault enter name **LitwareBackupVault** and Select Existing RG **ODL_iaas-arch-xxxxx-05** and then click on **Enable backup**.
+* **Step 24.** Close the Application map pane, then Click on the Alerts in the Configure section.
 
- <kbd>![](images/Finalbackup4.png)</kbd>
+ <kbd>![](images/image4.png)</kbd>
 
-* > **Repeat same Steps from  2 to 4** for **LitwareDC02** VM and select existing RecoveryServiceVault **LitwareBackupVault**.
-
- ![](images/finalbackupDC02.png)
-
-* > **Repeat same Steps from  2 to 4** for **LitwareDC03**, now Create new RecoveryServiceVault enter name **LitwareBackupVault2** and Select existing RG **ODL_iaas-arch-xxxxx-07**.
- 
- ![](images/finalbackupDC03.png)
- 
-* > **Also repeat same Steps from  2 to 4** for **LitwareDC04** and select existing RecoveryServiceVault  **LitwareBackupVault2**.
-
- ![](images/FinalbackupDC04.png)
-
+* **Now you can proceed with step 4 as per lab guide.**
 
 
 
