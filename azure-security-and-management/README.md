@@ -79,32 +79,20 @@ Please follow the instructions under https://github.com/SpektraSystems/Microsoft
 
  <kbd>![](images/image4.png)</kbd>
 
-* **Now you can proceed with step 4 as per lab guide.**
+* **Now you can continue with step no. **4** as per lab guide.**
 
 
 
 # Notes to Instructors / Proctors
  
 
-* For Exercise 1, Task 1 and 2 users should use the **ODL_iaas-arch-xxxxx-03** resource group.
+* For Exercise 1, users should use the **ODL_azure-security-xxxxx-02** resource group.
 
-* For Exercise 2, Task 1, Step 1 users should navigate the **ODL_iaas-arch-xxxxx-02** resource group and use the already deployed         resources like ADVM. 
+* For Exercise 2 and 3, users should use the **ODL_azure-security-xxxxx-03** resource group.
 
-* For Exercise 2, Task 1 users should use the **ODL_iaas-arch-xxxxx-04** resource group for creating first and second VM, ***Note***:-  **Location should be same for the VM as per the location of LitwareVNET**.
+* For Exercise 4, Task 1, Step 7 users should use the **ODL_azure-security-xxxxx-04** resource group.
 
-* For Exercise 2, Task 2 users should use the **ODL_iaas-arch-xxxxx-06** resource group creating third and fourth VM. ***Note*** :-**Location should be same the VM as per the location of LitwareVNET2**.
-
-* For configure **Backup** users should use **ODL_iaas-arch-xxxxx-05** and **ODL_iaas-arch-xxxxx-07** Resource groups and for more  details please go through **Known Issues**.
-
-* For Exercise 3, Task 1 users should use **ODL_iaas-arch-xxxxx-08** Resource group for deploy the template. ***Note***:-Use **ODL_iaas-arch-xxxxx-02** for Existing Virtual Network LitwareVNET.
-
-* For Exercise 3, Task 2, Step 5 and 6 user should replace the resource group name **LitwareCloudshopRG** with **ODL_iaas-arch-xxxxx-08** and also Replace **SQLAVSet** with **SQLAvSet**.
-
-* For Exercise 3, Task 3 user should use again **ODL_iaas-arch-xxxxx-08** resource group for deploy the template and use **ODL_iaas-arch-xxxxx-02** for the exixting Virtual Network LitwareVNET.
-
-* For Exercise 4, Task 1 user should replace the Resource group name **LitwareCloudShopRG** with **ODL_iaas-arch-xxxxx-08**.
-
-* For Exercise 5, Task 1 user should navigate the **ODL_iaas-arch-xxxxx-08** resource group.
+* For Exercise 5, Task 3, Step 3 users should use the **ODL_azure-security-xxxxx-03** resource group.
 
 # Help and Support
 
