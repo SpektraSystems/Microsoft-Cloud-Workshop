@@ -75,7 +75,7 @@ Please follow the instructions under https://github.com/SpektraSystems/Microsoft
 
   ![](images/image3.png)
 
-* **Step 24.** Close the Application map pane, then Click on the Alerts in the Configure section.
+* **Step 24.** Close the Application map pane, then Click on the **Alerts (classic)** in the Configure section.
 
  <kbd>![](images/image4.png)</kbd>
 
