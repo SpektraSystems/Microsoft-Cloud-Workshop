@@ -31,15 +31,12 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
  
-3. Note that you have access to eight resource groups – **ODL_azure-security-xxxxx-01** - to - **ODL_azure-security-xxxxx-08**.   **ODL_azure-security-xxxxx-01, ODL_azure-security-xxxxx-02** resource groups has the pre-deployed environment. User need to deploy other resources in other RGs during the lab.
+3. Note that you have access to four resource groups – **ODL_azure-security-xxxxx-01** - to - **ODL_azure-security-xxxxx-04**.    Resource group **ODL_azure-security-xxxxx-01 has the pre-deployed environment. Users need to deploy other resources in other RGs during the lab.
 
-4. Navigate to the resource group **ODL_iaas-arch-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine,         Disk, etc
+4. Navigate to the resource group **ODL_iaas-arch-xxxxx-01** and view the already existing resources such as **LABVM** Virtual Machine,         Vnet etc
 
 5.Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
    Now check if exercise files for the hands-on lab are already downloaded in C:\HOL
-
-6.Navigate to the resource group **ODL_iaas-arch-xxxxx-02** and view the already existing resources such as ADVM and CloudshopSQL,        CloudshopWeb Virtual Machines, Disk and LitwareVNET, etc.
-
 
 
 
@@ -53,7 +50,7 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft.FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials.
 
-> Note: LAB VM is provisioned in the resource group **ODL_iaas-arch-xxxxx-01**. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
+> Note: LAB VM is provisioned in the resource group **ODL_azure-security-xxxxx-01**. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
 
 
 # Known Issues
@@ -62,7 +59,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 * With the release of the March 2018 Security bulletin, there was a fix that addressed a CredSSP, “Remote Code Execution” vulnerability (CVE-2018-0886) which could impact RDP connections. 
 **Resolution**
-Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md  
+Please follow the instructions under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md  
 
 * In **Exercise-2** **Task 2** While creating **Windows Server 2016 DataCenter VMs**, you may not see the option for **Enable Backup** so you can configure **Backup** after the deployment of VMs. In this case deploy the all four VMs first and then configure the Backup.
 
