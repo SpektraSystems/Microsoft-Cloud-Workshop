@@ -71,7 +71,7 @@ Please follow the instructions under https://github.com/SpektraSystems/Microsoft
 
   ![](images/image2.png)
 
-* **Step 23.** You can now see application map as shown in following image:
+* **Step 23.** You can now see application map pane as shown in following image:
 
   ![](images/image3.png)
 
