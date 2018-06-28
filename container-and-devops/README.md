@@ -107,9 +107,10 @@ ssh -L 8001:127.0.0.1:8001 labuser@[linuxVmDnsName]
 
 # Known Issues
 
-* Some instance can have problem with RDP, such users can sign up again and get a new instance.
+* Some instance can have problem with RDP, such users can sign up again and get a new instance or they can go to the Azure portal and restart the VM.
 * Users should do the entire lab either by RDP and executing from the terminal inside the linux VM or by
 connecting to the linux agent using SSH Client.
+* If any user who is using RDP and is getting stuck at aks browse with browser not loading, they should go to the Azure portal and restart the VM and then connect again and execute the az aks browse command to access kubernetes console
 * If the user is connecting to the linux using an SSH Client, he should have configured tunneling to the local machine, else the user won't be able to accept the Kubernetes Management portal on Local Machine
 
 # Notes to Instructors / Proctors
