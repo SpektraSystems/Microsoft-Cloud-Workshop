@@ -40,12 +40,25 @@ You are provided a **Visual Studio 2017 Community edition** with additional soft
 
 # Known Issues
 
+### Download Starter Project
+(Exercise 1 > Task 1 > Step 1)
+>  **Possible Solutions**:
+
+* On your Lab VM, download the starter project from here: https://github.com/Microsoft/MCW-Microservices-architecture/blob/master/Hands-on%20lab/ContosoEventsPoC-Dev-June2018Update.zip?raw=true 
+
 ### Powershell option is not available in the Queue Trigger box
 (Exercise 3 > Task 5 > Step 29)
 > **Possible Solutions**:
 
  * Before going to Step 29, attendees should perform the following step.
    * In the top-right corner of the **Choose a Template** page, **Enable** the **Experimental Language Support**.
+   
+### ContosoEventsapp Unavailable
+(Exercise 3 > Task 1 > Step 10)
+> **Possible Solutions**:
+ 
+ * Users should change the Project version for contosoeventsapp **2.1** to **1.4**. 
+   
    
  ### Debug the contosoEvents.web
  (Exercise 6 > TASK 2)
