@@ -62,16 +62,17 @@ While doing **Before the Hands-on-lab** section, follow the below steps.
 **Resolution**
 Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
 
-**For Task 8** Please follow below steps to assign owner to the workspace.
+# For Task 8 Please follow below steps to assign owner to the workspace.
  
  **Step 1**. Open **Machine Learning Experimentation** account which is pre- created.
-   <kbd>![](images/expacnt1.png)</kbd>
+   <kbd>![](Images/expacnt1.png)</kbd>
  
  **Step 2** Click on **Add Workspace** under Application Settings.
-   <kbd>![](images/addwork2.png)</kbd>
+   
+   <kbd>![](Images/addwork2.png)</kbd>
   
  **Step 3** Enter the **workspace name**, **assign owner** to workspace and click on **Create workspace**.
-   <kbd>![](images/owner3.png)</kbd>
+   <kbd>![](Images/owner3.png)</kbd>
 
 # After the hands-on lab 
 Duration: 10 minutes</br></br>
