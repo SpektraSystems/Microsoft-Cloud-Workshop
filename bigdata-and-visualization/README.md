@@ -65,14 +65,13 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 **For Task 8** Please follow below steps to assign owner to the workspace.
  
  **Step 1**. Open **Machine Learning Experimentation** account which is pre- created.
-
-  ![](images/VirtualMachines1.png)
+   <kbd>![](images/expacnt1.png)</kbd>
  
  **Step 2** Click on **Add Workspace** under Application Settings.
-  ![](images/VirtualMachines1.png)
+   <kbd>![](images/addwork2.png)</kbd>
   
  **Step 3** Enter the **workspace name**, **assign owner** to workspace and click on **Create workspace**.
-   [](images/VirtualMachines1.png)
+   <kbd>![](images/owner3.png)</kbd>
 
 # After the hands-on lab 
 Duration: 10 minutes</br></br>
