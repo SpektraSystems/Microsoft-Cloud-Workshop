@@ -20,7 +20,7 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 > Note: You might have an existing Azure Credential. For the pre-provisioned environment, new Microsoft Azure environment is provisioned and new AAD user is created for you. To prevent conflict with your existing accounts, it is advised to use In Private mode of IE / IE Edge or Incognito mode of Chrome browser.
 
-Also verify two resource groups **ODL_serverless-architecture-XXXXX-01** and **ODL_serverless-architecture-XXXXX-02** will be already created. In resource group **ODL_serverless-architecture-XXXXX-01** you will get Azure Environment with the LABVM deployed in it
+Also verify two resource groups **ODL_serverless-architecture-XXXXX-01** and **ODL_serverless-architecture-XXXXX-02** already created. In resource group **ODL_serverless-architecture-XXXXX-01** you will get Azure Environment with the LABVM deployed in it
 
 ## Verify Virtual Machine
 
