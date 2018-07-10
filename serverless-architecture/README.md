@@ -33,8 +33,10 @@ You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketpl
 While doing **Before the Hands-on-lab** section, follow the below steps.
 1. You can skip **Task 1** in **Before the Hands-on-lab** section, since it is pre-created. You can use the pre-created resources during the lab.
 2. You should perform **Task 2**. In this task, you will **Disable IE Enhanced Security**
-3. You should perform **Task 3, Task 4 and Task 5**.
-4. You can skip **Task 6**, since the required resource groups are pre-created. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
+3. You can skip **Task 3**, since chrome is pre-installed.
+4. Go to the Virtual machine RDP session and complete **Task 4**.
+5. In **Task 5**, you can skip first two steps and complete the remaining.
+6. You can skip **Task 6**, since the required resource groups are pre-created. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
 # Known Issues
 
 ### Not showing Telemetry data in sample Telemetry under App Insight, Lab guide page number: 55 and further steps of App Insight.
