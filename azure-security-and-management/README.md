@@ -61,27 +61,6 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 **Resolution**
 Please follow the instructions under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md  
 
-* In **Exercise-4**, **Task 1** after **Step no. 21** users should follow below steps to proceed:-
-
-* **Step 22.** Click on **Open in MIcrosoft Azure Portal** 
-
-  ![](images/microsoftazure1.png)
-
-* **Step 23.**  Click on **Application map** under Investigate menu.
-
-  ![](images/image2.png)
-
-* **Step 23.** You can now see application map pane as shown in following image:
-
-  ![](images/image3.png)
-
-* **Step 24.** Close the Application map pane, then Click on the **Alerts (classic)** in the Configure section.
-
- <kbd>![](images/image4.png)</kbd>
-
-* **Now you can continue with step no. **4** as per lab guide.**
-
-
 
 # Notes to Instructors / Proctors
  
