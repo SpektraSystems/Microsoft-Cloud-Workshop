@@ -16,8 +16,8 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 # Verify the pre-provisioned Environment
 
 * Users can use the **Azure Credentials** given to them to login to the Azure Portal
-* Verify seven resource groups with added suffix -01 to -07. Ex: **ODL_ecn-xxxxx-01, ODL_ecn-xxxxx-02 ............................ ODL_ecn-xxxxx-07**. Here **xxxxx** is unique ID for users.
-* Resource Group **ODL_ecn-XXXXX-01** will be already created in the Users Azure Environment with the LABVM deployed in it.
+* Verify seven resource groups.
+* Resource Group **ODL_ecn-29907-LabVMRG** will be already created in the users Azure Environment with the LABVM deployed in it.
 * **LABVM** has been configured with the following:
   1. IE Enhanced Security has been disabled
   2. Support files are downloaded into the directory C:\ECN-Hackathon
@@ -25,7 +25,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 * Users can select **LABVM** and click on **Connect** to download the RDP file
 * Open the RDP file to connect to the LABVM. Provide the credentials you received to login to the VM
 * Once you login to the LABVM, server manager will open. Select Local Server and verify that IE Enhanced Security Configuration has also been turned off
-* Now go to C:\ECN-Hackathon directory and verify the student files are there 
+* Now, go to C:\ECN-Hackathon directory and verify the student files are there 
 
 ## Verify Azure Access
 
@@ -47,24 +47,23 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
 
 # Notes to Instructors / Proctors
-* As users doesn't have permissions to create new **resource group**. They should choose existing resource groups. 
-  1. Resource Group **ODL_ecn-xxxxx-01** having LABVM. User will not deply anything in this RG.
-  2. In Task 1 of Exercise 1 use existing RG **ODL_ecn-xxxxx-02** instead of creating new RG to deploy virtual network **WGVNet1**.
-     * Make sure to deploy all Resources in RG location Ex: If resource group is in **West US** then deploy **virtual network in West US** only. 
-  3. In Task 1 of Exercise 1 use existing RG **ODL_ecn-xxxxx-03** instead of creating new RG to deploy virtual network **WGVNet2**.
-     * Make sure to deploy all Resources in RG location Ex: If resource group is in **West US** then deploy **virtual network in West US** only. 
-  4. In Task 1 of Exercise 4 use existing RG **ODL_ecn-xxxxx-04** instead of creating new RG to deploy template **n-tier application**
-     * Edit following template parameters values:    
-     * existingVirtualNetworkName: **WGVNet2**    
-     * existingVirtualNetworkResourceGroup: **ODL_ecn-xxxxx-03** ,here change **xxxxx** with particular user unique ID.
-  5. In Task 1 of Exercise 5 use existing RG **ODL_ecn-xxxxx-05** instead of creating new RG to deploy management VM Windows Server 2016 Datacenter. Use **Standard F1S** size for virtual machine inthis step.
-  6. In Task 1 of Exercise 7 use existing RG **ODL_ecn-xxxxx-06** instead of creating new RG to deploy cloudgen firewall for azure BYOL (VM)
-  7. In Task 1 of Exercise 9 use existing RG **ODL_ecn-xxxxx-07** instead of creating new RG to deploy **on-prem virtual network**
-     * Deploy On-prem Virtual Network in **East US** region.
+* Resource Group **ODL-enc-29907-LabVMRG** having LABVM. User will not deply anything in this resource group. **29907** is unique for each user and will very for each user.
+* As users doesn't have permissions to create new **resource group**. They should choose existing resource groups as all the resouce groups have already created.
+* Each resource group have prefix **ODL_ecn-29907-**, 
+* **Ex:** In Task 1 of Exercise 1, choose existing RG **ODL-enc-29907-WGVNetRG1** instead of creating new RG to deploy virtual network **WGVNet1**. Use similar for other RGs.
+  - Make sure to deploy all Resources in RG location Ex: If resource group is in **West US** then deploy **virtual network in West US** only. 
+* In Task 1 of Exercise 2, use existing RG **ODL-enc-29907-WGVNetRG2** instead of creating new RG to deploy virtual network **WGVNet2**.
+  - Make sure to deploy all Resources in RG location Ex: If resource group is in **West US** then deploy **virtual network in West US** only. 
+* In Task 1 of Exercise 4, use existing RG **ODL_ecn-29907-WGVMRGTMT** instead of creating new RG to deploy template **n-tier application**
+  * Edit following template parameters values:    
+  * existingVirtualNetworkName: **WGVNet2**    
+  * existingVirtualNetworkResourceGroup: **ODL_ecn-29907-WGVNetRG2**, **29907** will very with each user.
+* In Task 1 of Exercise 5, choose existing RG **ODL_ecn-29907-WGMGMTRG** instead of creating new RG to deploy management VM Windows Server 2016 Datacenter. Use **Standard F1S** size for virtual machine inthis step.
+* In Task 1 of Exercise 7, choose existing RG **ODL_ecn-29907-baracudafw** instead of creating new RG to deploy cloudgen firewall for azure BYOL (VM)
+* In Task 1 of Exercise 9, choose existing RG **ODL_ecn-29907-OnPremVNet** instead of creating new RG to deploy **on-prem virtual network**
+  * Deploy On-prem Virtual Network in **different region** region istead of  using RG location.
 * Users should **use** the **Azure Credentials** given to them to login to **Visual Studio**
 
 # Help and Support
 
 If you require any help during the workshop, please reach out to the instructor / proctors. Instructors / proctors might escalate the issue to remote support team, at that time, please pass on your **AAD User ID** (aad_user_xyz), so that it is easier to look up your environment.
-
-
