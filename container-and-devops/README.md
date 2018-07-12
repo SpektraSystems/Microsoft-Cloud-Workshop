@@ -34,14 +34,14 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
   2. Azure Container Registry
   3. Azure Kubernetes Service with the following name "**fabmedical-xxxx**"
   
-* Build Agent Linux VM has been configured with the following:
+  Build Agent Linux VM has been configured with the following:
   1. Packages are updated and Docker engine is installed
   2. Installed MongoDB Clients, Azure CLI 2.0, Kubernetes CLI, Bower, NodeJs 
   
 * Verify that following resources are predeployed in the resource group **ODL-devops-containers-XXXXX-02**:
   1. Windows Jump VM "**LABVM**"and associated resources such as NSG, VNET, Public IP, etc
   
-* Windows Jump VM has been configured with the following:
+  Windows Jump VM has been configured with the following:
   1. Visual Studio Code 
   2. Git Bash
   3. Putty
