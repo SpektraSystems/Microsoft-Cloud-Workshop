@@ -140,6 +140,7 @@ connecting to the linux agent using SSH Client from the Windows Jump VM.
 curl -L -o FabMedical.tgz https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/FabMedical.tar.gz?raw=true
 
 * Use **ODL-devops-containers-XXXXX-01** for deploying any resources to Azure
+* For [Exercise 1 -> Task 7](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps.md#task-7-push-images-to-azure-container-registry) -> Step 13,  you can use the Service Principal details provided in the Lab Details Page
 
 
 # Notes to Instructors / Proctors
