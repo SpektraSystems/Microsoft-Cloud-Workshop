@@ -1,9 +1,9 @@
 # Introduction
 
-In the Container and DevOps workshop, attendees will deploy Azure Container Service through scale, load balancing, and service discovery. 
+In the Container and DevOps workshop, attendees will deploy Azure Kubernetes Service through scale, load balancing, and service discovery. 
 In addition, 
 * Create & run a Docker Application
-* Deploy to the Azure Container Service
+* Deploy to the Azure Kubernetes Service
 * Scale the application and test availability
 
 # Sign-up for Workshop Environment
@@ -23,17 +23,29 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 * Open a browser instance in InPrivate / incognito mode and navigate to https://portal.azure.com 
 * Login to the portal using Azure Credentials issued for your environment.  
 * Once you are logged in to the portal, navigate to Resource Groups. 
-* Note that you have access to one resource group  
+* Note that you have access to two resource groups:
+  1. **ODL-devops-containers-XXXXX-01** contains Build Agent VM
+   [Note: For all tasks which involve deployment, use **ODL-devops-containers-XXXXX-01** ]
+  2. **ODL-devops-containers-XXXXX-02** contains Windows Jump VM
+  
 * Navigate to the resource group and view the already existing resources such as Container Service, build agent Linux VM, etc.
-* Verify that following resources are predeployed in the resource group:
-  1. Build Agent Linux VM
+* Verify that following resources are predeployed in the resource group **ODL-devops-containers-XXXXX-01**:
+  1. Build Agent Linux VM "**fabmedicalagent**"and associated resources such as NSG, VNET, Public IP, etc
   2. Azure Container Registry
-  3. Azure Container Service
+  3. Azure Kubernetes Service with the following name "**fabmedical-xxxx**"
+  
 * Build Agent Linux VM has been configured with the following:
   1. Packages are updated and Docker engine is installed
-  2. Azure CLI 2.0
-  3. Kubernetes CLI
-  4. FabMedical files are downloaded into the User's home directory
+  2. Installed MongoDB Clients, Azure CLI 2.0, Kubernetes CLI, Bower, NodeJs 
+  
+* Verify that following resources are predeployed in the resource group **ODL-devops-containers-XXXXX-02**:
+  1. Windows Jump VM "**LABVM**"and associated resources such as NSG, VNET, Public IP, etc
+  
+* Windows Jump VM has been configured with the following:
+  1. Visual Studio Code 
+  2. Git Bash
+  3. Putty
+ 
 
 ## Verify Azure Access
 
@@ -43,91 +55,103 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 ## Verify Virtual Machine
 
-Build Agent Linux VM (Ubuntu Server 16.04 from Canonical) is pre-provisioned with additional tools configured as well as RDP enabled.
-Users can verify that the VM is installed with Azure CLI 2.0, Kubernetes CLI by executing the following commands:
+1. **Windows JumpVM** 
+  OS: Visual Studio CE 2017 on Windows Server 2016
+  You can RDP into this VM using the credentials and FQDN provided in the Lab details page.
+  Verify that Git Bash and Putty is there in the Desktop, and Visual Studio Code is installed.
+
+2. **Build Agent Linux VM** (Ubuntu Server 16.04 from Canonical) is pre-provisioned with additional tools configured as well as RDP enabled.
+You can verify that the VM is installed with Azure CLI 2.0, Kubernetes CLI by executing the following commands:
 * az --version
 * kubectl 
 
-Also verify that the user is able to RDP into the virtual machine as well as FabMedical directory is there in the users home directory
-FQDN of the virtual machine and administrator credentials are provided in the lab details page.
+  Also verify that you can RDP into the virtual machine if you wants to directly RDP to the Linux VM
+  FQDN of the virtual machine and administrator credentials are provided in the lab details page.
+ 
 
 # Connect to Build Agent Linux VM
 
-* **Users can connect to the Linux VM using SSH Client or RDP client and execute the commands from either SSH Client or Terminal inside Linux VM**
-* For SSH, If you are using a Windows machine, you would need a SSH client for connecting to a Linux Virtual Machine. Putty is the most widely used SSH client for windows. If you are using Mac or Linux based machines, you can use the bash terminal.
-* If the user is accessing the Linux VM via putty, he will need to enable tunnelling to the local machine.
+* **You can connect to the build agent Linux VM using:**
+  1. SSH Client in the Windows Jump VM
+  
+     Putty and Git Bash is already installed in the Windows Jump VM
+  2. RDP Client on your local machine
 
-**Using SSH Client from your local machine:** 
 
-If the user is using Windows local machine and putty to login to the Linux VM, go to step 1.  
-Else If the user is using a Linux terminal or Mac bash terminal or Git Client for Windows, go to step 13 
-
- **Using RDP Client from your local machine:**
+1. **Using SSH Client from the Windows Jump VM** 
  
-Start with step 15
+   * **If you are using Git Bash**
+  
+    1. Use the following command to SSH into the build agent VM
+    
+       ssh -L 8001:127.0.0.1:8001 labuser@[linuxVmDnsName]
 
-1.	Now Download a SSH Client from here, if you don’t already have one. http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+   * **If you are using Putty to connect** 
 
-2.	Now run putty.exe from the users PC.
+    1.	Login into the Windows Jump and open putty.exe from the Desktop.
 
-3.	An application window pops up when user run putty.exe.
+    2.	An application window pops up when user run putty.exe.
 
-4.	Enter the linuxVMDnsName of the VM to the Host Name (or IP address) box of the putty. Port will be 22 by default.
+    3.	Enter the linuxVMDnsName of the VM to the Host Name (or IP address) box of the putty. Port will be 22 by default.
 
-5.	Go to the Tunnels section in PuTTY, 
+    4.	Go to the Tunnels section in PuTTY, 
  
-6.	Now, user will configure a specific Local port 8001, that will redirect to 8001 of the build agent Linux VM. 
+    5.	Now, user will configure a specific Local port 8001, that will redirect to 8001 of the build agent Linux VM. 
 
-7.	Provide the following details and click on Add:
-   Source Port: 8001
-   Destination: 127.0.0.1:8001
-Then Click on Open.
+    6.	Provide the following details and click on Add:
+       Source Port: 8001
+       Destination: 127.0.0.1:8001
+       Then Click on Open.
  
-8.	Now a new terminal will pop and user will be connected to the build agent virtual machine.
+    7.	Now a new terminal will pop and user will be connected to the build agent virtual machine.
 
-9.	The PuTTY Security Alert will pop up. Click on Yes.
+    8.	The PuTTY Security Alert will pop up. Click on Yes.
 
-10.	Login using the adminUsername and adminPassword for the build agent Linux VM.
+    9.	Login using the adminUsername and adminPassword for the build agent Linux VM.
  
-11.	After entering the username and password user can start accessing the build agent Linux VM.
- 
-12.	Now skip to Exercise 1 Task 1 Step 1
+    10.	After entering the username and password user can start accessing the build agent Linux VM.
 
-13.	For Mac or Linux or git client( Windows), use the following command to SSH into the build agent VM
-ssh -L 8001:127.0.0.1:8001 labuser@[linuxVmDnsName]
 
-14.	Now, skip to Exercise 1 Task 1 Step 1
 
-15.	Login in to the Linux VM using environment credentials you received.
+ 2. **Using RDP Client on your local machine:**
+
+    1.	Using the RDP Client, Login in to the Linux VM using environment credentials you received.
  
-16.	Once you are in the home screen, Click on Terminal Emulator at the bottom screen
+    2.	Once you are in the home screen, Click on Terminal Emulator at the bottom screen
  
-17.	Now terminal window will pop up and you can continue to Exercise 1 Task 1 Step 1
+    3.	Now terminal window will pop up and you can continue to Exercise 1 Task 1 Step 1
 
 
 # Known Issues
 
+* If the Kubernetes dashboard becomes unresponsive in the browser this is an indication to return here and check your tunnel or rerun the command "**aks browse...**"
 * Some instance can have problem with RDP, such users can sign up again and get a new instance or they can go to the Azure portal and restart the VM.
 * Users should do the entire lab either by RDP and executing from the terminal inside the linux VM or by
-connecting to the linux agent using SSH Client.
-* If any user who is using RDP and is getting stuck at aks browse with browser not loading, they should go to the Azure portal and restart the VM and then connect again and execute the az aks browse command to access kubernetes console
+connecting to the linux agent using SSH Client from the Windows Jump VM.
+* If any user who is using RDP and is getting stuck at aks browse with browser not loading, they should go to the Azure portal and restart the Linux VM and then connect again and execute the az aks browse command to access kubernetes console
 * If the user is connecting to the linux using an SSH Client, he should have configured tunneling to the local machine, else the user won't be able to accept the Kubernetes Management portal on Local Machine
+
+# Notes to Attendees
+
+* Start with [Task 13](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files) from Windows Jump VM before starting with the actual exercises
+* Use Git Bash for completing [Task 13](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files)
+* Execute the following command instead of Task 13 Step 1 in Before Hands on Lab part:
+
+curl -L -o FabMedical.tgz https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/FabMedical.tar.gz?raw=true
+
 
 # Notes to Instructors / Proctors
 
-* All the tasks in Before Hands on Lab section is pre deployed and given to the user except Windows 10 Development VM
-* Windows Jump VM is not needed anymore to complete this workshop
-* RDP is enabled on build agent linux VM. Users can access this VM and complete the workshop
-* **Users can connect to the Linux VM using SSH Client or RDP client and execute the commands from either SSH Client or Terminal inside Linux VM** as mentioned in  [Connect to Build Agent Linux VM](https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/container-and-devops/README.md#connect-to-build-agent-linux-vm) section
-
-
-The FabMedical Starter files are already downloaded in the VM at users home directory.
-To avoid any issues while trying to copy from the document, kubernetes-web.yaml file is already added into the users home directory.
+* Tasks till Task 12 in Before Hands on Lab section has been pre-configured for the users
+* [Task 13](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files) needs to be completed by the attendee from the Windows Jump VM
+* Attendees need to use Git Bash instead of WSL in Windows Jump VM to complete Before Hands on Lab Task 13
+* Attendees need to execute the following command instead of Task 13 Step 1:
+  
+ curl -L -o FabMedical.tgz https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/FabMedical.tar.gz?raw=true
+ 
+* **Users can connect to the Linux VM using SSH Client or RDP client** and execute the commands from either SSH Client or Terminal inside Linux VM as mentioned in  [Connect to Build Agent Linux VM](https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/container-and-devops/README.md#connect-to-build-agent-linux-vm) section
 
 
 # Help and Support
 
 If you require any help during the workshop, please reach out to the instructor / proctors. Instructors / proctors might escalate the issue to remote support team, at that time, please pass on your AAD User ID (aad_user_xyz), so that it is easier to look up your environment.
-
-
-
