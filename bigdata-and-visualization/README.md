@@ -47,7 +47,7 @@ You are provided a [Data Science Virtual Machine - Windows 2016](https://azurema
 While doing **Before the Hands-on-lab** section, follow the below steps.
 1. You need not to execute **Task 1** in **Before the Hands-on-lab** section, since it is pre-created. You can use the pre-created resources during the lab.
 2. You should perform **Task 2**. In this task, you will **register for a trial API account at WeatherUnderground.com**
-3. Don’t deploy **Azure Databricks** specified in **Task 3**, since it is pre-created.
+3. Deploy **Azure Databricks** specified in **Task 3**.
 4. Don’t install **PowerBi Desktop** specified in **Task 4**, since it’s preinstalled in DSVM.
 5. You should perform **Task 4 and Task 5** in which you will create a blob storage and retrieve **Azure Storage information** and **Create container**.
 6. Don’t deploy **Data Factory** specified in **Task 6**, since it is pre-created.
