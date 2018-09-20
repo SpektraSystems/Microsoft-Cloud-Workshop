@@ -16,14 +16,14 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 ## Verify Azure Access
 
-Open a browser instance in private or incognito mode and login to [Microsoft Azure Portal](https://portal.azure.com) using the credentials provided.In Azure portal you can navigate to the Resource groups to see the 3 pre-deployed Resource groups.
-* You should use the existing Resource groups during the lab.
-* Navigate to each Resource group and verify that all the pre-deployed resources are in **Resource group-01** and other two Resource groups are empty.
+Open a browser instance in private or incognito mode and login to [Microsoft Azure Portal](https://portal.azure.com) using the credentials provided.In Azure portal you can navigate to the Resource groups to see the 5 pre-deployed Resource groups.
+* You should use the **existing** Resource groups during the lab.
+* Navigate to each Resource group and verify that all the pre-deployed resources are in **Resource group-ODL-edw-34502-cohoOnPremEnvir** and other **four** Resource groups are empty. Here 34502 is unique ID of attendee and vary.
 
 > Note: You might have an existing Azure Credential. For the pre-provisioned environment, new Microsoft Azure environment is provisioned and new AAD user is created for you. To prevent conflict with your existing accounts, it is advised to use In Private mode of IE / IE Edge or Incognito mode of Chrome browser.
 
 ## Verify Virtual Machine
-You are provided a **Free License: SQL Server 2016 SP1 Developer on Windows Server 2016** with additional softwares configured. Administrator credentials of the virtual machine is provided in the lab details page. You can remote into the virutal machine using the provided credentials.
+You are provided a **Free License: SQL Server 2016 SP2 Developer on Windows Server 2016** with additional softwares configured. Administrator credentials of the virtual machine is provided in the lab details page. You can remote into the virutal machine using the provided credentials.
 
 
 > Note: VM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
