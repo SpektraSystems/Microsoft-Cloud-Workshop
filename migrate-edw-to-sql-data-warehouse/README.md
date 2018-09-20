@@ -44,7 +44,7 @@ You are provided a **Free License: SQL Server 2016 SP2 Developer on Windows Serv
 1. While creating **Logical SQL Server** specified in Task 1, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
 2. While creating **Data Factory** specified in Task 2, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDataFactory** from the drop down.
 3. While creating **SQL Data Warehouse** specified in Task 3, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
- > Note: Select **Gen1 100-DTU** under Performance level.
+ > Note: Select **Gen1 100-DTU** under Performance level while you create **SQL Data Warehouse.**
 4. While creating **Storage Account** specified in Task 4, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
 5. In **Task 5** you can skip the first four steps and you can use the same user details that you are logged in with while creating **Analysis Services**.
 6. While creating **Analysis Service** specified in Task 5, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
