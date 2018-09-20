@@ -41,14 +41,14 @@ You are provided a **Free License: SQL Server 2016 SP2 Developer on Windows Serv
 4. Follow **steps 7 to 9**  **in task 2**, you can find in **Before the HOL lab guide** here https://github.com/Microsoft/MCW-Migrate-EDW-to-Azure-SQL-Data-Warehouse/tree/master/Hands-on%20lab.
 5. Also you have to perform **Task 3** from **Before the HOL lab guide.** Deploy **cohoOLTP** database in existing **Resource group - ODL-edw-34502-cohoOLTP**, here 34502 is your unique id.
 #### While doing **Exercise 1**, follow the below mentioned steps.
-1. While creating **Logical SQL Server** specified in Task 1, you need to select **Use Existing** under **Resource group** option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
-2. While creating **Data Factory** specified in Task 2, you need to select **Use Existing** under **Resource group** option and select **Resource group - ODL-edw-34502-cohoDataFactory** from the drop down.
-3. While creating **SQL Data Warehouse** specified in Task 3, you need to select **Use Existing** under **Resource group** option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
+1. While creating **Logical SQL Server** specified in Task 1, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
+2. While creating **Data Factory** specified in Task 2, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDataFactory** from the drop down.
+3. While creating **SQL Data Warehouse** specified in Task 3, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
     >>>Also, select **Gen1 100-DTU** under Performance level.
-4. 3. While creating **Storage Account** specified in Task 4, you need to select **Use Existing** under **Resource group** option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
-5. In **Task 3** you can skip the first four steps and you can use the same user details that you are logged in with while creating **Analysis Services**.
-6. While creating **Analysis Service** specified in Task 3, you need to select **Use Existing** under **Resource group** option and select **Resource group - 03** from the drop down.
-7. In **Task 3, step 7**, ensure that your username is populated automatically corresponding to **Administrator** column.</br></br>
+4. While creating **Storage Account** specified in Task 4, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
+5. In **Task 5** you can skip the first four steps and you can use the same user details that you are logged in with while creating **Analysis Services**.
+6. While creating **Analysis Service** specified in Task 5, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
+7. In **Task 5, step 7**, ensure that your username is populated automatically corresponding to **Administrator** column.</br></br>
 # Known Issues
 ### Issue while installing Power BI Desktop
 
