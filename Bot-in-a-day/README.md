@@ -46,7 +46,7 @@ Following azure resources are created for you in advance, Please use them instea
     * Once the Visual Studio Installer launches, select all the 3 workloads, and then choose Modify.</br>
  <kbd>![](Images/Modify.jpg)</kbd>
 3. The above step will take around 10-15 minutes to complete. Now open the **Downloads** folder in the desktop and move Bot Controller.zip and Bot Dialog.zip folders to "Documents\Visual Studio 2017\Templates\ItemTemplates\Visual C#" and Bot Application.zip folder to "Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#"
-4. 
+4. Attendees can navigate to https://aka.ms/biadstudent to get the lab related files.
 # Known Issues
 ### Failure while updating Microsoft.Bot.builder package:
 (Lab 1 > Step 7)
