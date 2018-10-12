@@ -41,32 +41,28 @@ Following azure resources are created for you in advance, Please use them instea
 **Please follow the below steps before starting the lab.**</br>
 1. Login to the virtual machine using the given credentials.Then, open **Visual Studio** and **Sign-in** with the Azure credentials given in the lab details page.
 2. Add the ASP.NET and web development, Universal Windows Platform Development and .NET Desktop Development workloads by:
- * Using the New Project dialog box
-OR
- * Using the Tools menu bar
- * The Visual Studio Installer launches, select all the 3 workloads, and then choose Modify.
+    * Using the Tools menu bar. </br>
+ <kbd>![](Images/Tools.jpg)</kbd>
+    * Once the Visual Studio Installer launches, select all the 3 workloads, and then choose Modify.</br>
+ <kbd>![](Images/Modify.jpg)</kbd>
 3. The above step will take around 10-15 minutes to complete. Now open the **Downloads** folder in the desktop and move Bot Controller.zip and Bot Dialog.zip folders to "Documents\Visual Studio 2017\Templates\ItemTemplates\Visual C#" and Bot Application.zip folder to "Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#"
 4. 
 # Known Issues
-### Failure while running the following command:
-(Exercise 2 > Task 4 > step 23)
-> az ml admin node setup --onebox --admin-password Password.1!! --confirm-password Password.1!!
+### Failure while updating Microsoft.Bot.builder package:
+(Lab 1 > Step 7)
 
 > **Possible Solutions**:
 
- * I any attendee face any issue while running this command, try following these steps.
-   * Run the command : **az ml admin node setup --onebox**
-   * Then it will ask for Admin Password : provide the password: **Password.1!!**
-   * Confirm the password.
+ * If you are getting this issue don't go for the latest version of the package, select version 3.16.1.38846.
 
-### Not able to see "Take Picture" option:
-(Exercise 3 > Task 5 > step 7)
+### Showing error with  QnaDialog.cs file :
+(Lab 1.1 > Creating and Connecting a Bot to QnA Maker Service)
 > **Possible Solutions**:
 
- * Try maximizing and minimizing the window , you can see the part of that "**Take Picture**" option at the bottom of the window.</br></br>
+ * Try installing **Microsoft.Bot.Builder** package for that project also.</br></br>
 
 # Notes to Instructors / Proctors
-* Attendees need not to deploy any Azure resources except a Storage account creating in Exercise 1 > Task 4. All other Azure resources are automated and attendees can use those resources during the workshop.
+* Attendees should use Free tier while creating QnA Maker. Use other small tiers only if free is not available.
 * Attendees can refer **Registration Page/Email** for the details of the resources deployed. </br></br>
 
 # Help and Support
