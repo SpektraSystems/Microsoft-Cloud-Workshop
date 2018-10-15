@@ -45,8 +45,8 @@ While doing **Before the Hands-on-lab** section, follow the below steps.
 2. You should perform **Task 2**. In this task, you will **register for a trial API account at WeatherUnderground.com**
 3. You should perform **Task 3, 4, 5** for Retrieve Azure Storage account information and create container, etc.
 4. Don’t deploy **Data Factory** specified in **Task 6**, since it is pre-created.
-5. You should perform **Task 7**: Initialize Azure Machine Learning Workbench on the Lab DSVM
-   No need to download Machine learning Workbench as it is pre-downloaded. You can find the setup for workbench to install on downloads    folder on desktop.
+5. You should perform **Task 7**: Initialize Azure Machine Learning Workbench on the Lab DSVM.
+   Need not to download Machine learning Workbench as it is pre-downloaded. You can find the setup of workbench on downloads folder at  desktop.
 6. You should perform **Task 8**: Provision Azure Machine Learning Experimentation service
 7. You should perform **Task 9**: Create an Azure Databricks cluster
 
