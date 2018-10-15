@@ -37,7 +37,6 @@ You are provided a [Data Science Virtual Machine - Windows 2016](https://azurema
 5. **Network Interface**
 6. **Storage accounts**
 7. **Data Factory**
-8. 
 
 
 ## Notes to Attendees
