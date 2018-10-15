@@ -43,7 +43,7 @@ You are provided a [Data Science Virtual Machine - Windows 2016](https://azurema
 While doing **Before the Hands-on-lab** section, follow the below steps.
 1. You need not to execute **Task 1** in **Before the Hands-on-lab** section, since it is pre-created. You can use the pre-created resources during the lab.
 2. You should perform **Task 2**. In this task, you will **register for a trial API account at WeatherUnderground.com**
-3. You should perform **Task 3, 4, 5**
+3. You should perform **Task 3, 4, 5** for Retrieve Azure Storage account information and create container, etc.
 4. Don’t deploy **Data Factory** specified in **Task 6**, since it is pre-created.
 5. You should perform **Task 7**: Initialize Azure Machine Learning Workbench on the Lab DSVM
 6. You should perform **Task 8**: Provision Azure Machine Learning Experimentation service
