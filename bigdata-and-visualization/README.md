@@ -30,28 +30,25 @@ You are provided a [Data Science Virtual Machine - Windows 2016](https://azurema
 > Note: DSVM is provisioned in the resource group, in which you have access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
 
 ## Verify the pre-requisite Azure resources
-1. **Machine Learning Studio Workspace** is provisioned in the resource group, in which you have access.
-2. **Azure HDInsight Cluster** : Refer registration page/email for cluster credentials and cluster ssh credentials. .  
+1. **Data Sceince Virtual Machine**
+2. **Machine Learning Studio Workspace** is provisioned in the resource group, in which you have access. 
 3. **Virtual Network**
 4. **Public IP**
 5. **Network Interface**
-6. **Load Balancer**
-7. **Storage accounts**
-8. **Azure DataBricks**
-9. **Data Factory**
-10. **Machine Learning Experimentation**
-11. **Machine Learning Model Management**
+6. **Storage accounts**
+7. **Data Factory**
+8. 
 
 
 ## Notes to Attendees
 While doing **Before the Hands-on-lab** section, follow the below steps.
 1. You need not to execute **Task 1** in **Before the Hands-on-lab** section, since it is pre-created. You can use the pre-created resources during the lab.
 2. You should perform **Task 2**. In this task, you will **register for a trial API account at WeatherUnderground.com**
-3. Deploy **Azure Databricks** specified in **Task 3**.
-4. Don’t install **PowerBi Desktop** specified in **Task 4**, since it’s preinstalled in DSVM.
-5. You should perform **Task 4 and Task 5** in which you will create a blob storage and retrieve **Azure Storage information** and **Create container**.
-6. Don’t deploy **Data Factory** specified in **Task 6**, since it is pre-created.
-7. In **Task 8** Users should open **pre-created** **Machine Learning Experimentation** account and **assign owner** for the workspace *For more details please go through **Known Issues**.
+3. You should perform **Task 3, 4, 5**
+4. Don’t deploy **Data Factory** specified in **Task 6**, since it is pre-created.
+5. You should perform **Task 7**: Initialize Azure Machine Learning Workbench on the Lab DSVM
+6. You should perform **Task 8**: Provision Azure Machine Learning Experimentation service
+7. You should perform **Task 9**: Create an Azure Databricks cluster
 
 # Known Issues
 ### Connecting DSVM with RDP having issue addresses CredSSP
@@ -62,17 +59,6 @@ While doing **Before the Hands-on-lab** section, follow the below steps.
 **Resolution**
 Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
 
-# For Task 8 Please follow below steps to assign owner to the workspace.
- 
- **Step 1**. Open **Machine Learning Experimentation** account which is pre- created.
-   <kbd>![](Images/expacnt1.png)</kbd>
- 
- **Step 2** Click on **Add Workspace** under Application Settings.
-   
-   <kbd>![](Images/addwork2.png)</kbd>
-  
- **Step 3** Enter the **workspace name**, **assign owner** to workspace and click on **Create workspace**.
-   <kbd>![](Images/owner3.png)</kbd>
 
 # After the hands-on lab 
 Duration: 10 minutes</br></br>
