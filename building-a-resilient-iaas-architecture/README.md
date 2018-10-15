@@ -101,7 +101,7 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 
 * Please use the **same VM size** as per mentioned in **Lab guide**, not go for other sizes as policy is applied so the deployment of    the VMs with other sizes will be fail. 
 
-* For Exercise 1, Task 1 and 2 users should use the **ODL_iaas-arch-xxxxx-03** resource group.
+* For Exercise 1, Task 1 and 2 users should navigate the **ODL_iaas-arch-xxxxx-02** resource group.
 
 * For Exercise 2, Task 1, Step 1 users should navigate the **ODL_iaas-arch-xxxxx-02** resource group and use the already deployed         resources like ADVM. 
 
