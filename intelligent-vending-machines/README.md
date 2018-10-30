@@ -31,17 +31,14 @@ You are also provided a **Microsoft Machine Learning Server 9.3.0 on Ubuntu 16.0
 
 ## Verify the pre-requisite Azure resources
 Following azure resources are created for you in advance, Please use them instead of creating more resources. 
-1. **IoT Hub** is provisioned in the resource group, in which you have access.
-2. **SQL Database** 
-3. **SQL Server** 
-5. **Face API (Congnitive Sevices)** 
-6. **Azure HDInsight Cluster**   
-7. **Virtual Network**
-8. **Public IP**
-9. **Network Interface**
-10. **Load Balancer**
-11. **Storage accounts**
-> Attendees need not to deploy any Azure resources except a Storage account creating in Exercise 1 > Task 4. All other Azure resources in the workshop are automated and attendees can use those resources during the workshop.
+1. **SQL Database** 
+2. **SQL Server** 
+3. **Azure HDInsight Cluster**   
+4. **Virtual Network**
+5. **Public IP**
+6. **Network Interface**
+7. **Storage accounts**
+
 ## Notes to Attendees
 * While doing **Before hand-on-lab** section, follow the below mentioned steps.
 1. You need not to execute **Task 1, Task 2**, **Task 3** and **Task 4**. All the resources in these tasks are pre-created (R Server with HDInsight Spark, Lab Virtual Machine and PowerBI Desktop installed on Lab Virtual Machine).
