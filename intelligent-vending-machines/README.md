@@ -47,28 +47,12 @@ Following azure resources are created for you in advance, Please use them instea
 1. You need not to execute **Task 1, Task 2**, **Task 3** and **Task 4**. All the resources in these tasks are pre-created (R Server with HDInsight Spark, Lab Virtual Machine and PowerBI Desktop installed on Lab Virtual Machine).
 2. In **Task 5**, you need to do **Step 8** to **Step 13**. You can skip all other steps in this task because SSH Client is pre-installed.
 3. You can skip **Task 6**.</br></br>
-* While doing **Exercise 1 : Environment Setup**, follow the below mentioned steps.
-1. In **Task 1**, you will download **Vending Machine Starter Project**.
-2. In **Task 2**, **don't deploy IoT Hub**,since it is pre-created. For copying **Connection string - primary key** follow **step 4** to **step 7**.
-3. In **Task 3**, **don't deploy Machine Learning Server**,since it is pre-created. Follow **step 10** to **step 15**.
-4. You should execute **Task 4** Completely.
-5. In **Task 5**, **don't deploy Face API**, since it is pre-created. Execute **Step 3** to **Step 6**.
-6. In **Task 6**, **don't deploy SQL Database**,since it is pre-created. Execute **Step 3** and **Step 4** to get the **Database Connection String**
-</br></br>
+
 # Known Issues
 ### Failure while running the following command:
-(Exercise 2 > Task 4 > step 23)
-> az ml admin node setup --onebox --admin-password Password.1!! --confirm-password Password.1!!
-
-> **Possible Solutions**:
-
- * I any attendee face any issue while running this command, try following these steps.
-   * Run the command : **az ml admin node setup --onebox**
-   * Then it will ask for Admin Password : provide the password: **Password.1!!**
-   * Confirm the password.
 
 ### Not able to see "Take Picture" option:
-(Exercise 3 > Task 5 > step 7)
+(Exercise 2 > Task 6 > step 7)
 > **Possible Solutions**:
 
  * Try maximizing and minimizing the window , you can see the part of that "**Take Picture**" option at the bottom of the window.</br></br>
