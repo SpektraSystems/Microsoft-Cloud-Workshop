@@ -44,9 +44,9 @@ Following azure resources are created for you in advance, Please use them instea
 > Attendees need not to deploy any Azure resources except a Storage account creating in Exercise 1 > Task 4. All other Azure resources in the workshop are automated and attendees can use those resources during the workshop.
 ## Notes to Attendees
 * While doing **Before hand-on-lab** section, follow the below mentioned steps.
-1. You need not to execute **Task 1, Task 2** and **Task 3**. All the resources in these tasks are pre-created (R Server with HDInsight Spark, Lab Virtual Machine and PowerBI Desktop installed on Lab Virtual Machine).
-2. In **Task 4**, you need to do **Step 6** to **Step 9**. You can skip all other steps in this task because SSH Client is pre-installed.
-3. You can skip **Task 5**.</br></br>
+1. You need not to execute **Task 1, Task 2**, **Task 3** and **Task 4**. All the resources in these tasks are pre-created (R Server with HDInsight Spark, Lab Virtual Machine and PowerBI Desktop installed on Lab Virtual Machine).
+2. In **Task 5**, you need to do **Step 8** to **Step 13**. You can skip all other steps in this task because SSH Client is pre-installed.
+3. You can skip **Task 6**.</br></br>
 * While doing **Exercise 1 : Environment Setup**, follow the below mentioned steps.
 1. In **Task 1**, you will download **Vending Machine Starter Project**.
 2. In **Task 2**, **don't deploy IoT Hub**,since it is pre-created. For copying **Connection string - primary key** follow **step 4** to **step 7**.
