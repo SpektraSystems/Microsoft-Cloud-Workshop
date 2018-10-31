@@ -26,11 +26,13 @@ You are provided a Data Science Virtual Machine - Windows 2016 with additional s
 
 
 # Known Issues
+* In **Exercise 1**, Task 1 -> Step 3 search for **Machine Learning Experimentation** and select **Machine Learning Experimentation (Retiring)** from the list that appears because **Machine Learning Experimentation (preview)** is updated with **Machine Learning Experimentation (Retiring)** in Azure Portal.
 
 * In exercise 2, task 1 you need to edit the command for creating the cluster environment to specify using existing resource group which is pre-created for you, otherwise the deployment would fail. Make a note of name of your existing resource group and include in the command as specified below
 ```
 az ml env setup -c -g <resource group> -n mcwailabenv --location eastus2
 ```
+
 ### Connecting DSVM with RDP having issue addresses CredSSP
 
 > **Possible Solutions**:
