@@ -15,7 +15,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 # Verify the pre-provisioned Environment
 
 * Users can use the **Azure Credentials** given to them to login to the Azure Portal
-* Two resource groups **ODL_mca-XXXXX-01** and **ODL_mca-XXXXX-02** will be already created. In resource group **ODL_mca-XXXXX-01** you will get Azure Environment with the LABVM deployed in it
+* Two resource groups **ODL_mca-XXXXX-01** and **ODL_mca-XXXXX-contososports** will be already created. In resource group **ODL_mca-XXXXX-01** you will get Azure Environment with the LABVM deployed in it.
 * Users can select **labvm** and click on **Connect** to download the RDP file
 * Open the RDP file to connect to the LABVM. Provide the credentials you received to login to the VM
 * Once you login to the LABVM, server manager will open. Select Local Server and verify that IE Enhanced Security Configuration has also been turned off 
@@ -38,6 +38,16 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 ## Verify Virtual Machine
 
 You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with additional softwares configured. FQDN of the LABVM virtual machine and administrator credentials are provided in the lab details page. You can remote into the virtual machine using the provided credentials
+
+# Notes to Attendees
+You can use **ODL_mca-XXXXX-contososports** resource group for deploying all the resources in this lab.</br>
+While doing Exersice 4, please follow the below steps.
+* In Task 1 > Subtask 2, instead of Steps 3, 4 & 5, do the following:
+    * In **Usage** menu click on **Impact**.
+    * In the new page that appear, click on **Get Started**.
+    * Copy the full contents of the JavaScript.
+    * Continue with Step 6.</br>
+* You can skip Exercise 5.
 
 # Known Issues
 
