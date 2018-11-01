@@ -38,7 +38,7 @@ Following azure resources are created for you in advance, Please use them instea
 
 # Known Issues
 
-Follow the given steps if you are getting error while opening folder \Hands-on lab\WebApp\FourthCoffeeWeb.sln in Exercise 6 > Task 1 > step 10:
+Follow the given steps if you are getting error while opening folder \Hands-on lab\WebApp\FourthCoffeeWeb.sln in **Exercise 6 > Task 1 > step 10**:
 
 1. Right click on **Solution** then select add and open **Existing Web Site**.<br/>
 <img src="images/securep.jpg"/><br/>
@@ -46,17 +46,10 @@ Follow the given steps if you are getting error while opening folder \Hands-on l
 <img src="images/securepa.jpg"/><br/>
 3. Know you can see project under solution<br/>
 <img src="images/securepaas.jpg"/><br/>
-4. Remove the unavailable folder from Solution.<br/>
+4. Remove the unavailable **FourthCoffeeWeb** folder from Solution.<br/>
 <img src="images/securepaa.jpg"/>.<br/>
 
-### Not able to see "Take Picture" option:
-(Exercise 2 > Task 6 > step 7)
-> **Possible Solutions**:
-
- * Try maximizing and minimizing the window , you can see the part of that "**Take Picture**" option at the bottom of the window.</br></br>
-
 # Notes to Instructors / Proctors
-* Attendees need not to deploy any Azure resources except a Storage account creating in Exercise 1 > Task 4. All other Azure resources are automated and attendees can use those resources during the workshop.
 * Attendees can refer **Registration Page/Email** for all details of the resources deployed. </br></br>
 
 # Help and Support
