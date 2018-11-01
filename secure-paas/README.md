@@ -35,6 +35,8 @@ Following azure resources are created for you in advance, Please use them instea
 4. **Public IP**
 5. **Network Interface**
 6. **Storage accounts**
+7. **Route Table**
+8. **App Service Plan**
 
 # Known Issues
 
