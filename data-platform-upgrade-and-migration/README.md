@@ -24,7 +24,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
  
-3. Note that you have access to two resource groups – **ODL-data-platform-xxxxx-01**, **ODL-data-platform-xxxxx-sqlVm**. Note: These two resource groups has the pre-deployed environment. **User need not deploy any resource during the lab** 
+3. Note that you have access to two resource groups – **ODL-data-platform-xxxxx-01**, **ODL-data-platform-xxxxx-sqlVm**. Note: These two resource groups has the pre-deployed environment. 
 
 4. Navigate to the resource group **ODL-data-platform-xxxxx-01** and view the already existing resources such as **LABVM** Virtual Machine, Disk, SQL database **WorldWideImporters**, Azure database migration service (DMS)**wwi-dms** etc.
 
