@@ -51,6 +51,11 @@ While doing Exersice 4, please follow the below steps.
 
 # Known Issues
 
+### Issue while Configuring Cross-Origin Resource Sharing (CORS)
+
+> **Possible Solutions**:
+
+* In Exercise 1 > Task 5 > Subtask 2 > step 2, instead of URL of the Offers Web API App, you shoule provide URL of the ContosoSports Web App.
 ### Connecting DSVM with RDP having issue addresses CredSSP
 
 > **Possible Solutions**:
