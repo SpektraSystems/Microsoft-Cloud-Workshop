@@ -63,8 +63,13 @@ Please follow the instructions under https://github.com/SpektraSystems/Microsoft
 
 
 # Notes to Instructors / Proctors
- 
 
+> Note: While doing Before the Hands-on-lab section, follow the below steps.
+
+1. You need not to execute Task 1 and Task 2 in Before the Hands-on-lab section, since it is pre-created. You can use the pre-created resources during the lab.
+2. You should perform Task 3. In this task, you will create a new Azure Portal dashboard.
+
+ 
 * For Exercise 1, users should use the **ODL_azure-security-xxxxx-02** resource group.
 
 * For Exercise 2 and 3, users should use the **ODL_azure-security-xxxxx-03** resource group.
