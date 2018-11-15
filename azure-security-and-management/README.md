@@ -6,11 +6,15 @@ Azure security and management is a one day workshop lead by Microsoft or Microso
 
 Azure services and related products
 
+* Azure Automation
 * Azure Monitor
-* Log Analytics
-* Azure VMs
-* Azure Application Insights
-* Azure Security Center
+* Azure Log Analytics
+* Change Tracking
+* Update Management
+* Security Center
+* Service Map
+* Application Insights
+* Virtual machines
 
  
 # Sign-up for Workshop Environment
@@ -61,6 +65,30 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 **Resolution**
 Please follow the instructions under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md  
 
+# Notes to Attendees
+
+>  Note: The Graphical User Interface (GUI) has changed for Security Center so please follow below steps:
+
+* For **Excercise 3, Task 2** : **Explore Security Center** please follow the below steps to change the pricing tier to Standard:
+
+1. Select **Security Policy** under POLICY and COMPLIANCE
+
+   ![](images/securityimage1.png)
+
+2. You will see your subscription now, then click on **Edit setting**  option
+
+   ![](images/subsimage2.png)
+
+3. Select **Pricing tier** option under Settings menu,  then click on **Standard Pricing tier** and then click on **Save** button.
+
+   ![](images/pricingimage3.png)
+
+4. Close the panel and navigate back to the **Security Center** Overview screen. Click on **Security policy** under the POLICY and COMPLIANCE . This is where you will enable data collection.
+
+a. This presents the Data Collection screen. Turn on data collection by clicking the On button, selecting **Use another workspace** and selecting the Log Analytics workspace created in Task 1: Provision Log Analytics and then clicking **Save** and click on Yes if prompted.
+
+   ![](images/autoprovimage4.png)
+
 
 # Notes to Instructors / Proctors
 
@@ -74,9 +102,9 @@ Please follow the instructions under https://github.com/SpektraSystems/Microsoft
 
 * For Exercise 2 and 3, users should use the **ODL_azure-security-xxxxx-03** resource group.
 
-* For Exercise 4, Task 1, Step 7 users should use the **ODL_azure-security-xxxxx-04** resource group.
+* For Exercise 4, Task 1, Step 7 users will create and use a new **HOLInsights** resource group.
 
-* For Exercise 5, Task 3, Step 3 users should use the **ODL_azure-security-xxxxx-03** resource group.
+
 
 # Help and Support
 
