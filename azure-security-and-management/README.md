@@ -6,11 +6,15 @@ Azure security and management is a one day workshop lead by Microsoft or Microso
 
 Azure services and related products
 
+* Azure Automation
 * Azure Monitor
-* Log Analytics
-* Azure VMs
-* Azure Application Insights
-* Azure Security Center
+* Azure Log Analytics
+* Change Tracking
+* Update Management
+* Security Center
+* Service Map
+* Application Insights
+* Virtual machines
 
  
 # Sign-up for Workshop Environment
@@ -83,7 +87,7 @@ Please follow the instructions under https://github.com/SpektraSystems/Microsoft
 
 a. This presents the Data Collection screen. Turn on data collection by clicking the On button, selecting **Use another workspace** and selecting the Log Analytics workspace created in Task 1: Provision Log Analytics and then clicking **Save** and click on Yes if prompted.
 
-   ![](images/autoprovimage4.png)
+    ![](images/autoprovimage4.png)
 
 
 # Notes to Instructors / Proctors
