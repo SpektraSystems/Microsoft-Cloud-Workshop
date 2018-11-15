@@ -74,7 +74,7 @@ Please follow the instructions under https://github.com/SpektraSystems/Microsoft
 
 * For Exercise 2 and 3, users should use the **ODL_azure-security-xxxxx-03** resource group.
 
-* For Exercise 4, Task 1, Step 7 users should use the **ODL_azure-security-xxxxx-04** resource group.
+* For Exercise 4, Task 1, Step 7 users will create and use a new **HOLInsights** resource group.
 
 * For Exercise 5, Task 3, Step 3 users should use the **ODL_azure-security-xxxxx-03** resource group.
 
