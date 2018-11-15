@@ -69,21 +69,21 @@ Please follow the instructions under https://github.com/SpektraSystems/Microsoft
 
 1. Select **Security Policy** under POLICY and COMPLIANCE
 
-  ![](images/securityimage1.png)
+   ![](images/securityimage1.png)
 
 2. You will see your subscription now, then click on **Edit setting**  option
 
-  ![](images/subsimage2.png)
+   ![](images/subsimage2.png)
 
 3. Select **Pricing tier** option under Settings menu,  then click on **Standard Pricing tier** and then click on **Save** button.
 
-  ![](images/pricingimage3.png)
+   ![](images/pricingimage3.png)
 
 4. Close the panel and navigate back to the **Security Center** Overview screen. Click on **Security policy** under the POLICY and COMPLIANCE . This is where you will enable data collection.
 
 a. This presents the Data Collection screen. Turn on data collection by clicking the On button, selecting **Use another workspace** and selecting the Log Analytics workspace created in Task 1: Provision Log Analytics and then clicking **Save** and click on Yes if prompted.
 
-  ![](images/autoprovimage4.png)
+   ![](images/autoprovimage4.png)
 
 
 # Notes to Instructors / Proctors
