@@ -87,7 +87,7 @@ Please follow the instructions under https://github.com/SpektraSystems/Microsoft
 
 a. This presents the Data Collection screen. Turn on data collection by clicking the On button, selecting **Use another workspace** and selecting the Log Analytics workspace created in Task 1: Provision Log Analytics and then clicking **Save** and click on Yes if prompted.
 
-    ![](images/autoprovimage4.png)
+   ![](images/autoprovimage4.png)
 
 
 # Notes to Instructors / Proctors
