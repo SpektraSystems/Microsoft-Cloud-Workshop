@@ -35,8 +35,9 @@ While doing **Before the Hands-on-lab** section, follow the below steps.
 2. You should perform **Task 2**. In this task, you will **Disable IE Enhanced Security**
 3. You should perform **Task 3, Task 4 and Task 5**.
 4. You can skip **Task 6**, since the required resource groups are pre-created. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
-5. When you deploy **Function App** in exercise 1 - task 2. Choose **Java Script** insteed of .net in RunTime Stack
+5. When you deploy **Function App** in exercise 1 - task 2. Choose **Java Script** instead of .net in RunTime Stack
 <kbd>![](images/functionapp.jpg "Function App")</kbd>
+6. In Exercise 2- task 1 step 4, configure **computerVisionApiUrl** as **https://australiaeast.api.cognitive.microsoft.com/vision/v1.0/ocr**. Here just modify the endpoint(https://australiaeast.api.cognitive.microsoft.com/) of your computer vision endpoint url.
 # Known Issues
 
 ### Not showing Telemetry data in sample Telemetry under App Insight, Lab guide page number: 55 and further steps of App Insight.
@@ -52,10 +53,6 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 
 # Notes to Instructors / Proctors
 
-
-### SavePlateData and queuePlateForManualCheckup is not triggered by event trigger.
-
-### Computer vision api OCR not proccessed.
 
 # Help and Support
 
