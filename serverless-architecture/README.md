@@ -33,10 +33,11 @@ You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketpl
 While doing **Before the Hands-on-lab** section, follow the below steps.
 1. You can skip **Task 1** in **Before the Hands-on-lab** section, since it is pre-created. You can use the pre-created resources during the lab.
 2. You should perform **Task 2**. In this task, you will **Disable IE Enhanced Security**
-3. You can skip **Task 3**, since chrome is pre-installed.
-4. Go to the Virtual machine RDP session and complete **Task 4**.
-5. In **Task 5**, you can skip first two steps and complete the remaining.
-6. You can skip **Task 6**, since the required resource groups are pre-created. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
+3. You should perform **Task 3, Task 4 and Task 5**.
+4. You can skip **Task 6**, since the required resource groups are pre-created. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
+5. When you deploy **Function App** in exercise 1 - task 2. Choose **Java Script** instead of .net in RunTime Stack
+<kbd>![](images/functionapp.jpg "Function App")</kbd>
+6. In Exercise 2- task 1 step 4, configure **computerVisionApiUrl** as **https://australiaeast.api.cognitive.microsoft.com/vision/v1.0/ocr**. Here just modify the endpoint(https://australiaeast.api.cognitive.microsoft.com/) of your computer vision endpoint url.
 # Known Issues
 
 ### Not showing Telemetry data in sample Telemetry under App Insight, Lab guide page number: 55 and further steps of App Insight.
@@ -53,12 +54,6 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 # Notes to Instructors / Proctors
 
 
-### SavePlateData and queuePlateForManualCheckup is not triggered by event trigger.
-
-### Computer vision api OCR not proccessed.
-
 # Help and Support
 
 If you require any help during the workshop, please reach out to the instructor / proctors. Instructors / proctors might escalate the issue to remote support team, at that time, please pass on your AAD User ID (aad_user_xyz), so that it is easier to look up your environment.
-
-
