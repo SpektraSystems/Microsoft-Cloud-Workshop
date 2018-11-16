@@ -36,7 +36,7 @@ While doing **Before the Hands-on-lab** section, follow the below steps.
 3. You should perform **Task 3, Task 4 and Task 5**.
 4. You can skip **Task 6**, since the required resource groups are pre-created. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
 5. When you deploy **Function App** in exercise 1 - task 2. Choose **Java Script** insteed of .net in RunTime Stack
-
+<kbd>![](images/functionapp.jpg "Function App")</kbd>
 # Known Issues
 
 ### Not showing Telemetry data in sample Telemetry under App Insight, Lab guide page number: 55 and further steps of App Insight.
