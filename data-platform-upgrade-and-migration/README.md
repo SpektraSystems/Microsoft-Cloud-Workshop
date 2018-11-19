@@ -67,6 +67,14 @@ Please follow the instruction under https://github.com/SpektraSystems/Microsoft-
 
 * For Exercise 2 Task 2 - **Create Azure Database MIgration Service**: Don't create Azure database migration service since it is pre-created in **ODL-data-platform-xxxxx-01** RG.
 
+* For **Exercise 4** Setup **Oracle 11g Express Edition** Task 1 Install Oracle XE, please follow below link to download Oracle Express Edition for Windows:
+
+LINK: https://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/xe-prior-releases-5172097.html 
+
+Then you need to accept the license agreement, and select Oracle Database 11gR2 Express Edition for Windows x32
+
+  ![](oracle1/securityimage1.png)
+
 
 # Help and Support
 
