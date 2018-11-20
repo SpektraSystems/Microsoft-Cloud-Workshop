@@ -1,8 +1,5 @@
 # Introduction
-In this workshop, students will learn how to optimize a lift and shift style IaaS architecture in Azure to improve cost
-savings. Students will also compare IaaS and PaaS hosting options to save cost even further through the use of Azure
-App Service. Additionally, students will learn to improve resiliency and high availability through multi-region
-deployment.</br></br>
+This is a supplement guide to  ‘[Microsoft Cloud Workshop -Optimized Architecture](https://github.com/Microsoft/MCW-Optimized-architecture/tree/master/Hands-on%20lab)’, to be used when you are delivering a hands-on-lab session using Cloud Labs AI platform from Spektra Systems. If you have any questions, please reach out to cloudlabs-support@spektrasystems.com
 # Sign-up for Workshop Environment
 
 To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
@@ -13,7 +10,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
  
 * Wait for the lab environment to be provisioned. Sometimes this can take upto **10 minutes**. Once environment provisioning is complete, you will receive details in email as well as in the browser.
  
- > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed. Also, for multi-day workshops, all virtual machines will be shutdown at 7 PM local time and start at 8AM local time.</br></br>
+ > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed. Also, for multi-day workshops, all virtual machines will be shutdown at 6.30 PM local time and on day 2, user should start the Virtual Machine from the lab activation page.</br></br>
 
 # Verify the pre-provisioned Environment
 
