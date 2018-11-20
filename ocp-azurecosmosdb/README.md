@@ -40,10 +40,10 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 You will not able to open project folder in visual studio code as per the lab guide, So please follow the below steps for opening the project folder in Visual Studio Code :
 
-a. Search for Visual Studio Code from start **Menu** :
+a. Search for Visual Studio Code from start **Menu** :<br/>
 <img src="images/visual.jpg"/><br/>
 
-b. Click on **Open Folder** then select the project folder :
+b. Click on **Open Folder** then select the project folder :<br/>
 <img src="images/visual1.jpg"/><br/>
 
 # Notes to Instructors / Proctors
