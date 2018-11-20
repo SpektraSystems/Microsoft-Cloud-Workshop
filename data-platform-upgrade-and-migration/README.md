@@ -20,7 +20,7 @@ At the end of this workshop, you will be better able to conduct a site analysis 
  
 # Verify the pre-provisioned Environment
 
-1. Launch a browser using incognite or in-private mode, and navigate to https://portal.azure.com. Once prompted, login with the Microsoft Azure credentials you received.   
+1. Launch a browser using incognite or in-private mode, and navigate to [Microsoft Azure Portal](https://portal.azure.com). Once prompted, login with the Microsoft Azure credentials you received.   
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
  
