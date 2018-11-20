@@ -56,12 +56,6 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 # Known Issues
 
-> **Possible Solutions**:
-
-* With the release of the March 2018 Security bulletin, there was a fix that addressed a CredSSP, “Remote Code Execution” vulnerability (CVE-2018-0886) which could impact RDP connections. 
-**Resolution**
-Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md  
-
 * In **Exercise-2** **Task 2** While creating **Windows Server 2016 DataCenter VMs**, you may not see the option for **Enable Backup** so you can configure **Backup** after the deployment of VMs. In this case deploy the all four VMs first and then configure the Backup.
 
  Please follow these steps to configure **Backup** :
