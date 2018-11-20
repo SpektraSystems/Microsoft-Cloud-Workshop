@@ -15,16 +15,20 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
 ## Maintained workshops
 Here is the list of Supplement guides for Microsoft Cloud Workshops currently being maintained.
 
+1. [AI Dev Emerging](ai-dev-emerging)
+1. [AI Dev Professional](ai-dev-professional)
 1. [App Modernization](app-modernization-doc)
 1. [Azure Marketplace Publisher](azure-marketplace-publisher)
 1. [Azure Resource Manager](azure-resource-manager)
 1. [Azure Security and Management](azure-security-and-management)
 1. [Big Compute](big-compute)
 1. [Bigdata and Visualization](bigdata-and-visualization)
+1. [Bot-in-a-day](Bot-in-a-day)
 1. [Building a Resilient IaaS Architecture](building-a-resilient-iaas-architecture)
 1. [Business Continuity and Disaster Recovery](business-continuity-and-disaster-recovery)
 1. [Cognitive Services and Deep Learning](cognitive-services-and-deep-learning)
 1. [Container and DevOps](container-and-devops)
+1. [Continuous Delivery in VSTS and Azure](Continuous-delivery-in-VSTS-and-Azure)
 1. [Data Platform Upgrade and Migration](data-platform-upgrade-and-migration)
 1. [Enterprise Class Networking](enterprise-class-networking)
 1. [Enterprise Ready Cloud](enterprise-ready-cloud)
