@@ -6,11 +6,17 @@ In the Enterprise Ready Cloud workshop, attendees will learn how to use Azure RB
 
 # Verify the pre-provisioned Environment
 
-No Azure resources are pre-provisioned for this lab. Only the Azure subscription is required.
-
+## Verify Azure Access
 Open a browser instance in private or incognito mode and login to [Microsoft Azure Portal](https://portal.azure.com) using the credentials provided.
 
 > Note: You might have an existing Azure Credential. For the pre-provisioned environment, new Microsoft Azure environment is provisioned and new AAD user is created for you. To prevent conflict with your existing accounts, it is advised to use In Private mode of IE / Edge or Incognito mode of Chrome browser.
+
+Also verify resource group **ODL-erc-41071** already created. In resource group **ODL-erc-41071** you will get Azure Environment with the **lab-vm** deployed in it. **41071**  is unique ID, so don't be confuse if yours is different.
+
+## Verify Virtual Machine
+You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/Microsoft.VisualStudioCommunity2017onWindowsServer2016x64?tab=Overview) with additional softwares configured with lab-vm named. FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials and validate the following:
+
+> Note: jumpvm is provisioned in the resource group, in which you have reader role access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.</br></br>
 
 
 # Known Issues
@@ -22,6 +28,3 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 # Help and Support
 
 If you require any help during the workshop, please reach out to the instructor / proctors. Instructors / proctors might escalate the issue to remote support team, at that time, please pass on your AAD User ID (aad_user_xyz), so that it is easier to look up your environment.
-
-
-
