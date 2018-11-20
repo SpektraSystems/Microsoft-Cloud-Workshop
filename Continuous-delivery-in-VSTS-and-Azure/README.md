@@ -32,10 +32,6 @@ You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketpl
 
 # Known Issues
 
-### Not showing Telemetry data in sample Telemetry under App Insight, Lab guide page number: 55 and further steps of App Insight.
-Please re-verify previous steps of lab, most likely you missed some configuration part.
-
-
 # Notes to Instructors / Proctors
 
 
