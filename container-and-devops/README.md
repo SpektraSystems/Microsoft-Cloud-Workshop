@@ -10,7 +10,7 @@ In addition,
 
 # Verify the pre-provisioned Environment
 
-* Open a browser instance in InPrivate / incognito mode and navigate to https://portal.azure.com 
+* Open a browser instance in InPrivate / incognito mode and navigate to [Microsoft Azure Portal](https://portal.azure.com) 
 * Login to the portal using Azure Credentials issued for your environment.  
 * Once you are logged in to the portal, navigate to Resource Groups. 
 * Note that you have access to two resource groups:
