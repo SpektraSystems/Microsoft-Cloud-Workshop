@@ -45,13 +45,6 @@ You are provided a [Data Science Virtual Machine - Windows 2016](https://azurema
 Launch msi provided in **Desktop** and follow the instructions to install **Azure Machine Learning Workbench** on the virtual machine. Please note that it might take 45 minutes to an hour sometimes for installation.
 
 # Known Issues
-### Connecting DSVM with RDP having issue addresses CredSSP
-
-> **Possible Solutions**:
-
-* With the release of the March 2018 Security bulletin, there was a fix that addressed a CredSSP, “Remote Code Execution” vulnerability (CVE-2018-0886) which could impact RDP connections. 
-**Resolution**
-Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
 
 ### Docker for Windows is not starting
 

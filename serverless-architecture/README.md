@@ -32,24 +32,16 @@ You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketpl
 ## Notes to Attendees
 While doing **Before the Hands-on-lab** section, follow the below steps.
 1. You can skip **Task 1** in **Before the Hands-on-lab** section, since it is pre-created. You can use the pre-created resources during the lab.
-2. You should perform **Task 2**. In this task, you will **Disable IE Enhanced Security**
-3. You should perform **Task 3, Task 4 and Task 5**.
-4. You can skip **Task 6**, since the required resource groups are pre-created. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
-5. When you deploy **Function App** in exercise 1 - task 2. Choose **Java Script** instead of .net in RunTime Stack
+2. You should perform **Task 3, Task 4 and Task 5**.
+3. You can skip **Task 6**, since the required resource groups are pre-created. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
+4. When you deploy **Function App** in exercise 1 - task 2. Choose **Java Script** instead of .net in RunTime Stack
 <kbd>![](images/functionapp.jpg "Function App")</kbd>
-6. In Exercise 2- task 1 step 4, configure **computerVisionApiUrl** as **https://australiaeast.api.cognitive.microsoft.com/vision/v1.0/ocr**. Here just modify the endpoint(https://australiaeast.api.cognitive.microsoft.com/) of your computer vision endpoint url.
+5. In Exercise 2- task 1 step 4, configure **computerVisionApiUrl** as **https://australiaeast.api.cognitive.microsoft.com/vision/v1.0/ocr**. Here just modify the endpoint(https://australiaeast.api.cognitive.microsoft.com/) of your computer vision endpoint url.
 # Known Issues
 
 ### Not showing Telemetry data in sample Telemetry under App Insight, Lab guide page number: 55 and further steps of App Insight.
 Please re-verify previous steps of lab, most likely you missed some configuration part.
 
-### Connecting DSVM with RDP having issue addresses CredSSP
-
-> **Possible Solutions**:
-
-* With the release of the March 2018 Security bulletin, there was a fix that addressed a CredSSP, “Remote Code Execution” vulnerability (CVE-2018-0886) which could impact RDP connections. 
-**Resolution**
-Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
 
 # Notes to Instructors / Proctors
 

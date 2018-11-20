@@ -70,13 +70,6 @@ Then Click on Open.
 
 # Known Issues
 
-### Connecting DSVM with RDP having issue addresses CredSSP
-
-> **Possible Solutions**:
-
-* With the release of the March 2018 Security bulletin, there was a fix that addressed a CredSSP, “Remote Code Execution” vulnerability (CVE-2018-0886) which could impact RDP connections. 
-**Resolution**
-Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
 
 # Notes to Instructors / Proctors
 

@@ -26,11 +26,8 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 # Known Issues
 
-* This lab uses Management Groups. This is a preview feature, and therefore has certain limitations. One of these limitations is that Management Groups currently don't work with CSP subscriptions (the Azure Portal does not allow you to assign subscriptions to Management Groups). Since the Spektra lab environment is based on a CSP subscription, the lab steps involving Management Groups will not work.  **To workaround, students should skip any steps relating to Management Groups and apply Azure Policy at the subscription scope instead.**
 
 # Notes to Instructors / Proctors
-
-* Be aware of the Known Issues above.
 
 
 # Help and Support

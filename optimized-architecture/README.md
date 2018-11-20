@@ -53,10 +53,6 @@ You are provided a **Visual Studio Community 2017 on Windows Server 2016 (x64)**
 10. While creating **Web App** specified in **Exercise 8**>**Step 1**, you need to select **Use Existing** under **Resource group** option and select **Resource group - 07** from the drop down.</br></br>
 # Known Issues
 
-### RDP Connection Error
-> **Possible Solutions**:
-If you find a RDP connection error (CredSSP encryption error),go to the below link and follow the steps. 
-https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
 # Notes to Instructors / Proctors
 
 # Help and Support

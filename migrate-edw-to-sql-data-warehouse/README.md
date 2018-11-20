@@ -54,10 +54,7 @@ You are provided a **Free License: SQL Server 2016 SP2 Developer on Windows Serv
 
 > **Possible Solutions**:
 Go to the link provided in the lab guide. Select **Advanced Download Options**. In the new page you can find a **Download** button. Click on the download button. 
-### RDP Connection Error
-> **Possible Solutions**:
-If you find a RDP connection error (CredSSP encryption error),go to the below link and follow the steps. 
-https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
+
 # Notes to Instructors / Proctors
 
 # Help and Support
