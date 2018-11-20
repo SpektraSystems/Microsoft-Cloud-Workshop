@@ -1,18 +1,8 @@
 # Introduction
 
+This is a supplement guide to ‘Microsoft Cloud Workshop - [OSS PaaS and Devops](https://github.com/Microsoft/MCW-OSS-PaaS-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by%20step%20-%20OSS%20PaaS%20and%20DevOps.md)’, to be used when you are delivering a hands-on-lab session using Cloud Labs AI platform from Spektra Systems. If you have any questions, please reach out to cloudlabs-support@spektrasystems.com
+
 The scenario will challenge you to setup continuous integration and delivery of an application using open source tools such as Jenkins and GitHub along with automated deployments to Azure App Services. You will learn about continuous deployment and the benefits of staged publishing.
-
-# Sign-up for Workshop Environment
-
-To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
-
-* Register for the lab environment by providing your information and clicking on **Submit** button.
-
-* On the next page, click the **Launch Lab** button.
- 
-* Wait for the lab environment to be provisioned. Sometimes this can take upto **30 minutes**. Once environment provisioning is complete, you will receive details in email as well as in the browser.
- 
- > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed. Also, for multi-day workshops, all virtual machines will be shutdown at 7 PM local time and start at 8AM local time.
 
 # Verify the pre-provisioned Environment
 
