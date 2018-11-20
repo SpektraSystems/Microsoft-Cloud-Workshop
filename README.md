@@ -13,7 +13,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
  > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed. Also, for multi-day workshops, all virtual machines will be shutdown at 6.30 PM local time. On day 2, user should start the Virtual Machine from the lab activation page.
  
 ## Maintained workshops
-Here is the list of workshops currently being maintained, before creating a new workshop, determine if the work you would like to do is better captured as part of these workshops:
+Here is the list of Supplement guides for Microsoft Cloud Workshops currently being maintained.
 
 1. [App Modernization](app-modernization-doc)
 1. [Azure Marketplace Publisher](azure-marketplace-publisher)
