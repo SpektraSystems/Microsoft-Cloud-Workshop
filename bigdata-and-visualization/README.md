@@ -60,15 +60,6 @@ While doing **Before the Hands-on-lab** section, follow the below steps.
 Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
 
 
-# After the hands-on lab 
-Duration: 10 minutes</br></br>
-In this exercise, attendees will deprovision any Azure resources that were created in support of the lab.
-## Task 1: Delete resource group
-1.	Using the Azure portal, navigate to the Resource group you used throughout this hands-on lab by selecting Resource groups in the left menu.</br>
-2.	Search for the name of your research group and select it from the list.</br>
-3.	Select Delete in the command bar and confirm the deletion by re-typing the Resource group name and selecting Delete.</br>
-You should follow all steps provided after attending the Hands-on lab.</br></br>
-
 # Help and Support
 
 If you require any help during the workshop, please reach out to the instructor / proctors. Instructors / proctors might escalate the issue to remote support team, at that time, please pass on your AAD User ID (aad_user_xyz), so that it is easier to look up your environment.
