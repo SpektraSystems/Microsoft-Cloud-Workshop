@@ -10,7 +10,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
  
 * Wait for the lab environment to be provisioned. Sometimes this can take upto **10 minutes**. Once environment provisioning is complete, you will receive details in email as well as in the browser.
  
- > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed. Also, for multi-day workshops, all virtual machines will be shutdown at 7 PM local time and start at 8AM local time.
+ > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed. Also, for multi-day workshops, all virtual machines will be shutdown at 6.30 PM local time. On day 2, user should start the Virtual Machine from the lab activation page.
 
 # Verify the pre-provisioned Environment
 
