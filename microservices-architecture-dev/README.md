@@ -40,12 +40,6 @@ You are provided a **Visual Studio 2017 Community edition** with additional soft
 
 # Known Issues
 
-### Download Starter Project
-(Exercise 1 > Task 1 > Step 1)
->  **Possible Solutions**:
-
-* On your Lab VM, download the starter project from here: https://github.com/Microsoft/MCW-Microservices-architecture/blob/master/Hands-on%20lab/ContosoEventsPoC-Dev-June2018Update.zip?raw=true 
-
 ### Powershell option is not available in the Queue Trigger box
 (Exercise 3 > Task 5 > Step 29)
 > **Possible Solutions**:
