@@ -1,5 +1,6 @@
 
 # Introduction
+This is a supplement guide to ‘Microsoft Cloud Workshop - [Linux Lift and Shift](https://github.com/Microsoft/MCW-Linux-lift-and-shift/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Linux%20lift%20and%20shift.md)’, to be used when you are delivering a hands-on-lab session using Cloud Labs AI platform from Spektra Systems. If you have any questions, please reach out to cloudlabs-support@spektrasystems.com
 
 Linux Lift and Shift is a one day workshop lead by Microsoft or Microsoft partners. 
 In this hands-on step-by-step lab, you will migrate an on-premises based helpdesk application called OsTicket to Azure.  This will be a two-phase project to lift and shift the application into Azure IaaS and then migrate it to Azure PaaS.  The application is Linux based using Apache, PHP and MySQL (LAMP).  During the process of these phases you will ensure zero data loss. 
@@ -7,23 +8,10 @@ In this hands-on step-by-step lab, you will migrate an on-premises based helpdes
 *	Phase I:  Lift and shift the application from on-premises to Azure IaaS using an auto scaling Virtual Machine Scale Set and a MySQL cluster with 3 nodes.
 
 *	Phase II: Migrate to PaaS using Azure App Services with a Linux Docker Container and Azure Database for MySQL.
-
- 
-# Sign-up for Workshop Environment
-
-To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
-
-* Register for the lab environment by providing your information and clicking on **Submit** button.
-
-* On the next page, click the **Launch Lab** button.
-  
-* Wait for the lab environment to be provisioned. Sometimes this can take upto **30 minutes**. Once environment provisioning is complete, you will receive details in email as well as in the browser.
- 
- > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed.
  
 # Verify the pre-provisioned Environment
 
-1. Launch a browser using incognite or in-private mode, and navigate to https://portal.azure.com. Once prompted, login with the Microsoft Azure credentials you received.   
+1. Launch a browser using incognite or in-private mode, and navigate to [Microsoft Azure Portal](https://portal.azure.com). Once prompted, login with the Microsoft Azure credentials you received.   
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
  
