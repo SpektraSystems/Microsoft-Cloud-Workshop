@@ -16,8 +16,7 @@ Also verify resource group **ODL-erc-41071** already created. In resource group 
 ## Verify Virtual Machine
 You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/Microsoft.VisualStudioCommunity2017onWindowsServer2016x64?tab=Overview) with additional softwares configured with lab-vm named. FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials and validate the following:
 
-> Note: jumpvm is provisioned in the resource group, in which you have reader role access. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.</br></br>
-
+> Note: lab-vm is provisioned in the resource group **ODL-erc-41071**. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
 
 # Known Issues
 
