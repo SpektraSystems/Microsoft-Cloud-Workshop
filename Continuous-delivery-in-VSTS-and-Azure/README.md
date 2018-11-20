@@ -30,6 +30,9 @@ You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketpl
 
 ## Notes to Attendees
 
+1. You will get four Resource Groups **ODL-TailspinToys-41072-labvm**, **ODL-TailspinToys-41072-dev**, **ODL-TailspinToys-41072-test** and **ODL-TailspinToys-41072-production** already created.
+2. Please use **ODL-TailspinToys-41072-dev** instead of **TailspinToys-dev**, **ODL-TailspinToys-41072-test** instead of **TailspinToys-test** and **ODL-TailspinToys-41072-production** instead of **ODL-TailspinToys-41072-production** to deploy TailspinToys project template.
+
 # Known Issues
 
 # Notes to Instructors / Proctors
