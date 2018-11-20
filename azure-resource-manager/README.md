@@ -1,20 +1,11 @@
 # Introduction
 
+This is a supplement guide to ‘Microsoft Cloud Workshop - [Azure Resource Manager](https://github.com/Microsoft/MCW-Lift-and-shift-Azure-Resource-Manager/blob/master/Hands-on%20Lab/HOL%20step-by-step%20-%20Azure%20Resource%20Manager.md)’, to be used when you are delivering a hands-on-lab session using Cloud Labs AI platform from Spektra Systems. If you have any questions, please reach out to cloudlabs-support@spektrasystems.com
+
 Azure Resource Manager (ARM) is a one day workshop lead by Microsoft or Microsoft partners.These one day focus on hands-on activities that  deploy to infrastructure such as virtual machine, storage, and networking.This lab will also teach the attendees how to deploy virtual machines that are automatically configured by the Azure Automation Desired State Configuration (DSC) service.
 * How to author and deploy an ARM template 
 * How to perform configuration management with Azure Automation DSC.
- 
-# Sign-up for Workshop Environment
 
-To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
-
-* Register for the lab environment by providing your information and clicking on **Submit** button.
-
-* On the next page, click the **Launch Lab** button.
-  
-* Wait for the lab environment to be provisioned. Sometimes this can take upto **10 minutes**. Once environment provisioning is complete, you will receive details in email as well as in the browser.
- 
- > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed.
  
 # Verify the pre-provisioned Environment
 

@@ -1,6 +1,8 @@
 
 # Introduction
 
+This is a supplement guide to ‘Microsoft Cloud Workshop - [Data Platform Upgrade and Migration](https://github.com/Microsoft/MCW-Data-Platform-upgrade-and-migration/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Data%20Platform%20upgrade%20and%20migration.md)’, to be used when you are delivering a hands-on-lab session using Cloud Labs AI platform from Spektra Systems. If you have any questions, please reach out to cloudlabs-support@spektrasystems.com
+
 In data platform upgrade and migration workshop, you will gain a better understanding of how to conduct a site analysis for a customer to compare cost, performance, and level of effort required to migrate from Oracle to SQL Server. You will evaluate the dependent applications and reports that will need to be updated and come up with a migration plan. In addition, you will design and build a proof of concept (POC) and help the customer take advantage of new SQL Server features to improve performance and resiliency, as well as explore ways to migrate from an old version of SQL Server, to the latest version and consider the impact of migrating from on-premises to the cloud.
 
 At the end of this workshop, you will be better able to conduct a site analysis for compare cost, performance, and level of effort required to migrate from Oracle to SQL Server.
@@ -15,22 +17,10 @@ At the end of this workshop, you will be better able to conduct a site analysis 
 * SQL Server Management Studio (SSMS)
 * SQL Server Migration Assistant (SSMA)
 * Visual Studio 2017
-
-# Sign-up for Workshop Environment
-
-To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
-
-* Register for the lab environment by providing your information and clicking on **Submit** button.
-
-* On the next page, click the **Launch Lab** button.
-  
-* Wait for the lab environment to be provisioned. Sometimes this can take upto **30 minutes**. Once environment provisioning is complete, you will receive details in email as well as in the browser.
- 
- > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed.
  
 # Verify the pre-provisioned Environment
 
-1. Launch a browser using incognite or in-private mode, and navigate to https://portal.azure.com. Once prompted, login with the Microsoft Azure credentials you received.   
+1. Launch a browser using incognite or in-private mode, and navigate to [Microsoft Azure Portal](https://portal.azure.com). Once prompted, login with the Microsoft Azure credentials you received.   
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
  
