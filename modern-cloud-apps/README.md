@@ -1,5 +1,7 @@
 # Introduction
 
+This is a supplement guide to  ‘[Microsoft Cloud Workshop - Modern Cloud Apps](https://github.com/Microsoft/MCW-Modern-cloud-apps/tree/master/Hands-on%20lab)’, to be used when you are delivering a hands-on-lab session using Cloud Labs AI platform from Spektra Systems. If you have any questions, please reach out to cloudlabs-support@spektrasystems.com
+
 # Sign-up for Workshop Environment
 
 To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
@@ -10,7 +12,7 @@ To make it easier for you to work on the labs, you are provided with pre-provisi
  
 * Wait for the lab environment to be provisioned. Sometimes this can take upto **10 minutes**. Once environment provisioning is complete, you will receive details in email as well as in the browser.
  
- > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed. Also, for multi-day workshops, all virtual machines will be shutdown at 7 PM local time and start at 8AM local time.
+ > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed.
 
 # Verify the pre-provisioned Environment
 
@@ -56,13 +58,11 @@ While doing Exersice 4, please follow the below steps.
 > **Possible Solutions**:
 
 * In Exercise 1 > Task 5 > Subtask 2 > step 2, instead of URL of the Offers Web API App, you shoule provide URL of the ContosoSports Web App.
-### Connecting DSVM with RDP having issue addresses CredSSP
+### Issues with Exercise 5
 
 > **Possible Solutions**:
 
-* With the release of the March 2018 Security bulletin, there was a fix that addressed a CredSSP, “Remote Code Execution” vulnerability (CVE-2018-0886) which could impact RDP connections. 
-**Resolution**
-Please follow the instruction under https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/RDP%20CredSSP/README.md
+* You can skip exercise 5, since it is not updated according to the updated Azure portal.
 
 # Notes to Instructors / Proctors
 
