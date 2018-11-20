@@ -1,6 +1,6 @@
 # Introduction
 
-This is a supplement guide to  ‘Microsoft Cloud Workshop - [Continuous-delivery-in-VSTS-and-Azure](https://github.com/Microsoft/MCW-Continuous-delivery-in-VSTS-and-Azure)’, to be used when you are delivering a hands-on-lab session using Cloud Labs AI platform from Spektra Systems. If you have any questions, please reach out to cloudlabs-support@spektrasystems.com
+This is a supplement guide to  ‘Microsoft Cloud Workshop - [Continuous-delivery-in-VSTS-and-Azure](https://github.com/Microsoft/MCW-Continuous-delivery-in-VSTS-and-Azure/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Continuous%20delivery%20in%20VSTS%20and%20Azure.md)’, to be used when you are delivering a hands-on-lab session using Cloud Labs AI platform from Spektra Systems. If you have any questions, please reach out to cloudlabs-support@spektrasystems.com
 
 # Sign-up for Workshop Environment
 
