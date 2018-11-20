@@ -1,18 +1,8 @@
 # Introduction
 
+This is a supplement guide to ‘Microsoft Cloud Workshop - [Bigdata and Visualization](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Big%20data%20and%20visualization.md)’, to be used when you are delivering a hands-on-lab session using Cloud Labs AI platform from Spektra Systems. If you have any questions, please reach out to cloudlabs-support@spektrasystems.com
+
 In this workshop, you will complete a web app using Machine Learning to predict travel delays given flight delay data and weather conditions, plan the bulk data import operation, followed by preparation tasks, such as cleaning and manipulating the data for testing, and training your Machine Learning model. You can find details about the worksohp [here](https://spektraazurelabs.blob.core.windows.net/bigdata-visualization/Hands-on lab step-by step - Big data and visualization-updated.docx).</br></br>
-
-# Sign-up for Workshop Environment
-
-To make it easier for you to work on the labs, you are provided with pre-provisioned Azure environment. You will receive sign-up link for the lab environment from your instructor. 
-
-* Register for the lab environment by providing your information and clicking on **Submit** button.
- 
-* On the next page, click the **Launch Lab** button.
-  
-* Wait for the lab environment to be provisioned. Sometimes this can take upto **10 minutes**. Once environment provisioning is complete, you will receive details in email as well as in the browser.
-  
- > Note: Lab environment is enabled only for specific duration or workshop end time - whichever is earlier. At the end of the allowed time, environment will be self-destructed.</br></br>
 
 # Verify the pre-provisioned Environment
 
