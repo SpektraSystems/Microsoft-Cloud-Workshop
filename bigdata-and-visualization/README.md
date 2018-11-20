@@ -2,7 +2,7 @@
 
 This is a supplement guide to ‘Microsoft Cloud Workshop - [Bigdata and Visualization](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Big%20data%20and%20visualization.md)’, to be used when you are delivering a hands-on-lab session using Cloud Labs AI platform from Spektra Systems. If you have any questions, please reach out to cloudlabs-support@spektrasystems.com
 
-In this workshop, you will complete a web app using Machine Learning to predict travel delays given flight delay data and weather conditions, plan the bulk data import operation, followed by preparation tasks, such as cleaning and manipulating the data for testing, and training your Machine Learning model. You can find details about the worksohp [here](https://spektraazurelabs.blob.core.windows.net/bigdata-visualization/Hands-on lab step-by step - Big data and visualization-updated.docx).</br></br>
+In this workshop, you will complete a web app using Machine Learning to predict travel delays given flight delay data and weather conditions, plan the bulk data import operation, followed by preparation tasks, such as cleaning and manipulating the data for testing, and training your Machine Learning model.
 
 # Verify the pre-provisioned Environment
 
