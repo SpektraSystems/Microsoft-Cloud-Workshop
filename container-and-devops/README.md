@@ -129,6 +129,7 @@ connecting to the linux agent using SSH Client from the Windows Jump VM.
 * Enter the following command in Git bash before committing as in [Task 13](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files)
 
    git config --global user.name "odl_user_XXXXX@xxxxxxx.onmicrosoft.com"
+   
    git config --global user.email "odl_user_XXXXX@xxxxxxx.onmicrosoft.com"
 
    Substitute for "odl_user_XXXXX@xxxxxxx.onmicrosoft.com" with the username you received for Azure
@@ -142,6 +143,7 @@ connecting to the linux agent using SSH Client from the Windows Jump VM.
 Remove the **odluserXXXXX@** from the above commands like given below:
      
     git remote add origin https://dev.azure.com/odluserXXXXX/fabmedical/_git/test
+    
     git push -u origin --all
     
 
@@ -173,6 +175,7 @@ Remove the **odluserXXXXX@** from the above commands like given below:
 * Attendees need to execute the following command after Task 13 Step 4:
   
     git config --global user.name "odl_user_XXXXX@xxxxxxx.onmicrosoft.com"
+    
     git config --global user.email "odl_user_XXXXX@xxxxxxx.onmicrosoft.com"
 
    Substitute for "odl_user_XXXXX@xxxxxxx.onmicrosoft.com" with the username you received for Azure
