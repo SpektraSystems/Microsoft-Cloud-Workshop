@@ -135,7 +135,8 @@ connecting to the linux agent using SSH Client from the Windows Jump VM.
  
 * For [Task 13 -> Step 7 Setup your VisualStudio.com repository as a new remote for push](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files) , edit the command to push an existing repository from command line:
 
-    git remote add origin https://odluserXXXXX@dev.azure.com/odluserXXXXX/fabmedical/_git/test
+    git remote add origin https://odluserXXXXX@dev.azure.com/odluserXXXXX/fabmedical/_git/test 
+    
     git push -u origin --all
 
 Remove the **odluserXXXXX@** from the above commands like given below:
