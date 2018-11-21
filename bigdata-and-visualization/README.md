@@ -4,6 +4,14 @@ This is a supplement guide to ‘Microsoft Cloud Workshop - [Bigdata and Visuali
 
 In this workshop, you will complete a web app using Machine Learning to predict travel delays given flight delay data and weather conditions, plan the bulk data import operation, followed by preparation tasks, such as cleaning and manipulating the data for testing, and training your Machine Learning model.
 
+# Azure services and related products
+* Azure Databricks
+* Azure Machine Learning services
+* Azure Data Factory (ADF)
+* Azure Storage
+* Power BI Desktop
+* Azure App Service
+
 # Verify the pre-provisioned Environment
 
 ## Verify Azure Access
@@ -21,12 +29,11 @@ You are provided a [Data Science Virtual Machine - Windows 2016](https://azurema
 
 ## Verify the pre-requisite Azure resources
 1. **Data Sceince Virtual Machine**
-2. **Machine Learning Studio Workspace** is provisioned in the resource group, in which you have access. 
-3. **Virtual Network**
-4. **Public IP**
-5. **Network Interface**
-6. **Storage accounts**
-7. **Data Factory**
+2. **Virtual Network**
+3. **Public IP**
+4. **Network Interface**
+5. **Storage accounts**
+6. **Data Factory**
 
 
 ## Notes to Attendees
