@@ -26,12 +26,8 @@ You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketpl
 <kbd>![](images/functionapp.jpg "Function App")</kbd>
 1. In Exercise 2- task 1 step 4, configure **computerVisionApiUrl** similar to **https://australiaeast.api.cognitive.microsoft.com/vision/v1.0/ocr**. Here, just replace the endpoint(https://australiaeast.api.cognitive.microsoft.com/) with your computer vision endpoint url.
 # Known Issues
-### Not showing Telemetry data in sample Telemetry under App Insight, Lab guide page number: 55 and further steps of App Insight.
-Please re-verify previous steps of lab, most likely you missed some configuration part.
-
 
 # Notes to Instructors / Proctors
-
 
 # Help and Support
 
