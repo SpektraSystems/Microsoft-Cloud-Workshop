@@ -48,6 +48,10 @@ While doing Exersice 4, please follow the below steps.
 
 * In Exercise 1 > Task 5 > Subtask 2 > step 2, instead of URL of the Offers Web API App, you shoule provide URL of the ContosoSports Web App.
 
+### Issues with Exercise 5
+ > **Possible Solutions**:
+* You can skip exercise 5, since it is not updated according to the updated Azure portal.
+
 
 # Notes to Instructors / Proctors
 
