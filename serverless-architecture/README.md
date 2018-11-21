@@ -20,21 +20,14 @@ You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketpl
 
 
 ## Notes to Attendees
-While doing **Before the Hands-on-lab** section, follow the below steps.
-1. You can skip **Task 1** in **Before the Hands-on-lab** section, since it is pre-created. You can use the pre-created resources during the lab.
-2. You should perform **Task 3, Task 4 and Task 5**.
-3. You can skip **Task 6**, since the required resource groups are pre-created. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
-4. When you deploy **Function App** in exercise 1 - task 2. Choose **Java Script** instead of .net in RunTime Stack
+1. Resource Group **ODL_serverless-architecture-XXXXX-01** is having jumpvm only. You will not be able to create resources in this RG.
+1. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
+1. When you deploy **Function App** In [Exercise 1- Task 2.4](https://github.com/Microsoft/MCW-Serverless-architecture/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Serverless%20architecture.md#task-2-provision-the-function-apps). Choose **Java Script** instead of .NET in **RunTime Stack**
 <kbd>![](images/functionapp.jpg "Function App")</kbd>
-5. In Exercise 2- task 1 step 4, configure **computerVisionApiUrl** as **https://australiaeast.api.cognitive.microsoft.com/vision/v1.0/ocr**. Here just modify the endpoint(https://australiaeast.api.cognitive.microsoft.com/) of your computer vision endpoint url.
+1. In [Exercise 2 Task 1.4](https://github.com/Microsoft/MCW-Serverless-architecture/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Serverless%20architecture.md#task-1-configure-application-settings), configure **computerVisionApiUrl** similar to **https://australiaeast.api.cognitive.microsoft.com/vision/v1.0/ocr**. Here, just replace the endpoint(https://australiaeast.api.cognitive.microsoft.com/) with your computer vision endpoint url.
 # Known Issues
 
-### Not showing Telemetry data in sample Telemetry under App Insight, Lab guide page number: 55 and further steps of App Insight.
-Please re-verify previous steps of lab, most likely you missed some configuration part.
-
-
 # Notes to Instructors / Proctors
-
 
 # Help and Support
 
