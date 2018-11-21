@@ -125,36 +125,77 @@ connecting to the linux agent using SSH Client from the Windows Jump VM.
 
 * Start with [Task 13](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files) from Windows Jump VM before starting with the actual exercises
 * Use Git Bash for completing [Task 13](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files)
-* Execute the following command instead of Task 13 Step 1 in Before Hands on Lab part:
-
-curl -L -o FabMedical.tgz https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/FabMedical.tar.gz?raw=true
 
 * Enter the following command in Git bash before committing as in [Task 13](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files)
 
    git config --global user.name "odl_user_XXXXX@xxxxxxx.onmicrosoft.com"
+   git config --global user.email "odl_user_XXXXX@xxxxxxx.onmicrosoft.com"
 
    Substitute for "odl_user_XXXXX@xxxxxxx.onmicrosoft.com" with the username you received for Azure
+ 
+* For [Task 13 -> Step 7 Setup your VisualStudio.com repository as a new remote for push](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files) , edit the command to push an existing repository from command line:
+
+    git remote add origin https://odluserXXXXX@dev.azure.com/odluserXXXXX/fabmedical/_git/test
+    git push -u origin --all
+
+Remove the **odluserXXXXX@** from the above commands like given below:
+     
+    git remote add origin https://dev.azure.com/odluserXXXXX/fabmedical/_git/test
+    git push -u origin --all
+    
 
 * Use **ODL-devops-containers-XXXXX-01** for deploying any resources to Azure
-* For [Exercise 1 -> Task 7](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps.md#task-7-push-images-to-azure-container-registry) -> Step 13,  you can use the Service Principal details provided in the Lab Details Page
+* For [Exercise 1 -> Task 7 ](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps.md#task-7-push-images-to-azure-container-registry) -> Step 13,  you can use the Service Principal details provided in the Lab Details Page
 
+* Before executing git commit and git push commands, make sure config file in .git folder of each cloned folder ( content-init, content-api, content-web ) has [remote "origin"] URL in the following format :
+  
+     [remote "origin"]
+     url = https://dev.azure.com/odluserXXXXX/fabmedical/_git/content-api
+  
+  For editing the config file, you can execute the following commands one by one and edit the file and remove **odluserXXXXX@** from each file.
+  
+       vi ~/content-api/.git/config
+       
+       vi ~/content-web/.git/config
+       
+       vi ~/content-init/.git/config
+
+* For [Exercise 2 -> Task 2 -> Step 12](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps.md#task-2-deploy-a-service-using-the-kubernetes-management-dashboard), instead of the command given there, you can execute this command in the linux terminal:
+
+      echo -n "<connection string value>" | base64 -w 0
 
 # Notes to Instructors / Proctors
 
 * Tasks till Task 12 in Before Hands on Lab section has been pre-configured for the users
 * [Task 13](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files) needs to be completed by the attendee from the Windows Jump VM
 * Attendees need to use Git Bash instead of WSL in Windows Jump VM to complete Before Hands on Lab Task 13
-* Attendees need to execute the following command instead of Task 13 Step 1:
+* Attendees need to execute the following command after Task 13 Step 4:
   
- curl -L -o FabMedical.tgz https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/FabMedical.tar.gz?raw=true
- 
     git config --global user.name "odl_user_XXXXX@xxxxxxx.onmicrosoft.com"
+    git config --global user.email "odl_user_XXXXX@xxxxxxx.onmicrosoft.com"
 
    Substitute for "odl_user_XXXXX@xxxxxxx.onmicrosoft.com" with the username you received for Azure
- 
+
 * **Users can connect to the Linux VM using SSH Client or RDP client** and execute the commands from either SSH Client or Terminal inside Linux VM as mentioned in  [Connect to Build Agent Linux VM](https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/container-and-devops/README.md#connect-to-build-agent-linux-vm) section
 * Use **ODL-devops-containers-XXXXX-01** for deploying any resources to Azure
 * For [Exercise 1 -> Task 7](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps.md#task-7-push-images-to-azure-container-registry) -> Step 13, attendees can use the Service Principal details provided in the Lab Details Page
+
+* Before executing git commit and git push commands, make sure config file in .git folder of each cloned folder ( content-init, content-api, content-web ) has [remote "origin"] URL in the following format :
+  
+     [remote "origin"]  
+     url = https://dev.azure.com/odluserXXXXX/fabmedical/_git/content-api
+  
+  For editing the config file, you can execute the following commands one by one and edit the file and remove **odluserXXXXX@** from each file.
+  
+       vi ~/content-api/.git/config
+       
+       vi ~/content-web/.git/config
+       
+       vi ~/content-init/.git/config
+
+* For [Exercise 2 -> Task 2 -> Step 12](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps.md#task-2-deploy-a-service-using-the-kubernetes-management-dashboard), instead of the command given there, you can execute this command in the linux terminal:
+
+      echo -n "<connection string value>" | base64 -w 0
 
 
 # Help and Support
