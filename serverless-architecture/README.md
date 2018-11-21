@@ -24,7 +24,7 @@ You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketpl
 1. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
 1. When you deploy **Function App** in exercise 1 - task 2. Choose **Java Script** instead of .net in RunTime Stack
 <kbd>![](images/functionapp.jpg "Function App")</kbd>
-1. In Exercise 2- task 1 step 4, configure **computerVisionApiUrl** similar to **https://australiaeast.api.cognitive.microsoft.com/vision/v1.0/ocr**. Here, just replace the endpoint(https://australiaeast.api.cognitive.microsoft.com/) with your computer vision endpoint url.
+1. In [Exercise 2 Task 1.4](https://github.com/Microsoft/MCW-Serverless-architecture/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Serverless%20architecture.md#task-1-configure-application-settings), configure **computerVisionApiUrl** similar to **https://australiaeast.api.cognitive.microsoft.com/vision/v1.0/ocr**. Here, just replace the endpoint(https://australiaeast.api.cognitive.microsoft.com/) with your computer vision endpoint url.
 # Known Issues
 
 # Notes to Instructors / Proctors
