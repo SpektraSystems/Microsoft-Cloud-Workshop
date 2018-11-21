@@ -22,7 +22,7 @@ You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketpl
 ## Notes to Attendees
 1. Resource Group **ODL_serverless-architecture-XXXXX-01** is having jumpvm only. You will not be able to create resources in this RG.
 1. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
-1. When you deploy **Function App** In [Exercise 1- Task 2.4](https://github.com/Microsoft/MCW-Serverless-architecture/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Serverless%20architecture.md#task-2-provision-the-function-apps). Choose **Java Script** instead of .net in RunTime Stack
+1. When you deploy **Function App** In [Exercise 1- Task 2.4](https://github.com/Microsoft/MCW-Serverless-architecture/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Serverless%20architecture.md#task-2-provision-the-function-apps). Choose **Java Script** instead of .NET in **RunTime Stack**
 <kbd>![](images/functionapp.jpg "Function App")</kbd>
 1. In [Exercise 2 Task 1.4](https://github.com/Microsoft/MCW-Serverless-architecture/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Serverless%20architecture.md#task-1-configure-application-settings), configure **computerVisionApiUrl** similar to **https://australiaeast.api.cognitive.microsoft.com/vision/v1.0/ocr**. Here, just replace the endpoint(https://australiaeast.api.cognitive.microsoft.com/) with your computer vision endpoint url.
 # Known Issues
