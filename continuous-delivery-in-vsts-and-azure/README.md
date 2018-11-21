@@ -21,7 +21,13 @@ You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketpl
 ## Notes to Attendees
 
 1. You will get four Resource Groups **ODL-TailspinToys-41072-labvm**, **ODL-TailspinToys-41072-dev**, **ODL-TailspinToys-41072-test** and **ODL-TailspinToys-41072-production** already created.
-2. Please use **ODL-TailspinToys-41072-dev** instead of **TailspinToys-dev**, **ODL-TailspinToys-41072-test** instead of **TailspinToys-test** and **ODL-TailspinToys-41072-production** instead of **ODL-TailspinToys-41072-production** to deploy TailspinToys project template.
+1. Please use **ODL-TailspinToys-41072-dev** instead of **TailspinToys-dev**, **ODL-TailspinToys-41072-test** instead of **TailspinToys-test** and **ODL-TailspinToys-41072-production** instead of **ODL-TailspinToys-41072-production** to deploy TailspinToys project template.
+1. When you will login to http://visualstudio.com in [Exercise 2](https://github.com/Microsoft/MCW-Continuous-delivery-in-VSTS-and-Azure/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Continuous%20delivery%20in%20VSTS%20and%20Azure.md#exercise-2-create-visual-studio-team-services-team-project-and-git-repository). After creating TailspinToys project you will get different UI, not as shown in lab guide. So you need to turn off all preview features of VSTS.
+    - Click on the user profile section in upper right corner and then select Preview features.
+      <kbd>![](images/1.jpg "UserProfile")</kbd>
+    - Now turn off all the Preview features and continue with your lab.
+      <kbd>![](images/2.jpg "Off Preview features")</kbd>
+      
 
 # Known Issues
 
