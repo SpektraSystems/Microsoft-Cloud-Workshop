@@ -39,10 +39,34 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 # Known Issues
 
-Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mins to view the web page.
+1. Webpage might takes 25-30 minutes to come up. Refresh the browser after 25-30 mins to view the web page.
+
+2. In the ‘Microsoft Cloud Workshop - [Azure Resource Manager](https://github.com/Microsoft/MCW-Lift-and-shift-Azure-Resource-Manager/blob/master/Hands-on%20Lab/HOL%20step-by-step%20-%20Azure%20Resource%20Manager.md#task-1-parameterize-and-scale-out-the-environment)’ Exercise 5 > Task 1 > Step 1 and 2, some of the code is missing. Users need to make the following changes:
+
+* In Exercise 5 > Task 1 > Step 1, while adding the variables to the end of the variables section you need to add one more variable i.e:
+```
+    "StorageAccountPrefix": [
+      "a",
+      "g",
+      "m",
+      "s",
+      "y"
+     ]
+```
+* In Exercise 5 > Task 1 > Step 2, while adding the parameters to the end of the parameters section you need to add one more parameter i.e:
+```
+    "newStorageAccountSuffix": {
+      "type": "string",
+      "metadata": {
+        "description": "prefix for storage account"
+      }
+    }
+```
 
 
-# Notes to Instructors / Proctors
+# Notes to Instructors / Proctors / Attendees
+
+* Users **should not** use **ODL_ARM-xxxxx-01** for deployment of any resource
 
 * For Exercise 1, 2 and 3, users should use the **ODL_ARM-xxxxx-02** resource group to deploy any resoure or template
 
