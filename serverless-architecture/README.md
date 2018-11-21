@@ -20,7 +20,7 @@ You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketpl
 
 
 ## Notes to Attendees
-1. Resource Group **ODL_serverless-architecture-XXXXX-01** is having only jumpvm only. You will not be able to create resources in this RG.
+1. Resource Group **ODL_serverless-architecture-XXXXX-01** is having jumpvm only. You will not be able to create resources in this RG.
 1. You should create all the resource for the lab in **ODL_serverless-architecture-XXXXX-02** resource group.
 1. When you deploy **Function App** in exercise 1 - task 2. Choose **Java Script** instead of .net in RunTime Stack
 <kbd>![](images/functionapp.jpg "Function App")</kbd>
