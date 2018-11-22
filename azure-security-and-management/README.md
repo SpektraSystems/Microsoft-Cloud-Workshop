@@ -79,14 +79,6 @@ a. This presents the Data Collection screen. Turn on data collection by clicking
 1. You need not to execute Task 1 and Task 2 in Before the Hands-on-lab section, since it is pre-created. You can use the pre-created resources during the lab.
 2. You should perform Task 3. In this task, you will create a new Azure Portal dashboard.
 
- 
-* For Exercise 1, users should use the **ODL_azure-security-xxxxx-02** resource group.
-
-* For Exercise 2 and 3, users should use the **ODL_azure-security-xxxxx-03** resource group.
-
-* For Exercise 4, Task 1, Step 7 users will create and use a new **HOLInsights** resource group.
-
-
 
 # Help and Support
 
