@@ -181,6 +181,19 @@ Remove the **odluserXXXXX@** from the above commands like given below:
    Substitute for "odl_user_XXXXX@xxxxxxx.onmicrosoft.com" with the username you received for Azure
 
 * **Users can connect to the Linux VM using SSH Client or RDP client** and execute the commands from either SSH Client or Terminal inside Linux VM as mentioned in  [Connect to Build Agent Linux VM](https://github.com/SpektraSystems/Microsoft-Cloud-Workshop/blob/master/container-and-devops/README.md#connect-to-build-agent-linux-vm) section
+
+* For [Task 13 -> Step 7 Setup your VisualStudio.com repository as a new remote for push](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files) , edit the command to push an existing repository from command line:
+
+    git remote add origin https://odluserXXXXX@dev.azure.com/odluserXXXXX/fabmedical/_git/test 
+    
+    git push -u origin --all
+
+Remove the **odluserXXXXX@** from the above commands like given below:
+     
+    git remote add origin https://dev.azure.com/odluserXXXXX/fabmedical/_git/test
+    
+    git push -u origin --all
+    
 * Use **ODL-devops-containers-XXXXX-01** for deploying any resources to Azure
 * For [Exercise 1 -> Task 7](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps.md#task-7-push-images-to-azure-container-registry) -> Step 13, attendees can use the Service Principal details provided in the Lab Details Page
 
