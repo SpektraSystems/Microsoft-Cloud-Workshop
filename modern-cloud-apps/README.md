@@ -52,7 +52,15 @@ While doing Exersice 4, please follow the below steps.
  > **Possible Solutions**:
 * You can skip exercise 5, since it is not updated according to the updated Azure portal.
 
+### Issue with Order Checkout
 
+* You may find the following error message after clicking the Continue button on the Order Checkout page.
+```
+"Something went wrong...
+Uh, oh! Something happened, and it might have been my fault...
+Here are some potentially helpful details about what went wrong:
+You must write ContentLength bytes to the request stream before calling [Begin]GetResponse..
+```
 # Notes to Instructors / Proctors
 
 * LABVM is already deployed in **ODL_bcdr-XXXXX-01** Resource Group and configured with all the requirements such as SQL Server Management Studio and Application Files are already downloaded into the VM in C:\Hackathon. 
