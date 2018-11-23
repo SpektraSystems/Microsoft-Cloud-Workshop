@@ -63,7 +63,7 @@ You must write ContentLength bytes to the request stream before calling [Begin]G
 ```
 # Notes to Instructors / Proctors
 
-* LABVM is already deployed in **ODL_bcdr-XXXXX-01** Resource Group and configured with all the requirements such as SQL Server Management Studio and Application Files are already downloaded into the VM in C:\Hackathon. 
+* LABVM is already deployed in **ODL_mca-XXXXX-01** Resource Group and configured with all the requirements such as SQL Server Management Studio and Application Files are already downloaded into the VM in C:\Hackathon. 
 * Users should **use** the **Azure Credentials** given to them to login to **Visual Studio**.
 
 # Help and Support
