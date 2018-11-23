@@ -124,6 +124,11 @@ connecting to the linux agent using SSH Client from the Windows Jump VM.
 # Notes to Attendees
 
 * Start with [Task 13](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files) from Windows Jump VM before starting with the actual exercises
+
+* Attendees need to execute the following command instead of the command given in [Task 13 Step 1](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files) to download the starter files:
+
+    curl -L -o FabMedical.tgz https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/FabMedical.tar.gz?raw=true
+
 * Use Git Bash for completing [Task 13](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files)
 
 * Enter the following command in Git bash before committing as in [Task 13](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files)
@@ -171,6 +176,11 @@ Remove the **odluserXXXXX@** from the above commands like given below:
 
 * Tasks till Task 12 in Before Hands on Lab section has been pre-configured for the users
 * [Task 13](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files) needs to be completed by the attendee from the Windows Jump VM
+
+* Attendees need to execute the following command instead of the command given in [Task 13 Step 1](https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Containers%20and%20DevOps.md#task-13-download-the-fabmedical-starter-files) to download the starter files:
+
+    curl -L -o FabMedical.tgz https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/FabMedical.tar.gz?raw=true
+
 * Attendees need to use Git Bash instead of WSL in Windows Jump VM to complete Before Hands on Lab Task 13
 * Attendees need to execute the following command after Task 13 Step 4:
   
