@@ -47,8 +47,25 @@ You are provided a **Visual Studio Community 2017 on Windows Server 2016 (x64)Mi
 
 # Known Issues
 
-
 # Notes to Instructors / Proctors:
+
+* Users need not to perform any of the task in **Before Hands on Lab** as it is pre-configured.
+> For your information In Task 5(Before Hands on lab) : Add inbound port 1433 rule on the SqlServerDw VM, we are allowing all inbound  ports as needed. You can confirm this as shown in below screenshot.
+
+![](Images/image1.png)
+
+
+> Also in Task 7(Before Hands on Lab): Open port 1433 on the Windows Firewall of the SqlServerDw VM.
+ We already disabled the Windows Firewall inside the SqlServerDW VM as required. You can confirm this by opening Server Manager inside  VM. 
+ 
+ ![](Images/image2.png)
+ 
+ 
+ If its not disabled you can disable by clicking on Windows Firewall options as shown in below images:
+
+ ![](Images/image3.png)
+ 
+
 
 * For Exercise 2 Task 2 - **Create Azure Database MIgration Service**: Don't create Azure database migration service since it is pre-created in **ODL-data-platform-xxxxx-01** RG.
 
