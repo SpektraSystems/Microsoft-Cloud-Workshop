@@ -22,7 +22,7 @@ Azure services and related products
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
  
-3. Note that you have access to one resource groups – **ODL_azure-security-xxxxx-01** which has the pre-deployed environment. Users need to deploy other resources/Resource Groups during the lab.
+3. Note that you have access to one resource group – **ODL_azure-security-xxxxx-01** which has the pre-deployed environment. Users need to deploy other resources/Resource Groups during the lab.
 
 4. Navigate to the resource group **ODL_azure-security-xxxxx-01** and view the already existing resources such as **LABVM** Virtual Machine, Vnet etc.
 
