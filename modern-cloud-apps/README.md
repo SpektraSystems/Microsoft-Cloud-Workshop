@@ -61,6 +61,13 @@ Uh, oh! Something happened, and it might have been my fault...
 Here are some potentially helpful details about what went wrong:
 You must write ContentLength bytes to the request stream before calling [Begin]GetResponse..
 ```
+> **Possible Solutions**: </br>
+* It's due to TLS 1.0, 1.1 reaching EOL. Modify the code as follows in /Helpers/PaymentGatewayFunctions.cs:
+
+        string strPost = NvpRequest + "&" + buildCredentialsNVPString();
+        // add the following line to force TLS1.2
+        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+        HttpWebRequest objRequest = (HttpWebRequest)WebRequest.Create(url);
 # Notes to Instructors / Proctors
 
 * LABVM is already deployed in **ODL_mca-XXXXX-01** Resource Group and configured with all the requirements such as SQL Server Management Studio and Application Files are already downloaded into the VM in C:\Hackathon. 
