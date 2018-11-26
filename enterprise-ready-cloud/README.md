@@ -31,7 +31,7 @@ To workaround manageent groups you must assign the owner role to your self. Foll
      
           <kbd>![](images/21.jpg "IAM")</kbd> 
           
-     3. Now give owner role to Azure Account you recieved in lab details page.
+     3. Now give owner role to Azure Account you recieved on lab details page.
      
           <kbd>![](images/22.jpg "Owner")</kbd> 
           
