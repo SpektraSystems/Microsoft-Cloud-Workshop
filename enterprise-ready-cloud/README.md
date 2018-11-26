@@ -36,7 +36,8 @@ To workaround manageent groups you must assign the owner role to your self. Foll
           <kbd>![](images/22.jpg "Owner")</kbd> 
           
      4. If you are not able to add subscription in **Enterprise Ready Cloud** management group. Then move the subscription from **Tenant Root Group** to **Enterprise Ready Cloud** group.
-          
+     
+1. After completing the lab. Move the subscription from **Enterprise Ready Cloud** group to **Tenant Root Group** and then delete **Enterprise Ready Cloud**.          
             
 # Notes to Instructors / Proctors
 
