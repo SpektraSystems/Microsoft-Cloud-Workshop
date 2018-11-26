@@ -25,13 +25,13 @@ You are provided a **Free License: SQL Server 2016 SP2 Developer on Windows Serv
 4. **Network Security Group** 
 
 ## Notes to Attendees
-#### While doing **Before the Hands-on-lab** section, follow the below mentioned steps.
+#### While doing [Before the Hands-on-lab](https://github.com/Microsoft/MCW-Migrate-EDW-to-Azure-SQL-Data-Warehouse/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Migrate%20EDW%20to%20Azure%20SQL%20Data%20Warehouse.md), follow the below mentioned steps.
 1. Do not create **Free License: SQL Server 2016 SP2 Developer on Windows Server 2016** specified in **Task 1**, since it is pre-created.
 2. You need to **install** **Azure PowerShell command-line tools** by running the setup file provided on the **Desktop**.
 3. You can skip **step 1 to step 6** in **Task 2**, since all specified things are pre-configured.</br>
 4. Follow **steps 7 to 9**  **in task 2**, you can find in [Before the HOL lab guide](https://github.com/Microsoft/MCW-Migrate-EDW-to-Azure-SQL-Data-Warehouse/tree/master/Hands-on%20lab).
 5. Also you have to perform **Task 3** from **Before the HOL lab guide.** Deploy **cohoOLTP** database in existing **Resource group - ODL-edw-34502-cohoOLTP**, here 34502 is your unique id.
-#### While doing **Exercise 1**, follow the below mentioned steps.
+#### While doing [HOL step-by-step Exercise 1](https://github.com/Microsoft/MCW-Migrate-EDW-to-Azure-SQL-Data-Warehouse/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Migrate%20EDW%20to%20Azure%20SQL%20Data%20Warehouse.md), follow the below mentioned steps.
 1. While creating **Logical SQL Server** specified in Task 1, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
 2. While creating **Data Factory** specified in Task 2, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDataFactory** from the drop down.
 3. While creating **SQL Data Warehouse** specified in Task 3, you need to select Use Existing under Resource group option and select **Resource group - ODL-edw-34502-cohoDWRG** from the drop down.
