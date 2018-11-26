@@ -23,13 +23,13 @@ You are provided a [Visual Studio cummunity- Windows 2016](https://azuremarketpl
 To workaround manageent groups you must assign the owner role to your self. Follow the below steps:
 1. After creating the **Enterprise Ready Cloud** management group in [Ex1 Task 1: Create a Management Group](https://github.com/Microsoft/MCW-Enterprise-ready-cloud/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Enterprise-ready%20cloud.md#task-1-create-a-management-group). 
      
-       1. Go to the Tenant root group details.
+     1. Go to the Tenant root group details.
           <kbd>![](images/20.jpg "TenantRootDetails")</kbd>          
-       2. Then click on **Access control (IAM)** and then **+Add**.
+     2. Then click on **Access control (IAM)** and then **+Add**.
           <kbd>![](images/21.jpg "IAM")</kbd> 
-       3. Now give owner role to Azure Account you recieved in lab details page.
+     3. Now give owner role to Azure Account you recieved in lab details page.
           <kbd>![](images/22.jpg "Owner")</kbd> 
-       4. If you are not able to add subscription in **Enterprise Ready Cloud** management group. Then move the subscription from **Tenant Root Group** to **Enterprise Ready Cloud** group.
+     4. If you are not able to add subscription in **Enterprise Ready Cloud** management group. Then move the subscription from **Tenant Root Group** to **Enterprise Ready Cloud** group.
           
             
 # Notes to Instructors / Proctors
