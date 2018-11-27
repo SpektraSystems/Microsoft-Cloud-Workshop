@@ -51,7 +51,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 >  Note: The Graphical User Interface (GUI) has changed for Security Center so please follow below steps:
 
-* For [**Excercise 3, Task 2**] (https://github.com/Microsoft/MCW-Azure-security-and-management/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Azure%20security%20and%20management.md#task-2-explore-security-center): **Explore Security Center** please follow the below steps to change the pricing tier to Standard:
+* For [Excercise 3, Task 2] (https://github.com/Microsoft/MCW-Azure-security-and-management/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Azure%20security%20and%20management.md#task-2-explore-security-center): **Explore Security Center** please follow the below steps to change the pricing tier to Standard:
 
 1. Select **Security Policy** under POLICY and COMPLIANCE
 
