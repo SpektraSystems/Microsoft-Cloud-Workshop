@@ -37,7 +37,7 @@ You are provided a [Data Science Virtual Machine - Windows 2016](https://azurema
 
 
 ## Notes to Attendees
-While doing **Before the Hands-on-lab** section, follow the below steps.
+While doing [Before the Hands-on-lab](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Big%20data%20and%20visualization.md#before-the-hands-on-lab) section, follow the below steps.
 1. You need not to execute **Task 1** in **Before the Hands-on-lab** section, since it is pre-created. You can use the pre-created resources during the lab.
 2. You should perform **Task 2**. In this task, you will **register for a trial API account at WeatherUnderground.com**
 3. You should perform **Task 3, 4, 5** for Retrieve Azure Storage account information and create container, etc.
