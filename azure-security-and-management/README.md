@@ -51,7 +51,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 >  Note: The Graphical User Interface (GUI) has changed for Security Center so please follow below steps:
 
-* For **Excercise 3, Task 2** : **Explore Security Center** please follow the below steps to change the pricing tier to Standard:
+* For [Excercise 3, Task 2](https://github.com/Microsoft/MCW-Azure-security-and-management/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Azure%20security%20and%20management.md#task-2-explore-security-center): **Explore Security Center** please follow the below steps to change the pricing tier to Standard:
 
 1. Select **Security Policy** under POLICY and COMPLIANCE
 
@@ -69,7 +69,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 a. This presents the Data Collection screen. Turn on data collection by clicking the On button, selecting **Use another workspace** and selecting the Log Analytics workspace created in Task 1: Provision Log Analytics and then clicking **Save** and click on Yes if prompted.
 
-   ![](images/autoprovimage4.png)
+  ![](images/autoprovimage4.png)
 
 
 # Notes to Instructors / Proctors
