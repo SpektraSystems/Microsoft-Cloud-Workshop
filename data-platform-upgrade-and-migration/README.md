@@ -50,12 +50,12 @@ You are provided a **Visual Studio Community 2017 on Windows Server 2016 (x64)Mi
 # Notes to Instructors / Proctors:
 
 * Users need not to perform any of the task in [Before Hands on Lab](https://github.com/Microsoft/MCW-Data-Platform-upgrade-and-migration/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Data%20Platform%20upgrade%20and%20migration.md#before-the-hands-on-lab) as it is pre-configured.
-> For your information In [Task 5](https://github.com/Microsoft/MCW-Data-Platform-upgrade-and-migration/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Data%20Platform%20upgrade%20and%20migration.md#task-5-add-inbound-port-1433-rule-on-the-sqlserverdw-vm-network-security-group)(Before Hands on lab) : Add inbound port 1433 rule on the SqlServerDw VM, we are allowing all inbound  ports as needed. You can confirm this as shown in below screenshot.
+> For your information In [Task 5 (Before Hands on lab)](https://github.com/Microsoft/MCW-Data-Platform-upgrade-and-migration/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Data%20Platform%20upgrade%20and%20migration.md#task-5-add-inbound-port-1433-rule-on-the-sqlserverdw-vm-network-security-group): Add inbound port 1433 rule on the SqlServerDw VM, we are allowing all inbound  ports as needed. You can confirm this as shown in below screenshot.
 
 ![](Images/image1.png)
 
 
-> Also in [Task 7](https://github.com/Microsoft/MCW-Data-Platform-upgrade-and-migration/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Data%20Platform%20upgrade%20and%20migration.md#task-7-open-port-1433-on-the-windows-firewall-of-the-sqlserverdw-vm)(Before Hands on Lab): Open port 1433 on the Windows Firewall of the SqlServerDw VM.
+> Also in [Task 7 (Before Hands on Lab)](https://github.com/Microsoft/MCW-Data-Platform-upgrade-and-migration/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Data%20Platform%20upgrade%20and%20migration.md#task-7-open-port-1433-on-the-windows-firewall-of-the-sqlserverdw-vm): Open port 1433 on the Windows Firewall of the SqlServerDw VM.
  We already disabled the Windows Firewall inside the SqlServerDW VM as required. You can confirm this by opening Server Manager inside  VM. 
  
  ![](Images/image2.png)
