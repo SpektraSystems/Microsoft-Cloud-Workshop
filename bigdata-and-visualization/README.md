@@ -40,12 +40,12 @@ You are provided a [Data Science Virtual Machine - Windows 2016](https://azurema
 While doing [Before the Hands-on-lab](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Big%20data%20and%20visualization.md#before-the-hands-on-lab) section, follow the below steps.
 1. You need not to execute [Task 1](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Big%20data%20and%20visualization.md#task-1-deploy-data-science-virtual-machine-cluster-to-azure) in **Before the Hands-on-lab** section, since it is pre-created. You can use the pre-created resources during the lab.
 2. You should perform [Task 2](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Big%20data%20and%20visualization.md#task-2-register-for-a-trial-api-account-at-darkskynet) In this task, you will **register for a trial API account at WeatherUnderground.com**
-3. You should perform **Task 3, 4, 5** for Retrieve Azure Storage account information and create container, etc.
-4. Don’t deploy **Data Factory** specified in **Task 6**, since it is pre-created.
-5. You should perform **Task 7**: Initialize Azure Machine Learning Workbench on the Lab DSVM.
+3. You should perform [Task 3](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Big%20data%20and%20visualization.md#task-3-provision-azure-databricks), [Task 4](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Big%20data%20and%20visualization.md#task-4-create-azure-storage-account), [Task 5](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Big%20data%20and%20visualization.md#task-5-retrieve-azure-storage-account-information-and-create-container) for Retrieve Azure Storage account information and create container, etc.
+4. Don’t deploy **Data Factory** specified in [Task 6](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Big%20data%20and%20visualization.md#task-6-provision-azure-data-factory), since it is pre-created.
+5. You should perform [Task 7](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Big%20data%20and%20visualization.md#task-7-initialize-azure-machine-learning-workbench-on-the-lab-dsvm): Initialize Azure Machine Learning Workbench on the Lab DSVM.
    Need not to download Machine learning Workbench as it is pre-downloaded. You can find the setup of workbench on downloads folder at  desktop.
-6. You should perform **Task 8**: Provision Azure Machine Learning Experimentation service
-7. You should perform **Task 9**: Create an Azure Databricks cluster
+6. You should perform [Task 8](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Big%20data%20and%20visualization.md#task-8-provision-azure-machine-learning-experimentation-service): Provision Azure Machine Learning Experimentation service
+7. You should perform [Task 9](https://github.com/Microsoft/MCW-Big-data-and-visualization/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Big%20data%20and%20visualization.md#task-9-create-an-azure-databricks-cluster): Create an Azure Databricks cluster
 
 # Known Issues
 
