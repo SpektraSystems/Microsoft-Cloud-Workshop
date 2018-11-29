@@ -28,7 +28,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 ### Failure while running the following command
 
-[Exercise 5- Task 4] (https://github.com/Microsoft/MCW-Intelligent-analytics/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Intelligent%20analytics.md#task-4-re-deploy-and-test) Re-deploy and Test :
+[Exercise 5- Task 4](https://github.com/Microsoft/MCW-Intelligent-analytics/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Intelligent%20analytics.md#task-4-re-deploy-and-test) Re-deploy and Test :
 Messages are not displaying after clicking on the send button. 
 
 
