@@ -2,7 +2,7 @@
 
 This is a supplement guide to ‘Microsoft Cloud Workshop - [Azure Resource Manager](https://github.com/Microsoft/MCW-Lift-and-shift-Azure-Resource-Manager/blob/master/Hands-on%20Lab/HOL%20step-by-step%20-%20Azure%20Resource%20Manager.md)’, to be used when you are delivering a hands-on-lab session using Cloud Labs AI platform from Spektra Systems. If you have any questions, please reach out to cloudlabs-support@spektrasystems.com
 
-Azure Resource Manager (ARM) is a one day workshop lead by Microsoft or Microsoft partners.These one day focus on hands-on activities that  deploy to infrastructure such as virtual machine, storage, and networking.This lab will also teach the attendees how to deploy virtual machines that are automatically configured by the Azure Automation Desired State Configuration (DSC) service.
+Azure Resource Manager (ARM) is a one day workshop led by Microsoft or Microsoft partners.These one day focus on hands-on activities that  deploy to infrastructure such as virtual machine, storage, and networking.This lab will also teach the attendees how to deploy virtual machines that are automatically configured by the Azure Automation Desired State Configuration (DSC) service.
 * How to author and deploy an ARM template 
 * How to perform configuration management with Azure Automation DSC.
 
