@@ -12,14 +12,12 @@ In this workshop, you will learn how to design a solution with Ethereum Blockcha
 1. Launch a browser using incognite or in-private mode, and navigate to https://portal.azure.com. Once prompted, login with the Microsoft Azure credentials you received.   
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
- 
-3. Note that you have access to one resource group – ODL_ARM-xxxxx-01, ODL_ARM-xxxxx-02 and ODL_ARM-xxxxx-03. Note: ODL_ARM-xxxxx-01 has the pre-deployed environment **ODL_ARM-xxxxx-02** and **ODL_ARM-xxxxx-03** is a Resource group with one storage account only. Also you will use **ODL_ARM-xxxxx-02** and **ODL_ARM-xxxxx-03** to deploy new resources. 
 
-4. Navigate to the resource group **ODL_az-blockchain-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine, Disk, etc
+3. Navigate to the resource group **ODL_az-blockchain-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine, Disk, etc
 
-5. Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
+4. Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
 
-6. Now open -> **Visual Studio Code**, you will see that the Solidity Extension is already installed
+5. Now open -> **Visual Studio Code**, you will see that the Solidity Extension is already installed
 
 
 ## Verify Azure Access
