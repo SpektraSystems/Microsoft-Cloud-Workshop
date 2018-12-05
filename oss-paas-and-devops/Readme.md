@@ -74,7 +74,11 @@ The scenario will challenge you to setup continuous integration and delivery of 
  
  ## Known Issues
  
- In Exercise 3>Task 3>Step 10:For building the docker image, Oprn a bash shell and run the command **sudo su -**. You have to run the command **visudo**.Add demouser configuration  in file.Run the **exit** command.After that you have to restart your VM and build the image.
+    1. In Exercise 3>Task 3>Step 10: For building the docker image, Open a bash shell and run the command **sudo su -**. 
+    
+     You have to run the command **visudo**. Add demouser configuration  in file. Run the **exit** command.
+    
+     After that you have to restart your VM and build the image.
     
 ## Notes to Instructors / Proctors
 
