@@ -37,7 +37,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 # Known Issues
 
 ### Install the VSIX file for installing Logic Apps    
-Navigate **C:\Hackathon\\** and double click on the **Microsoft.Azure.LogicApp.VSTooling.2017.vsix** to install the extension of Logic Apps for Visual Studio 2017.   
+Navigate to **C:\Hackathon\\** and double click on the **Microsoft.Azure.LogicApp.VSTooling.2017.vsix** to install the extension of Logic Apps for Visual Studio 2017.   
 
 # Notes to Instructors / Proctors
 
