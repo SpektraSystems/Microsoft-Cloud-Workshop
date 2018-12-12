@@ -8,7 +8,10 @@ Here we are providing two versions of environment. One is automated deployment o
 
 ## Automated Deployment of Cloudera Enterprise HUB
 
-Here we are managing the deployment of Cloudera Enterprise Hub cluster deploytment. You just not to worry about the cluster deployment. Here as soon as you Launch the lab from Cloudlabs sign up page. You will get the Azure login and cloudera credentials within few seconds. When you will login to [Azure](https://portal.azure.com) using provided credential you will see cluster inside resource group **ODL-cdh-46008** (46008 is unique ID for each attendee, will be different for you) with reader permissions on Resource group. You can login to cloudera manager using master node dns and continue with the lab.
+1. Here we are managing the deployment of Cloudera Enterprise Hub cluster deploytment. You just not to worry about the cluster deployment. 
+1. As soon as you **Launch the lab** from Cloudlabs sign up page. You will get the **Azure and cloudera credentials** within few seconds. 
+1. When you will login to [Azure](https://portal.azure.com) using provided credential you will see cluster inside resource group **ODL-cdh-46008** (46008 is unique ID for each attendee, will be different for you) with reader permissions on Resource group. 
+1. You can login to cloudera manager using master node dns and continue with the lab.
 
 
 ## Notes to Attendees
