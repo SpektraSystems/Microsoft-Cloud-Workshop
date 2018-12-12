@@ -13,7 +13,7 @@ Here we are providing two versions of environment. One is automated deployment o
 1. When you loged in to [Azure](https://portal.azure.com) using provided credential, you will see cluster inside resource group **ODL-cdh-46008** (46008 is unique ID for each attendee, will be different for you) with reader permissions on Resource group. 
 1. You can login to cloudera manager using master node dns and continue with the lab.
 
-## Azure Subscription access for Clodera Enterprise Hub deployment
+## Azure Subscription access for Clodera Enterprise HUB deployment
 
 1. Here we are just providing you access to azure subscription.
 1. As soon as you will sign up and launch the lab you will get azure creadentials. 
