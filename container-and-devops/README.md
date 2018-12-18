@@ -14,12 +14,12 @@ In addition,
 * Login to the portal using Azure Credentials issued for your environment.  
 * Once you are logged in to the portal, navigate to Resource Groups. 
 * Note that you have access to two resource groups:
-  1. **ODL-devops-containers-XXXXX-01** contains Build Agent VM
-   [Note: For all tasks which involve deployment, use **ODL-devops-containers-XXXXX-01** ]
+  1. **ODL-devops-containers-XXXXX-fabmedical** contains Build Agent VM
+   [Note: For all tasks which involve deployment, use **ODL-devops-containers-XXXXX-fabmedical** ]
   2. **ODL-devops-containers-XXXXX-02** contains Windows Jump VM
   
 * Navigate to the resource group and view the already existing resources such as Container Service, build agent Linux VM, etc.
-* Verify that following resources are predeployed in the resource group **ODL-devops-containers-XXXXX-01**:
+* Verify that following resources are predeployed in the resource group **ODL-devops-containers-XXXXX-fabmedical**:
   1. Build Agent Linux VM "**fabmedicalagent**"and associated resources such as NSG, VNET, Public IP, etc
   2. Azure Container Registry
   3. Azure Kubernetes Service with the following name "**fabmedical-xxxx**"
