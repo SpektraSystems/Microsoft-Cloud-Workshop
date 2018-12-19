@@ -15,9 +15,9 @@ In this hands-on step-by-step lab, you will migrate an on-premises based helpdes
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
  
-3. Note that you have access to five resource groups – ODL_lift-shift-xxxxx-01, ODL_lift-shift-xxxxx-02, ODL_lift-shift-xxxxx-03,  ODL_lift-shift-xxxxx-04 and ODL_lift-shift-xxxxx-05. Note: All these 5 resource groups has the pre-deployed environment. **User need not deploy any resource during the lab** 
+3. Note that you have access to five resource groups – ODL_lift-shift-xxxxx-OPSLABRG, ODL_lift-shift-xxxxx-OsTicketOnPrem, ODL_lift-shift-xxxxx-OsTicketMySQLVM,  ODL_lift-shift-xxxxx-OsTicketVMSSRG and ODL_lift-shift-xxxxx-OsTicketPaaSRG. Note: All these 5 resource groups has the pre-deployed environment. **User need not deploy any resource during the lab** 
 
-4. Navigate to the resource group **ODL_lift-shift-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine, Disk, etc
+4. Navigate to the resource group **ODL_lift-shift-xxxxx-OPSLABRG** and view the already existing resources such as LABVM Virtual Machine, Disk, etc
 
 5. Using a remote desktop client, open a Remote Desktop Session into the LABVM using the labvmdnsname and credentials you received
 
@@ -34,7 +34,7 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Microsoft with MYSQL Workbench installed.FQDN of the virtual machine and administrator credentials are provided in the lab details page. You can remote into the virutal machine using the provided credentials.
 
-> Note: LAB VM is provisioned in the resource group **ODL_lift-shift-xxxxx-01**. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
+> Note: LAB VM is provisioned in the resource group **ODL_lift-shift-xxxxx-OPSLABRG**. Once you login to Microsoft Azure Portal, you can navigate to this VM to find more details.
 
 
 # Known Issues
@@ -42,13 +42,13 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 # Notes to Instructors / Proctors
 
-* For Exercise 1, users should navigate to the **ODL_lift-shift-xxxxx-02** resource group and use the already deployed resources
+* For Exercise 1, users should navigate to the **ODL_lift-shift-xxxxx-OsTicketOnPrem** resource group and use the already deployed resources
 
-* For Exercise 2 Task 1 and 2, users should use the **ODL_lift-shift-xxxxx-03** resource group and use the already deployed resources
+* For Exercise 2 Task 1 and 2, users should use the **ODL_lift-shift-xxxxx-OsTicketMySQLVM** resource group and use the already deployed resources
 
-* For Exercise 2 Task 3, 4 and 5, users should use the **ODL_lift-shift-xxxxx-04** resource group and use the already deployed resources
+* For Exercise 2 Task 3, 4 and 5, users should use the **ODL_lift-shift-xxxxx-OsTicketVMSSRG** resource group and use the already deployed resources
 
-* For Exercise 3, users should use the **ODL_lift-shift-xxxxx-05** resource group and use the already deployed resources
+* For Exercise 3, users should use the **ODL_lift-shift-xxxxx-OsTicketPaaSRG** resource group and use the already deployed resources
 
 
 # Help and Support
