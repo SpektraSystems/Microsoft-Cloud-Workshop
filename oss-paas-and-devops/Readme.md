@@ -12,7 +12,9 @@ The scenario will challenge you to setup continuous integration and delivery of 
 * Note that you have access to one resource group  
 * Navigate to the resource group and view the already existing resources such as Linux VM, etc.
 * Verify that following resources are predeployed in the resource group:
-  1. Ubuntu Server 16.04 from Canonical named "labvm"
+  1. Virtual Machine with name "LabVM"
+  2. Virtual Machine with name "Jenkins"
+  3. Other resources such as Virtual Network, Network Security Group, etc.
 
 
 ## Verify Azure Access
@@ -22,7 +24,7 @@ The scenario will challenge you to setup continuous integration and delivery of 
 > Note: You might have an existing Azure Credential. For the pre-provisioned environment, new Microsoft Azure environment is provisioned and new AAD user is created for you. To prevent conflict with your existing accounts, it is advised to use In Private mode of IE / IE Edge or Incognito mode of Chrome browser.
 
 ## Using Resource Groups
-* You'd have two resource groups already provisioned for you, Please use these resource groups to create resources throughout the lab. You're not assigned permissions to create new RG, so if you get any permission error while creating resources, be sure sure to verify that you're choosing existing resource groups for deployment
+* You'd have one resource group already provisioned for you, Please use this resource group to create resources throughout the lab. You're not assigned permissions to create new RG, so if you get any permission error while creating resources, be sure sure to verify that you're choosing existing resource groups for deployment
 
 ## Verify Virtual Machine
 
@@ -74,15 +76,13 @@ The scenario will challenge you to setup continuous integration and delivery of 
  
  ## Known Issues
  
-    1. In Exercise 3>Task 3>Step 10: For building the docker image, Open a bash shell and run the command **sudo su -**. 
-    
-     You have to run the command **visudo**. Add demouser configuration  in file. Run the **exit** command.
-    
-     After that you have to restart your VM and build the image.
-    
-## Notes to Instructors / Proctors
 
-* All the tasks in Before Hands on Lab section is pre deployed.
+    
+## Notes to Instructors / Proctors / Attendees
+
+* User have to complete task 4 and task 5 from [Before HOL](https://github.com/Microsoft/MCW-OSS-PaaS-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL.md#task-4-create-github-account)
+
+* All the deployment tasks in Before Hands on Lab section is pre deployed.
 
 ## Help and Support
 
