@@ -7,7 +7,7 @@ This is a supplement guide to  ‘Microsoft Cloud Workshop - [App-modernization]
 
 2. Once you are logged in to the portal, navigate to Resource Groups. 
 
-3. Note that you have access to two resource groups – ODL_App-xxxxx-01 and ODL_App-xxxxx-02. Note: ODL_ARM-xxxxx-01 has the pre-deployed environment **ODL_App-xxxxx-02** is a Resource group.you will use **ODL_App-xxxxx-02** to deploy new resources. 
+3. Note that you have access one resource group – ODL_App-xxxxx-01. Note: ODL_ARM-xxxxx-01 has the pre-deployed environment and you will also use **ODL_App-xxxxx-01** to deploy new resources. 
 
 4. Navigate to the resource group **ODL_App-xxxxx-01** and view the already existing resources such as LABVM Virtual Machine, Disk, etc.
 
