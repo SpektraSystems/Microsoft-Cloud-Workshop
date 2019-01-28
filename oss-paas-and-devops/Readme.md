@@ -80,6 +80,7 @@ The scenario will challenge you to setup continuous integration and delivery of 
 * All the deployment tasks in Before Hands on Lab section is pre deployed.
 
 * Attendees can use the service principal details already shared with you in the Lab Details Page for [Exercise 5 Task 6](https://github.com/Microsoft/MCW-OSS-PaaS-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by%20step%20-%20OSS%20PaaS%20and%20DevOps.md#task-6-add-an-azure-service-principal-for-jenkins)
+ 
 
 ## Help and Support
 
