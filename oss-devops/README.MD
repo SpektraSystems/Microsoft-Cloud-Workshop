@@ -37,12 +37,10 @@ While doing **Exercise 1**, please follow the below steps.
     * Click on **Create Storage**
    
 * You can skip **Task 1 > Step 2**, since all resource groups are pre-created. 
-* In **Task 1 > Steps 3&4**, provide our pre-created resource group name(ODL-xxx-OsTicketPaaSRG) in the command.
-* In **Task 3 > Steps 3&4**, provide our pre-created resource group name(ODL-xxx-OsTicketPaaSRG) in the command.
-* In **Task 5**, for getting Deployment credentials page,Open the Web app and navigate through **Deployment Center > FTP > Dashboard > User Credentials**.</br></br> 
+* In **Task 1 > Steps 3&4**, while creating MySql server, provide our pre-created resource group name(ODL-xxx-OsTicketPaaSRG) in the command.
+* In **Task 3 > Steps 2&3**, while creating App service plan and web app, provide our pre-created resource group name(ODL-xxx-OsTicketPaaSRG) in the command.</br></br> 
 While doing **Exercise 3**, please follow the below steps.
 * In **Task 1**, while creating Jenkins you can use the pre-deployed reource group - **ODL-xxx-JenkinsRG**.
-* You can skip **Task 4** and **Task 5**, because GitHub services are deprecated.
     
 # Known Issues
 
