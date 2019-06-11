@@ -1,10 +1,11 @@
 **In Exercise 2, [Task 8: Review Azure Monitor for Containers](https://github.com/microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps%20-%20Developer%20edition.md#task-8-review-azure-monitor-for-containers)**
+
 You will not be able to enable Insights for AKS cluster, Please skip this task and move to next task.
 
-Pre-Requisite:
+**Pre-Requisite:**
 Once you receive the Lab Environment details after clicking on **Launch Lab**, perform the following task given below before starting with the main lab guide
 
-**Task: Download the FabMedical starter files
+**Task: Download the FabMedical starter files**
 
 FabMedical has provided starter files for you. They have taken a copy of one of their websites, for their customer Contoso Neuro, and refactored it from a single node.js site into a website with a content API that serves up the speakers and sessions. This is a starting point to validate the containerization of their websites. They have asked you to use this to help them complete a POC that validates the development workflow for running the website and API as Docker containers and managing them within the Azure Kubernetes Service environment.
 In later exercises, you will need the Helm client to deploy to your Kubernetes cluster and run commands from your local machine.
@@ -161,8 +162,8 @@ chmod 700 get_helm.sh
 
     * Use the repository url and `git clone` to copy the content-init code to your build agent.
 
-Note: Keep this WSL window open as your build agent SSH connection. You will later open new WSL sessions to other machines.
+**Note:** Keep this WSL window open as your build agent SSH connection. You will later open new WSL sessions to other machines.
 
 You should follow all steps provided *before* performing the Hands-on lab.
 
-Continue the lab from here https://github.com/Microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps.md  with the instructor
+Continue the lab from here https://github.com/microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps%20-%20Developer%20edition.md  with the instructor
