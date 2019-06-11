@@ -17,33 +17,33 @@ brew update
 brew install kubernetes-helm
 For Windows -- using WSL on your local machine (not the build agent):
 
-curl https://raw.githubusercontent.com/helm/helm/master/scripts/get > get_helm.sh
-chmod 700 get_helm.sh
-./get_helm.s
+    curl https://raw.githubusercontent.com/helm/helm/master/scripts/get > get_helm.sh
+    chmod 700 get_helm.sh
+    ./get_helm.sh
 
 
 1.  From WSL of the Development VM, download the starter files by typing the following curl instruction (case sensitive):
 
-    curl -L -o FabMedical.tgz http://bit.ly/2uhZseT
+        curl -L -o FabMedical.tgz http://bit.ly/2uhZseT
 
 2.  Create a new directory named FabMedical by typing in the following command:
 
-    mkdir FabMedical
+        mkdir FabMedical
 
 3.  Unpack the archive with the following command. This command will extract the files from the archive to the FabMedical directory you created. The directory is case sensitive when you navigate to it.
 
-    tar -C FabMedical -xzf FabMedical.tgz --strip-components=1
+        tar -C FabMedical -xzf FabMedical.tgz --strip-components=1
 
 4.  Navigate to FabMedical folder and list the contents.
 
-    cd FabMedical
-    ll
+         cd FabMedical
+         ll
 
 5.  You'll see the listing includes three folders, one for the web site, another for the content API and one to initialize API data:
 
-    content-api/
-    content-init/
-    content-web/
+        content-api/
+        content-init/
+        content-web/
 
 6.  Next log into your VisualStudio.com account.
 
@@ -88,10 +88,10 @@ chmod 700 get_helm.sh
     
     * Using your WSL window, initialize a new git repository.
 
-        cd content-web
-        git init
-        git add .
-        git commit -m "Initial Commit"
+            cd content-web
+            git init
+            git add .
+            git commit -m "Initial Commit"
         
     * Setup your VisualStudio.com repository as a new remote for push. You can copy the commands for "**HTTPS**" to do this from your browser.  Edit the HTTPS URL as given below:
 
