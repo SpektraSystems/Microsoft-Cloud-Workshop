@@ -41,10 +41,10 @@ Follow these instruction to set up the lab environment for the lab.
 
 ## Step 1: Verify the pre-deployed resources.
 
-1. **Login** to Azure portal using the credentials provided in the environment details page. You will be having access to one resource group.</br>
+1. **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
 2. **Open** the resource group and you can find a **Databricks workspace** already deployed.</br></br>
 <kbd>![](images/01_rg.jpg)</kbd></br></br>
-3. Go to the Azure Databricks workspace, and then click **Launch Workspace**.</br></br>
+3. Go to the Azure Databricks workspace, and then click on **Launch Workspace**.</br></br>
 <kbd>![](images/02_Launch.jpg)</kbd></br></br>
 4. You are now inside your Databricks workspace.</br></br>
 <kbd>![](images/databricks.jpg)</kbd>
@@ -55,7 +55,7 @@ Follow these instruction to set up the lab environment for the lab.
 1. **Open** the Databricks Workspace.</br>
 2. Click on **Clusters** tab to view the available Databricks Clusters. **Start** the cluster if it is in terminated state.</br></br>
 <kbd>![](images/03_cluster.jpg)</kbd></br></br>
-3. Now, **click** on the **Workspace** tab, open the folder named **Shared**, where you can find multiple notebooks. Open the first notebook.</br></br>
+3. Now let's **Click** on the **Workspace** tab and open the folder named **Shared**, where you can find multiple notebooks. Open the first notebook.</br></br>
 <kbd>![](images/04_labguide.jpg)</kbd></br></br>
 4. Click on **`detached`** written on the top-left corner, and you'll see a list of active clusters.</br></br>
 <kbd>![](images/05_attach.jpg)</kbd></br></br>
@@ -66,6 +66,5 @@ Follow these instruction to set up the lab environment for the lab.
 2. **Click** on the **Workspace** tab, open the folder named **Shared**, where you can find multiple Notebooks. **Open** the first notebook named **Lab-01_DataEngineering**.</br></br>
 <kbd>![](images/04_labguide.jpg)</kbd></br></br>
 3. **Attach** the cluster in to this Notebook, if you haven't attached it yet.</br>
-4. Follow the instructions in the notebook to continue with the lab. To run the cells in the Notebook, **click** on the **Play** button in the top right corner of the cell and then **click** on **Run Cell**</br></br>
+4. Follow the instructions in the notebook to continue with the lab. To run the cells in the Notebook, **Click** on the **Play** button in the top right corner of the cell and then **Click** on **Run Cell**</br></br>
 <kbd>![](images/run_cell.jpg)</kbd></br>
-5. 
