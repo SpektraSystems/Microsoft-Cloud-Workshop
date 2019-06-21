@@ -66,5 +66,5 @@ Follow these instruction to set up the lab environment for the lab.
 2. **Click** on the **Workspace** tab, open the folder named **Shared**, where you can find multiple Notebooks. **Open** the first notebook named **Lab-01_DataEngineering**.</br></br>
 <kbd>![](images/04_labguide.jpg)</kbd></br></br>
 3. **Attach** the cluster in to this Notebook, if you haven't attached it yet.</br>
-4. Follow the instructions in the notebook to continue with the lab. To run the cells in the Notebook, **Click** on the **Play** button in the top right corner of the cell and then **Click** on **Run Cell**</br></br>
+4. Follow the instructions in the notebook to continue with the lab. To run the cells in the Notebook, **Click** on the **Play** button in the top right corner of that cell and then **Click** on **Run Cell**</br></br>
 <kbd>![](images/run_cell.jpg)</kbd></br>
