@@ -1,15 +1,15 @@
-# Project Description
+# Azure Databricks Labs
 
 **Azure Databricks** is an Apache Spark-based big data analytics and machine learning framework optimized for the Microsoft Azure Cloud.
 Databricks is integrated with Azure to provide one-click setup, streamlined workflows, and an interactive workspace that enables collaboration between data scientists, data engineers, and business analysts.
 
-This repository consists of six labs that are designed to help you to understand how to use Azure Databricks for different use cases, including:
+This tutorial consists of six labs that are designed to help you to understand how to use Azure Databricks for different use cases, including:
 
 * Analysis of structured and unstructured data.
 * Analysis of streaming data.
 * Machine Learning.
 
-The six labs are implemented as six independent Azure Databricks notebooks as described below.
+The six labs are implemented as six independent Azure Databricks notebooks as described below. You can find the Azure Databricks notebooks in the Databricks workspace.
 
 #### Lab-01 Data Engineering:
 
@@ -41,27 +41,31 @@ Follow these instruction to set up the lab environment for the lab.
 
 ## Step 1: Verify the pre-deployed resources.
 
-1. Login to Azure portal using the provided credentials. You will be having access to one resource group.</br>
-2. Open the resource group and you can find a Databricks workspace already deployed.</br>
- <kbd>![](images/01_rg.jpg)</kbd>
-3. Go to the Azure Databricks workspace, and then click **Launch Workspace**.</br>
- <kbd>![](images/02_Launch.jpg)</kbd>
-4. You are now inside your Databricks workspace.</br>
- <kbd>![](images/databricks.jpg)</kbd>
+1. **Login** to Azure portal using the credentials provided in the environment details page. You will be having access to one resource group.</br>
+2. **Open** the resource group and you can find a **Databricks workspace** already deployed.</br></br>
+<kbd>![](images/01_rg.jpg)</kbd></br></br>
+3. Go to the Azure Databricks workspace, and then click **Launch Workspace**.</br></br>
+<kbd>![](images/02_Launch.jpg)</kbd></br></br>
+4. You are now inside your Databricks workspace.</br></br>
+<kbd>![](images/databricks.jpg)</kbd>
 
 
 ## Step 6: Attach the Notebook to your cluster.
 
-1. Go to the Databricks WorkSpace.</br>
- <kbd>![](images/databricks.jpg)</kbd>
-2. Click on Clusters tab to view the Databricks Clusters. Start the cluster if it is in terminated state.</br>
- <kbd>![](images/03_cluster.jpg)</kbd>
-3. Now, click on the Workspace tab, open the folder named Shared, where you can find multiple notebooks. Open the first notebook.</br>
- <kbd>![](images/04_labguide.jpg)</kbd> 
-4. Click on `detached` written on the top-left corner, and you'll see a list of active clusters.</br>
- <kbd>![](images/05_attach.jpg)</kbd>
-5. Attach your notebook to a running cluster. A green icon shall appear on top, meaning our notebook is now attached to our cluster and is ready to be executed. Now you need to follow the instructions specified in each of the Notebooks.
+1. **Open** the Databricks Workspace.</br>
+2. Click on **Clusters** tab to view the available Databricks Clusters. **Start** the cluster if it is in terminated state.</br></br>
+<kbd>![](images/03_cluster.jpg)</kbd></br></br>
+3. Now, **click** on the **Workspace** tab, open the folder named **Shared**, where you can find multiple notebooks. Open the first notebook.</br></br>
+<kbd>![](images/04_labguide.jpg)</kbd></br></br>
+4. Click on **`detached`** written on the top-left corner, and you'll see a list of active clusters.</br></br>
+<kbd>![](images/05_attach.jpg)</kbd></br></br>
+5. **Attach** your notebook to a running cluster. A green icon shall appear on top, meaning our notebook is now attached to our cluster and is ready to be executed. Now you need to follow the instructions specified in each of the Notebooks.
 
-
-### Your Databricks Environment is now setup and you can proceed with the labs.
-
+### Your Databricks Environment is ready now and you can proceed with the labs.
+1. **Open** the Databricks Workspace.</br>
+2. **Click** on the **Workspace** tab, open the folder named **Shared**, where you can find multiple Notebooks. **Open** the first notebook named **Lab-01_DataEngineering**.</br></br>
+<kbd>![](images/04_labguide.jpg)</kbd></br></br>
+3. **Attach** the cluster in to this Notebook, if you haven't attached it yet.</br>
+4. Follow the instructions in the notebook to continue with the lab. To run the cells in the Notebook, **click** on the **Play** button in the top right corner of the cell and then **click** on **Run Cell**</br></br>
+<kbd>![](images/run_cell.jpg)</kbd></br>
+5. 
