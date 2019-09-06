@@ -1,45 +1,24 @@
-# Azure Databricks Labs
+# Azure Databricks - Data Engineering
 
 **Azure Databricks** is an Apache Spark-based big data analytics and machine learning framework optimized for the Microsoft Azure Cloud.
 Databricks is integrated with Azure to provide one-click setup, streamlined workflows, and an interactive workspace that enables collaboration between data scientists, data engineers, and business analysts.
 
-This tutorial consists of six labs that are designed to help you to understand how to use Azure Databricks for different use cases, including:
-
-* Analysis of structured and unstructured data.
-* Analysis of streaming data.
-* Machine Learning.
-
-The six labs are implemented as six independent Azure Databricks notebooks as described below. You can find the Azure Databricks notebooks in the Databricks workspace.
-
-#### Lab-01 Data Engineering:
 
 This tutorial helps you understand how to use Azure Databricks Spark to prepare raw data for analytics.
 
-#### Lab-02 SparkSQL & Performance Optimization
-
-This tutorial help you to understand the capabilities and features of **Spark SQL** and the various performance options provided by Azure Databricks.
-
-#### Lab-03 Machine Learning
-
-This tutorial helps you understand the capabilities and features of **Azure Spark MLlib** for machine learning. It shows how to construct the end-to-end process for building and refining a machine learning model.
-	
-#### Lab-04 Real-time Stream Analytics
-		
-This tutorial helps you understand Azure Databricks **Spark Structured Streaming**. It shows the end-to-end process starting with data ingestion into a Azure Databricks cluster in near real-time, through analysis of the the streaming data and integration with machine learning.
-
-#### Lab-05 Databricks Delta
-	 
-This tutorial is helps you understand the features and capabilities of **Azure Databricks Delta**. Azure Databricks Delta is a next-generation unified analytics engine built on Apache Spark™. It provides ACID transactions, optimized layouts and indexes to enable big data use cases, from batch and streaming ingests, fast interactive queries to machine learning.
-		
-#### Lab-06: Data orchestration using Azure Data Factory
-	
-This tutorial helps you understand how **Azure Data Factory** (ADF) can be used with Azure Databricks, to create and automate piplines.
 
 # Getting Started
 
 Follow these instruction to set up the lab environment for the lab.
+## Step 1: Deploy Sql Data Warehouse.
 
-## Step 1: Verify the pre-deployed resources.
+1. **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
+2. **Select** Create a Resource  search for **Sql Data Warehouse** select Create, add the details as follows:</br></br>
+   ![](data_warehouse.png)</br></br>
+
+
+
+## Step 2: Verify the deployed resources.
 
 1. **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
 2. **Open** the resource group and you can find a **Databricks workspace** already deployed.</br></br>
