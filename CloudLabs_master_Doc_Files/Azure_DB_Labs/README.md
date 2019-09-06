@@ -13,10 +13,11 @@ Follow these instruction to set up the lab environment for the lab.
 ## Step 1: Deploy Sql Data Warehouse.
 
 1. **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
-2. **Select** Create a Resource  search for **Sql Data Warehouse** select Create, add the details as follows:</br></br>
-   ![](data_warehouse.png)</br></br>
-
-
+2. **Select** Create a Resource  search for **Sql Data Warehouse** select Create, add the details as follows:
+  * jhasjhbx
+  * hdshbhdb
+   
+   <kbd>![](images/data_warehouse.png)</kbd></br></br>
 
 ## Step 2: Verify the deployed resources.
 
