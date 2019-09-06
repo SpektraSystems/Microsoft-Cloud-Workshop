@@ -29,28 +29,28 @@ Follow these instruction to set up the lab environment for the lab.
 4. Go to Data Warehouse , go to **security** select **Firewalls and virtual networks**
      * **Rule Name**: all
      * **START IP**: 0.0.0.0
-     * **END IP**: 255.255.255.0
+     * **END IP**: 255.255.255.255
      * **Save**
    <kbd>![](images/Firewall.png)</kbd></br></br>  
 5. In **Sql Data Warehouse** go to **Query editor** insert the query:</br></br>
     **CREATE MASTER KEY ENCRYPTION BY PASSWORD='your password'**
     <kbd>![](images/Master_key.png)</kbd></br></br>
 6. In **Sql DataWarehouse** go to **Connection strings** copy the **JDBC** url and save it for later use.
+    <kbd>![](images/jdbc_3.png)</kbd></br></br>
    
    
 
-## Step 2: Verify the deployed resources.
+## Step 2: Verify the resources.
 
-1. **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
-2. **Open** the resource group and you can find a **Databricks workspace** already deployed.</br></br>
+1. **Open** the resource group and you can find a **Databricks workspace** already deployed.</br></br>
 <kbd>![](images/01_rg.jpg)</kbd></br></br>
-3. Go to the Azure Databricks workspace, and then click on **Launch Workspace**.</br></br>
+2. Go to the Azure Databricks workspace, and then click on **Launch Workspace**.</br></br>
 <kbd>![](images/02_Launch.jpg)</kbd></br></br>
-4. You are now inside your Databricks workspace.</br></br>
+3. You are now inside your Databricks workspace.</br></br>
 <kbd>![](images/databricks.jpg)</kbd>
 
 
-## Step 6: Attach the Notebook to your cluster.
+## Step 3: Attach the Notebook to your cluster.
 
 1. **Open** the Databricks Workspace.</br>
 2. Click on **Clusters** tab to view the available Databricks Clusters. **Start** the cluster if it is in terminated state.</br></br>
