@@ -14,10 +14,30 @@ Follow these instruction to set up the lab environment for the lab.
 
 1. **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
 2. **Select** Create a Resource  search for **Sql Data Warehouse** select Create, add the details as follows:
-  * jhasjhbx
-  * hdshbhdb
+    * **Select** the Pre-created Resource group 
+    * **Data Warehouse name**: nyctaxidb
+    * In server **Create new** add the credentials as follows:
+      * **Server name**: nyctaxicab-**SUFFIX**
+      * **Server Admin Login**: demouser
+      * **Password**: demo@pass123
+      * **Select** the location used in your Resource group
+     * **Allow** Azure services to access server
    
    <kbd>![](images/data_warehouse.png)</kbd></br></br>
+3. In **Performance level** Select **Gen2 DW100c**.
+   <kbd>![](images/data_warehouse1.png)</kbd></br></br>
+4. Go to Data Warehouse , go to **security** select **Firewalls and virtual networks**
+     * **Rule Name**: all
+     * **START IP**: 0.0.0.0
+     * **END IP**: 255.255.255.0
+     * **Save**
+   <kbd>![](images/Firewall.png)</kbd></br></br>  
+5. In **Sql Data Warehouse** go to **Query editor** insert the query:</br></br>
+    **CREATE MASTER KEY ENCRYPTION BY PASSWORD='your password'**
+    <kbd>![](images/Master_key.png)</kbd></br></br>
+6. In **Sql DataWarehouse** go to **Connection strings** copy the **JDBC** url and save it for later use.
+   
+   
 
 ## Step 2: Verify the deployed resources.
 
