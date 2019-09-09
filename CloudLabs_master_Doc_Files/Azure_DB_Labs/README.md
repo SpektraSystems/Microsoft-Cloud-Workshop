@@ -67,4 +67,4 @@ Follow these instruction to set up the lab environment for the lab.
 <kbd>![](images/04_labguide.jpg)</kbd></br></br>
 3. **Attach** the cluster in to this Notebook, if you haven't attached it yet.</br>
 4. Follow the instructions in the notebook to continue with the lab. To run the cells in the Notebook, **Click** on the **Play** button in the top right corner of that cell and then **Click** on **Run Cell**</br></br>
-<kbd>![](images/run_cell.jpg)</kbd></br>
+<kbd>![](images/data_engineering.png)</kbd></br>
