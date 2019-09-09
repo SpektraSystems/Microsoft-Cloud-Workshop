@@ -58,7 +58,7 @@ Follow these instruction to set up the lab environment for the lab.
 3. Now let's **Click** on the **Workspace** tab and open the folder named **Shared**, where you can find SparkSql & Performance Optimization notebook. Open the  notebook.</br></br>
 <kbd>![](images/shared.png)</kbd></br></br>
 4. Click on **`detached`** written on the top-left corner, and you'll see a list of active clusters.</br></br>
-<kbd>![](images/detach.png)</kbd></br></br>
+<kbd>![](images/detached.png)</kbd></br></br>
 5. **Attach** your notebook to a running cluster. A green icon shall appear on top, meaning our notebook is now attached to our cluster and is ready to be executed. Now you need to follow the instructions specified in each of the Notebooks.
 
 ### Your Databricks Environment is ready now and you can proceed with the labs.
