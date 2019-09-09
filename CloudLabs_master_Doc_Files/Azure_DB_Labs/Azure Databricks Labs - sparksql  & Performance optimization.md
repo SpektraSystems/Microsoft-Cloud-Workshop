@@ -47,7 +47,7 @@ Follow these instruction to set up the lab environment for the lab.
 2. Go to the Azure Databricks workspace, and then click on **Launch Workspace**.</br></br>
 <kbd>![](images/02_Launch.jpg)</kbd></br></br>
 3. You are now inside your Databricks workspace.</br></br>
-<kbd>![](images/databricks.jpg)</kbd>
+<kbd>![](images/workspace.png)</kbd>
 
 
 ## Step 3: Attach the Notebook to your cluster.
