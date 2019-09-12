@@ -21,7 +21,7 @@ This tutorial helps you understand how to use Azure Databricks Spark to prepare 
 1. **Open** the Databricks Workspace.</br>
 2. Click on **Clusters** tab to view the available Databricks Clusters. **Start** the cluster if it is in terminated state.</br></br>
 <kbd>![](images/03_cluster.jpg)</kbd></br></br>
-3. Now let's **Click** on the **Workspace** tab and open the folder named **Shared**, where you can find Data Engineering notebook. Open the  notebook.</br></br>
+3. Now let's **Click** on the **Workspace** tab and open the folder named **Shared**, where you can find Delta notebook. Open the  notebook.</br></br>
 <kbd>![](images/data_engineering.png)</kbd></br></br>
 4. Click on **`detached`** written on the top-left corner, and you'll see a list of active clusters.</br></br>
 <kbd>![](images/05_attach.jpg)</kbd></br></br>
