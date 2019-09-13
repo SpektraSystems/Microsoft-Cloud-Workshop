@@ -32,10 +32,7 @@ Follow these instruction to set up the lab environment for the lab.
      * **END IP**: 255.255.255.255
      * **Save**
    <kbd>![](images/ip_config.png)</kbd></br></br>  
-5. In **Sql Data Warehouse** go to **Query editor** insert the query:</br></br>
-    **CREATE MASTER KEY ENCRYPTION BY PASSWORD='your password'**
-    <kbd>![](images/Master_key.png)</kbd></br></br>
-6. In **Sql DataWarehouse** go to **Connection strings** copy the **JDBC** url and save it for later use.
+5. In **Sql DataWarehouse** go to **Connection strings** copy the **JDBC** url and save it for later use.
     <kbd>![](images/jdbc_3.png)</kbd></br></br>
    
    
