@@ -13,7 +13,7 @@ This tutorial helps you understand how to use Azure Databricks Spark to prepare 
 2. Go to the Azure Databricks workspace, and then click on **Launch Workspace**.</br></br>
 <kbd>![](images/02_Launch.jpg)</kbd></br></br>
 3. You are now inside your Databricks workspace.</br></br>
-<kbd>![](images/delta_8.png)</kbd>
+<kbd>![](images/orchestra_1.png)</kbd>
 
 
 ## Step 2: Attach the Notebook to your cluster.
