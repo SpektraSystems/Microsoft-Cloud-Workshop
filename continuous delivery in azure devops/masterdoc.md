@@ -632,10 +632,11 @@ In this exercise, you will create a release pipeline in Azure DevOps that perfor
 
 8.  This brings up the task editor and opens a panel with configuration details for the dev stage we created earlier. The configuration items set here will be made available to the tasks in this stage.
 
-9.  On this panel, we first need to configure the necessary details to connect the task to Azure for deployment. Let's first start by connecting to our Azure subscription. Select the **Advanced options** from the **Authorize** dropdown and configure the **Advanced options** by providing resource group name,subscription and then choose the **Authorize** button to login and authenticate to the selected subscription.
+9.  On this panel, we first need to configure the necessary details to connect the task to Azure for deployment. Let's first start by connecting to our Azure subscription. Select the **Advanced options** from the **Authorize** dropdown and configure the **Advanced options** as shown in Advanced Options Dialog Box and then choose the **Authorize** button to login and authenticate to the selected subscription.
    
    ![On the panel, Azure subscription is highlighted along with the Authorize button.](images/image89b.png "Parameters")
    
+   Advanced Options Dialog Box: Provide the resource group and subscription details that you are using for this lab and click Ok.
    ![On the panel, Ok is highlighted.](images/image121.png "Advanced Options")
 
 10. Then, in the "App service name field" select the one that begins with **tailspintoys-dev-**.
