@@ -81,7 +81,7 @@ Tailspin Toys has asked you to automate their development process in two specifi
 
 ## Exercise 1: Create an Azure Resource Manager (ARM) template that can provision the web application, PostgreSQL database, and deployment slots in a single automated process
 
-Duration: 45 Minutes
+Duration: 60 Minutes
 
 Tailspin Toys has requested three Azure environments (dev, test, production), each consisting of the following resources:
 
@@ -97,7 +97,47 @@ Tailspin Toys has requested three Azure environments (dev, test, production), ea
 
 Since this solution is based on Azure Platform-as-a-Service (PaaS) technology, it should take advantage of that platform by utilizing automatic scale for the web app and the PostgreSQL Database PaaS service instead of running virtual machines.
 
-### Task 1: Create an Azure Resource Manager (ARM) template using Azure Cloud Shell
+### Task 1: Use Azure Shell as your development environment and download the exercise files
+
+>**Note**: This workshop can be completed using only the Azure Cloud Shell.
+
+1.  From the Azure web portal, launch the **Azure Cloud Shell**. It has common Azure tools preinstalled and configured to use with your account.
+
+    ![This is a screenshot of a icon used to launch the Azure Cloud Shell from the Azure Portal.](images/image3.png "Azure Cloud Shell launch icon")
+
+2.  From inside the Azure Cloud Shell type these commands to configure Git:
+
+    ```
+    git config --global user.name "<your name>"
+    git config --global user.email <your email>
+    ``
+
+3.  Using the Azure Cloud Shell, you can download the file by executing the following command inside the Cloud Shell window (all on one line):
+
+    ```
+    curl -o studentfiles.zip https://cloudworkshop.blob.core.windows.net/agile-continous-delivery/studentfiles.zip
+    ```
+
+4.  Extract the contents of the file to the new folder. Using the Azure Cloud Shell, you can execute the following command inside the Cloud Shell window:
+
+    ```bash
+    unzip studentfiles.zip
+    ```
+
+5.  When unzipped, there will be a new folder named **studentfiles**. Navigate to the newly created **studentfiles** directory.
+
+    ```bash
+    cd studentfiles
+    ```
+   
+6.  Inside the **studentfiles** folder, there are two folders named **armtemplate** and **tailspintoysweb**. The workshop will refer to these folders throughout the exercises.
+
+>**Note**: Using the Azure Cloud Shell, you can load the integrated code editor at any time with the following command:
+```
+code .
+```
+
+### Task 2: Create an Azure Resource Manager (ARM) template using Azure Cloud Shell
 
 1.  From within the **Azure Cloud Shell** locate the folder where you previously unzipped the Student Files. Open **Code** to this folder with the command below. It should also contain two sub-folders: **armtemplate** and **tailspintoysweb**.
 
@@ -115,7 +155,7 @@ Since this solution is based on Azure Platform-as-a-Service (PaaS) technology, i
 
     >**Note**: If you would like to use this template in a future deployment of your own, it can be found in the [Azure Quickstart Templates repository on GitHub](https://github.com/Azure/azure-quickstart-templates). This specific file can be found [here](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-webapp-managed-postgresql/azuredeploy.json).
 
-### Task 2: Configure the list of release environments parameters
+### Task 3: Configure the list of release environments parameters
 
 1.  Next, you need to configure a list of release environments we'll be deploying to. Our scenario calls for adding three environments: dev, test, and production. This is going to require the addition of some manual code. At the top of the **azuredeploy.json** file, locate the following line of code (on or around line 4).
     ```json
@@ -145,7 +185,7 @@ Since this solution is based on Azure Platform-as-a-Service (PaaS) technology, i
 
     >**Note**: The **environment** parameter will be used to generate environment specific names for our web app.
 
-### Task 3: Add a deployment slot for the "staging" version of the site
+### Task 4: Add a deployment slot for the "staging" version of the site
 
 1.  Next, you need to add the "staging" deployment slot to the web app. This is used during a deployment to stage the new version of the web app. This is going to require the addition of some manual code. In the **azuredeploy.json** file, add the following code to the "resources" array, just above the element for the "connectionstrings" (on or around line 156).
 
@@ -173,7 +213,7 @@ Since this solution is based on Azure Platform-as-a-Service (PaaS) technology, i
 
     ![This is a screenshot of the code pasted just below the element for the application insights extension in the "resources" array.](images/image39.png "Pasted block of JSON code")
 
-### Task 4: Create the dev environment and deploy the template to Azure
+### Task 5: Create the dev environment and deploy the template to Azure
 
 Now that the template file has been uploaded, we'll deploy it several times to create each of our desired environments: "dev", "test", and "production". Let's start with the "dev" environment.
 
@@ -228,7 +268,7 @@ Now that the template file has been uploaded, we'll deploy it several times to c
 
   >**Note**: The above steps were used to provision the "dev" environment. Most of these same steps will be repeated for the "test" and "production" environments below.
 
-### Task 5: Create the test environment and deploy the template to Azure
+### Task 6: Create the test environment and deploy the template to Azure
 
 The following steps are very similar to what was done in the previous task with the exception that you are now creating the "test" environment.
 
@@ -269,7 +309,7 @@ The following steps are very similar to what was done in the previous task with 
 
    ![The Azure Cloud Shell has succeeded in executing the template based on the parameters we provided.](images/image50.png "Azure Cloud Shell")
 
-### Task 6: Create the production environment and deploy the template to Azure
+### Task 7: Create the production environment and deploy the template to Azure
 
 The following steps are very similar to what was done in the previous task with the exception that you are now creating the "production" environment.
 
