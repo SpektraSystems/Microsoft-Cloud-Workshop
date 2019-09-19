@@ -141,7 +141,7 @@ Since this solution is based on Azure Platform-as-a-Service (PaaS) technology, i
     code .
     ```
 
-    ![In the Code window, the Explorer window is displayed and it shows the student files folder that contains two sub-folders.](images/image22.png "Code Explorer")
+   ![In the Code window, the Explorer window is displayed and it shows the student files folder that contains two sub-folders.](images/image22.png "Code Explorer")
   
 2.  In the Code Explorer window, select the **armtemplate** sub-folder and open the **azuredeploy.json** file by selecting it.
 
