@@ -32,7 +32,7 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
   - [Requirements](#requirements)
   
   - [Exercise 1: Create an Azure Resource Manager (ARM) template that can provision the web application, PostgreSQL database, and deployment slots in a single automated process](#exercise-1-create-an-azure-resource-manager-arm-template-that-can-provision-the-web-application-postgresql-database-and-deployment-slots-in-a-single-automated-process)
-    - [ Task 1: Use Azure Shell as your development environment and download the exercise files](#task-1-Use Azure Shell as your development environment and download the exercise files)
+    - [Task 1: Use Azure Shell as your development environment and download the exercise files](#task-1-Use Azure Shell as your development environment and download the exercise files)
     - [Task 2: Create an Azure Resource Manager (ARM) template using Azure Cloud Shell](#task-2-create-an-azure-resource-manager-arm-template-using-azure-cloud-shell)
     - [Task 3: Configure the list of release environments parameters](#task-3-configure-the-list-of-release-environments-parameters)
     - [Task 4: Add a deployment slot for the "staging" version of the site](#task-4-add-a-deployment-slot-for-the-%22staging%22-version-of-the-site)
