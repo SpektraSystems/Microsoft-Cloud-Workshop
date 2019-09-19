@@ -134,12 +134,11 @@ Since this solution is based on Azure Platform-as-a-Service (PaaS) technology, i
   
 ### Task 2: Create an Azure Resource Manager (ARM) template using Azure Cloud Shell
 
-1.  From within the **Azure Cloud Shell** locate the folder where you previously unzipped the **Student Files**. Open **Code** to this folder with the command below. It should also contain two sub-folders: **armtemplate** and **tailspintoysweb**.
+1.  From within the **Azure Cloud Shell** locate the folder where you previously unzipped the **Student Files**. Open **Code** to this folder with the command below. It should also contain two sub-folders: **armtemplate** and **tailspintoysweb**
 >**Note**: Using the Azure Cloud Shell, you can load the integrated code editor at any time with the following command:
- 
-    ```bash
-    code .
-    ```
+```
+code .
+```
 
    ![In the Code window, the Explorer window is displayed and it shows the student files folder that contains two sub-folders.](images/image22.png "Code Explorer")
   
