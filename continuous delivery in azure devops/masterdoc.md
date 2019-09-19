@@ -872,4 +872,4 @@ Duration: 10 Minutes
 
 1.  Now since the hands-on lab is complete, go ahead and delete the resource group you created for the Tailspin Toys deployments along with the Azure DevOps project that were created for this hands-on lab. You will no longer need those resources and it will be beneficial to clean up your Azure Subscription.
 
-These steps should be followed only *after* completing the hands-on lab.
+This step should be followed only *after* completing the hands-on lab.
