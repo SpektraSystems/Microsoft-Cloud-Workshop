@@ -137,6 +137,7 @@ Since this solution is based on Azure Platform-as-a-Service (PaaS) technology, i
 1.  From within the **Azure Cloud Shell** locate the folder where you previously unzipped the **Student Files**. Open **Code** to this folder with the command below. It should also contain two sub-folders: **armtemplate** and **tailspintoysweb**.
 >**Note**: Using the Azure Cloud Shell, you can load the integrated code editor at any time with the following command:
 
+    
     ```bash
     code .
     ```
