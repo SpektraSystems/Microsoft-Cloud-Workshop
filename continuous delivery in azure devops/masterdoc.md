@@ -112,7 +112,7 @@ Since this solution is based on Azure Platform-as-a-Service (PaaS) technology, i
     ```
     git config --global user.name "<your name>"
     git config --global user.email <your email>
-    ``
+    
 
 3.  Using the Azure Cloud Shell, you can download the file by executing the following command inside the Cloud Shell window (all on one line):
 
