@@ -22,6 +22,7 @@ This is a supplement guide to  ‘Microsoft Cloud Workshop - [App-modernization]
 * Once you login to the LABVM, server manager will open. Select Local Server and verify that IE Enhanced Security Configuration has also been turned off
 6. Now go to C:\Hackathon and verify the student files are there.
 7. In exercise 3 task 1 , Instead of using user email we have to use application Id provided in Lab details page while creating Access policy [exercise 3,task1](https://github.com/microsoft/MCW-App-modernization/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20App%20modernization.md#task-1-add-key-vault-access-policy)
+8. In [exercise 9 ,task3](https://github.com/microsoft/MCW-App-modernization/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20App%20modernization.md#task-3-open-developer-portal-and-retrieve-you-api-key), profile can be found in dropdown <kbd>![](images/issues.png)</kbd></br></br>
 
  
 ## Verify Azure Access
