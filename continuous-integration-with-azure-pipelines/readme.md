@@ -1,5 +1,4 @@
-Enabling Continuous Integration with Azure Pipelines
-
-Please sign in to Azure Devops to start this lab: You will get an Azure Devops Url in the lab details page.
+1.Enabling Continuous Integration with Azure Pipelines
+2.Please sign in to Azure Devops to start this lab: You will get an Azure Devops Url in the lab details page.
 **Note-This may take upto 5 mins,please wait till azure devops url appears on the lab details page**.
-<a href="https://raw.githubusercontent.com/microsoft/azuredevopslabs/master/labs/azuredevops/continuousintegration/readme.md"> Click here</a>
+<a href="https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/"> Click here</a>
