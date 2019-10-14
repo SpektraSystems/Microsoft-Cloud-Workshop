@@ -1,15 +1,4 @@
----
-title: Enabling Continuous Integration with Azure Pipelines
-layout: page
-sidebar: vsts
-permalink: /labs/azuredevops/continuousintegration/
-folder: /labs/azuredevops/continuousintegration/
-version: Lab version - 1.37.1
-updated: Last updated - 9/9/2019
-redirect_from: "/labs/vsts/continuousintegration/index.htm"
----
-<div class="rw-ui-container"></div>
-<a name="Overview"></a>
+# Enabling Continuous Integration with Azure Pipelines
 
 ## Overview ##
 
