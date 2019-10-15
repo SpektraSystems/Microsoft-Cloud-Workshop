@@ -29,6 +29,12 @@ This tutorial helps you understand how to use Azure Databricks Spark to prepare 
 
 ### Your Databricks Environment is ready now and you can proceed with the labs.
 1. **Open** the Databricks Workspace.</br>
+2. Go to cluster and click on **Libraries**.
+    <kbd>![](library.png)</kbd></br>
+3. Then click on **Install New** and go to maven and add co-ordinate as **com.microsoft.azure:azure-eventhubs-spark_2.11:2.3.3** and install.
+   <kbd>![](library_1.png)</kbd></br>
+4. You can see that Library package is installed , the package will be used in Real-Time stream analytics notebook.
+    <kbd>![](library_2.png)</kbd></br>
 2. **Click** on the **Workspace** tab, open the folder named **Shared**, where you can find a Notebook. **Open** the notebook named **Machine Learning** first Complete the steps of this notebook Then open **Real-Time Stream Analytics** notebook and complete the steps</br></br>
 <kbd>![](images/realtime_1.png)</kbd></br></br>
 3. **Attach** the cluster in to this Notebook, if you haven't attached it yet.</br>
