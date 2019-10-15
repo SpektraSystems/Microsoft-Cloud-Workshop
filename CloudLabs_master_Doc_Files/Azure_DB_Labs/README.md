@@ -63,7 +63,7 @@ Follow the step to set up the lab environment for the Data Engineering lab and S
 2. **Click** on the **Workspace** tab, open the folder named **Shared**, where you can find a Notebook. **Open** the notebook named **Lab-01_DataEngineering**.</br></br>
 <kbd>![](images/data_engineering.png)</kbd></br></br>
 3. **Attach** the cluster in to this Notebook, if you haven't attached it yet.</br>
-**Note**: We have to install a Library in our cluster as Machine Learning and Real-Time Stream Analytics require some packages to import.
+**Note**: We have to install a Library in our cluster as **Machine Learning and Real-Time Stream Analytics** require some packages to import.
 Following are the steps to install a library.
 * **Open** the Databricks Workspace.</br>
 * Go to cluster and click on **Libraries**.
