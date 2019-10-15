@@ -9,7 +9,7 @@ This tutorial helps you understand how to use Azure Databricks Spark to prepare 
 
 # Getting Started
 
-Follow these instruction to set up the lab environment for the lab.
+Follow the step to set up the lab environment for the Data Engineering lab and Spark sql & Performance optimization.
 ## Step 1: Deploy Sql Data Warehouse.
 
 1. **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
@@ -66,4 +66,4 @@ Follow these instruction to set up the lab environment for the lab.
 4. Follow the instructions in the notebook to continue with the lab. To run the cells in the Notebook, **Click** on the **Play** button in the top right corner of that cell and then **Click** on **Run Cell**</br></br>
 <kbd>![](images/run_cell.jpg)</kbd></br>
 5. After completeing `Lab-01_DataEngineering`,  **Open** the Databricks Workspace. **Click** on the **Workspace** tab, open the folder named **Shared**, where you can find Notebooks. **Open** the notebook named **SparkSql & Performance Optimization**, attach the cluster and follow the instructions in the notebook.</br></br>
-6. Follow the same for **Machine Learning** and **Azure Databricks Delta** notebooks.
+6. Follow the same for **Machine Learning and Real-Time stream analytics** ,**Azure Databricks Delta** and **Data Orchestration using Azure data Factory** notebooks.
