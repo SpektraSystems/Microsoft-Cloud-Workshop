@@ -21,7 +21,7 @@ This tutorial helps you understand how to use Azure Databricks Spark to prepare 
 1. **Open** the Databricks Workspace.</br>
 2. Click on **Clusters** tab to view the available Databricks Clusters. **Start** the cluster if it is in terminated state.</br></br>
 <kbd>![](images/cluster_1.png)</kbd></br></br>
-3. Now let's **Click** on the **Workspace** tab and open the folder named **Shared**, where you can find Machine Learning Notebook and Data orchestration folder consisting six notebooks. Open the  notebook.</br></br>
+3. Now let's **Click** on the **Workspace** tab and open the folder named **Shared**, where you can find Machine Learning Notebook and Data orchestration folder consisting six notebooks. Open the Machine Learning notebook and perform steps</br></br>
 <kbd>![](images/orchestra_2.png)</kbd></br></br>
 4. Click on **`detached`** written on the top-left corner, and you'll see a list of active clusters.</br></br>
 <kbd>![](images/delta_12.png)</kbd></br></br>
