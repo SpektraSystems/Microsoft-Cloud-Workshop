@@ -36,7 +36,7 @@ FabMedical has provided starter files for you. They have taken a copy of one of 
     > **Important note**: If you'll be taking the Infrastructure edition of the lab, instead of using the above instructions, type the following ones:
     > 
     > ```bash
-    > curl -L -o FabMedical.tgz https://bit.ly/2uDDZNq
+    > curl -L -o FabMedical.tgz http://bit.ly/2BvJ7GR
     > ```
     > 
     > This will download the version of the starter files that will be used by that edition of the lab.
