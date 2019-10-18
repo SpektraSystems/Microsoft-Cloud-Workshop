@@ -11,7 +11,6 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 ### Task 1: Creating a basic build pipeline from a template ###
 
 1. Navigate to your team project on Azure DevOps.
-
     <kbd>
     <img src="images/028.png"/>
     </kbd>
