@@ -66,7 +66,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 1. Accept the default options by clicking **Save and run**.
 
-    ![](images/013.png)
+    ![](images/013.jpg)
 
 <a name="Ex1Task2"></a>
 ### Task 2: Tracking and reviewing a build ###
