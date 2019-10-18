@@ -180,7 +180,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 1. A build should be underway shortly. Select **Pipelines | Builds** to see if it's in progress.
    
 
-    <img src="images/025.png"/>
+    <img src="images/25.png"/>
 
 
 1. You should now see that a new build (note the **.2**) is in progress and that it was triggered by your change. Click the build to track it. Note that it may be queued behind another build pipeline configured for continuous integration.
