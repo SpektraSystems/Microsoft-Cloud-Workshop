@@ -94,13 +94,13 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 1. Depending on load, the build may need to wait in the queue for a moment.
 
-    <img src="images/0014.png"/>
+    <img src="images/014.png"/>
 
 
 
 1. Once the build begins, you'll be able to track the console output per task.
 
-     <img src="images/0015.png"/>
+     <img src="images/015.png"/>
 
 
 1. If you want to review an task, you can click on **logs** 
@@ -116,7 +116,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 1. The summary view provides overview details about the build, including details about commits, tests, and artifacts.
 
-     <img src="images/0018.png"/>
+     <img src="images/018.png"/>
 
 
 
@@ -166,5 +166,5 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 8. This build should run and succeed just like the previous build.
 
-   <img src="images/0027.png"/>
+   <img src="images/027.png"/>
  
