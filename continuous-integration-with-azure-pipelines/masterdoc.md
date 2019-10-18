@@ -103,7 +103,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
      <img src="images/015.png"/>
 
 
-1. If you want to review an task, you can click on any task and review.
+1. If you want to review task, you can click on any task and review.
      
      <img src="images/16.png"/>
 
