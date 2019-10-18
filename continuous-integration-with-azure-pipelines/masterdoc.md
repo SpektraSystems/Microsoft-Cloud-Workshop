@@ -33,7 +33,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 1. The first thing you'll need to do is to configure the source repository. Every major platform is available, but the default options are all we need here. This build will use the **master** branch of the **PartsUnlimited** repo. Leave the defaults and click **Continue**.
 
-    <img src="images/003.png"/>
+    <img src="images/03.png"/>
     
 
 1. Locate the **ASP.NET** template and click **Apply** to apply this template to the build definition. Note that there are many options that should cover all of our mainstream scenarios. For our purposes here, we'll just build the project using the baseline ASP.NET template.
