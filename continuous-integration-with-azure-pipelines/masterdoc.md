@@ -12,11 +12,13 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 1. Navigate to your team project on Azure DevOps.
 
-1. Navigate to **Pipelines | Pipelines**.
+    ![](images/028.png)
+
+1. Navigate to **Pipelines**
 
     ![](images/000.png)
 
-1. Click **New pipeline** to create a new build pipeline.
+1. Click **+New and then new import build pipeline** to create a new build pipeline.
 
     ![](images/001.png)
 
