@@ -60,7 +60,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 2. Open the file at **PartsUnlimited-aspnet45/src/PartsUnlimitedWebsite/Views/Home/Index.cshtml**.<br/>
 <img src="images/021.png"/><br/>
 3. Click **Edit**.<br/>
-<img src="images/022.png"/>
+<img src="images/022.png"/><br/>
 4. Make a minor cosmetic change, such as by tweaking the title of the document. Click **Commit**.<br/>
 <img src="images/023.png"/><br/>
 5. Accept the default commit details and click **Commit**.<br/>
