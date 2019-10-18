@@ -116,7 +116,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 1. The summary view provides overview details about the build, including details about commits, tests, and artifacts.
 
-     <img src="images/18.png"/>
+     <img src="images/0018.png"/>
 
 
 
