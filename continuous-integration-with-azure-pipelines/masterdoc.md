@@ -130,28 +130,28 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 1. The build was configured earlier to support continuous integration. Navigate to the code for this project using **Repos | Files**.
 
-    <img src="images/020.png"/>
+   <img src="images/020.png"/>
 
 
 
 2. Open the file at **PartsUnlimited-aspnet45/src/PartsUnlimitedWebsite/Views/Home/Index.cshtml**.
 
-    <img src="images/021.png"/>
+   <img src="images/021.png"/>
 
 
 3. Click **Edit**.
 
-  <img src="images/022.png"/>
+   <img src="images/022.png"/>
 
     
 4. Make a minor cosmetic change, such as by tweaking the title of the document. Click **Commit**.
 
- <img src="images/023.png"/>
+   <img src="images/023.png"/>
   
 
 5. Accept the default commit details and click **Commit**.
 
-  <img src="images/024.png"/>
+   <img src="images/024.png"/>
   
 
 6. A build should be underway shortly. Select **Pipelines | Builds** to see if it's in progress.
@@ -159,12 +159,12 @@ In this lab, you will learn how to configure continuous integration (CI) and con
   <img src="images/25.png"/>
 
 
-7. You should now see that a new build (note the **.2**) is in progress and that it was triggered by your change. Click the build to  track it. Note that it may be queued behind another build pipeline configured for continuous integration.
+7. You should now see that a new build (note the **.2**) is in progress and that it was triggered by your change. Click the build to    track it. Note that it may be queued behind another build pipeline configured for continuous integration.
 
-  <img src="images/026.png"/>
+   <img src="images/026.png"/>
  
 
 8. This build should run and succeed just like the previous build.
 
-  <img src="images/027.png"/>
+   <img src="images/027.png"/>
  
