@@ -17,11 +17,15 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 1. Navigate to **Pipelines**
 
-    ![](images/001.png)
+    <kbd>
+    <img src="images/001.png"/>
+    </kbd>
 
 1. Click **+New and then new build pipeline** to create a new build pipeline.
 
-    ![](images/000.png)
+    <kbd>
+    <img src="images/000.png"/>
+    </kbd>
 
 1. The default option for build pipelines involves using YAML to define the process. If you are interested in that, please check out that lab. For this lab, click **use the classic editor**.
 
