@@ -177,7 +177,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
     <img src="images/024.png"/>
   
 
-1. A build should be underway shortly. Select **Pipelines | Pipelines** to see if it's in progress.
+1. A build should be underway shortly. Select **Pipelines | Builds** to see if it's in progress.
    
 
     <img src="images/025.png"/>
