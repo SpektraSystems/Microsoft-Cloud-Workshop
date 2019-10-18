@@ -18,7 +18,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
     ![](images/001.jpg)
 
-1. Click **+New and then new import build pipeline** to create a new build pipeline.
+1. Click **+New and then new build pipeline** to create a new build pipeline.
 
     ![](images/000.jpg)
 
