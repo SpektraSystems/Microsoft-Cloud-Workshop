@@ -10,9 +10,9 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 ### Task 1: Creating a basic build pipeline from a template
 
 1. Navigate to your team project on Azure DevOps.<br/>
-   <img src="images/028.png"/><br/>
+<img src="images/028.png"/><br/>
 1. Navigate to **Pipelines**<br/>
-   <img src="images/001.png"/><br/>
+<img src="images/001.png"/><br/>
 1. Click **+New and then new build pipeline** to create a new build pipeline.<br/>
    <img src="images/00.png"/><br/>
 1. The default option for build pipelines involves using YAML to define the process. If you are interested in that, please check out that lab. For this lab, click **use the classic editor**.<br/>
@@ -42,13 +42,13 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 ### Task 2: Tracking and reviewing a build
 1. Depending on load, the build may need to wait in the queue for a moment.<br/>
-   <img src="images/014.png"/><br/>
+<img src="images/014.png"/><br/>
 1. Once the build begins, you'll be able to track the console output per task under logs.<br/>
-   <img src="images/015.png"/><br/>
+<img src="images/015.png"/><br/>
 1. If you want to review task, you can click on any task and review.<br/>
-   <img src="images/16.png"/><br/>
+<img src="images/16.png"/><br/>
 1. After the build process completes, you should see a green check mark next to each of the build pipeline steps.<br/>
-   <img src="images/17.png"/><br/>
+<img src="images/17.png"/><br/>
 1. The summary view provides overview details about the build, including details about commits, tests, and artifacts.<br/>
    <img src="images/018.png"/><br/>
 1. Select the **Tests** tab to review test performance for this build. Note that you also have easy access to the pipeline editor, the ability to queue a new build, and download the artifacts of this build.<br/>
