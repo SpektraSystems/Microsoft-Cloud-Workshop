@@ -98,12 +98,12 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 
 
-1. Once the build begins, you'll be able to track the console output per task. Click **Agent job 1**.
+1. Once the build begins, you'll be able to track the console output per task.
 
      <img src="images/15.png"/>
 
 
-1. If you want to review an earlier task, you can scroll the right pane to review its logs.
+1. If you want to review an task, you can click on **logs**
      
      <img src="images/16.png"/>
 
