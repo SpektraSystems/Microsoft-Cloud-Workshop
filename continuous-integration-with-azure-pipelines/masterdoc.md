@@ -94,35 +94,35 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 1. Depending on load, the build may need to wait in the queue for a moment.
 
-    <img src="images/014.png"/>
+    <img src="images/14.png"/>
 
 
 
 1. Once the build begins, you'll be able to track the console output per task. Click **Agent job 1**.
 
-     <img src="images/015.png"/>
+     <img src="images/15.png"/>
 
 
 1. If you want to review an earlier task, you can scroll the right pane to review its logs.
      
-     <img src="images/016.png"/>
+     <img src="images/16.png"/>
 
 
 
 1. The build should eventually succeed. You can return to the summary view by clicking the back button.
      
-     <img src="images/017.png"/>
+     <img src="images/17.png"/>
 
 
 1. The summary view provides overview details about the build, including details about commits, tests, and artifacts.
 
-     <img src="images/018.png"/>
+     <img src="images/18.png"/>
 
 
 
 1. Select the **Tests** tab to review test performance for this build. Note that you also have easy access to the pipeline editor, the ability to queue a new build, and download the artifacts of this build.
 
-    <img src="images/019.png"/>
+    <img src="images/19.png"/>
    
 
 <a name="Ex1Task3"></a>
