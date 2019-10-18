@@ -94,13 +94,13 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 1. Depending on load, the build may need to wait in the queue for a moment.
 
-    <img src="images/14.png"/>
+    <img src="images/0014.png"/>
 
 
 
 1. Once the build begins, you'll be able to track the console output per task.
 
-     <img src="images/15.png"/>
+     <img src="images/0015.png"/>
 
 
 1. If you want to review an task, you can click on **logs** 
@@ -161,10 +161,10 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 7. You should now see that a new build (note the **.2**) is in progress and that it was triggered by your change. Click the build to    track it. Note that it may be queued behind another build pipeline configured for continuous integration.
 
-   <img src="images/026.png"/>
+   <img src="images/0026.png"/>
  
 
 8. This build should run and succeed just like the previous build.
 
-   <img src="images/27.png"/>
+   <img src="images/0027.png"/>
  
