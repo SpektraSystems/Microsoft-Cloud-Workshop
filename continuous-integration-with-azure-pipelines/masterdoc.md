@@ -30,7 +30,6 @@ In this lab, you will learn how to configure continuous integration (CI) and con
     <img src="images/002.png"/>
     
    
-
 1. The first thing you'll need to do is to configure the source repository. Every major platform is available, but the default options are all we need here. This build will use the **master** branch of the **PartsUnlimited** repo. Leave the defaults and click **Continue**.
 
     <img src="images/03.png"/>
@@ -61,13 +60,11 @@ In this lab, you will learn how to configure continuous integration (CI) and con
    <img src="images/008.png"/>
    
    
-
 1. Select the **Retention** tab. Right-click **go to the project settings to configure** and select **Open in new tab**.
       
    <img src="images/009.png"/>
   
     
-
 1. This section enables you to configure which pipeline runs are retained and for how long. Close the tab.
 
     <img src="images/010.png"/>
@@ -76,7 +73,6 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 1. Select the **History** tab. There's nothing here yet, but it will show a history of changes you make to the build definition.
 
     <img src="images/011.png"/>
-
 
 
 1. Select **Save & Queue | Save & Queue** to save and queue a new build.
@@ -97,7 +93,6 @@ In this lab, you will learn how to configure continuous integration (CI) and con
     <img src="images/014.png"/>
 
 
-
 1. Once the build begins, you'll be able to track the console output per task under logs.
 
      <img src="images/015.png"/>
@@ -108,7 +103,6 @@ In this lab, you will learn how to configure continuous integration (CI) and con
      <img src="images/16.png"/>
 
 
-
 1. After the build process completes, you should see a green check mark next to each of the build pipeline steps.
      
      <img src="images/17.png"/>
@@ -117,7 +111,6 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 1. The summary view provides overview details about the build, including details about commits, tests, and artifacts.
 
      <img src="images/018.png"/>
-
 
 
 1. Select the **Tests** tab to review test performance for this build. Note that you also have easy access to the pipeline editor, the ability to queue a new build, and download the artifacts of this build.
@@ -131,7 +124,6 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 1. The build was configured earlier to support continuous integration. Navigate to the code for this project using **Repos | Files**.
 
    <img src="images/020.png"/>
-
 
 
 2. Open the file at **PartsUnlimited-aspnet45/src/PartsUnlimitedWebsite/Views/Home/Index.cshtml**.
