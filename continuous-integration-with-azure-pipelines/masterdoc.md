@@ -1,12 +1,11 @@
 # Enabling Continuous Integration with Azure Pipelines
 
-## Overview ##
+## Overview
 
 In this lab, you will learn how to configure continuous integration (CI) and continuous deployment (CD) for your applications using Build and Release in Azure Pipelines. This scriptable CI/CD system is both web-based and cross-platform, while also providing a modern interface for visualizing sophisticated workflows. Although we won't demonstrate all of the cross-platform possibilities in this lab, it is important to point out that you can also build for iOS, Android, Java (using Ant, Maven, or Gradle) and Linux.
 
 ## Exercise 1: Introduction to Azure DevOps Build 
 
-<a name="Ex1Task1"></a>
 ### Task 1: Creating a basic build pipeline from a template
 
 1. Navigate to your team project on Azure DevOps.<br/>
@@ -41,6 +40,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 <img src="images/013.png"/><br/>
 
 ### Task 2: Tracking and reviewing a build
+
 1. Depending on load, the build may need to wait in the queue for a moment.<br/>
 <img src="images/014.png"/><br/>
 2. Once the build begins, you'll be able to track the console output per task under logs.<br/>
@@ -55,6 +55,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 <img src="images/19.png"/><br/>
    
 ### Task 3: Invoking a continuous integration build
+
 1. The build was configured earlier to support continuous integration. Navigate to the code for this project using **Repos | Files**. <br/>
 <img src="images/020.png"/><br/>
 2. Open the file at **PartsUnlimited-aspnet45/src/PartsUnlimitedWebsite/Views/Home/Index.cshtml**.<br/>
@@ -71,4 +72,3 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 <img src="images/26.png"/><br/>
 8. This build should run and succeed just like the previous build.<br/>
 <img src="images/27.png"/><br/>
- 
