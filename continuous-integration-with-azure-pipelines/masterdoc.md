@@ -103,13 +103,13 @@ In this lab, you will learn how to configure continuous integration (CI) and con
      <img src="images/15.png"/>
 
 
-1. If you want to review an task, you can click on **logs**
+1. If you want to review an task, you can click on **logs** 
      
      <img src="images/16.png"/>
 
 
 
-1. The build should eventually succeed. You can return to the summary view by clicking the back button.
+1. After the build process completes, you should see a green check mark next to each of the build pipeline steps.
      
      <img src="images/17.png"/>
 
