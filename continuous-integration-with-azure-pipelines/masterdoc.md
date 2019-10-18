@@ -193,6 +193,6 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 1. This build should run and succeed just like the previous build.
 
-    kbd>
+    <kbd>
     <img src="images/027.png"/>
     </kbd>
