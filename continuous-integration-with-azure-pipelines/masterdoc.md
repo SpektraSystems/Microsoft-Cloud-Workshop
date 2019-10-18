@@ -161,7 +161,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 7. You should now see that a new build (note the **.2**) is in progress and that it was triggered by your change. Click the build to    track it. Note that it may be queued behind another build pipeline configured for continuous integration.
 
-   <img src="images/26.png"/>
+   <img src="images/026.png"/>
  
 
 8. This build should run and succeed just like the previous build.
