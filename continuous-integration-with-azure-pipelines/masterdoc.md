@@ -12,7 +12,9 @@ In this lab, you will learn how to configure continuous integration (CI) and con
 
 1. Navigate to your team project on Azure DevOps.
 
-    ![](images/028.png)
+    <kbd>
+    <img src="images/028.png"/>
+    </kbd>
 
 1. Navigate to **Pipelines**
 
