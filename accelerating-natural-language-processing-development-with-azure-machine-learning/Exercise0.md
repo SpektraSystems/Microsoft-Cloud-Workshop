@@ -7,7 +7,7 @@ In this exercise you will Log into your **jupyterhub portal** using your labvm u
       ![](images/jupyterurl.png)
 1. Enter your Labvm Admin Username and Labvm Admin Password from your Lab credentials details page in the Jupyterhub login page and click on **Sign In** button.
 
-     ![](images/sign.png)
+     ![](images/sign1.png)
 1. Now you will be able to see your jupyterhub portal home page. Select the **nlp** folder on jupyterhub portal.
      ![](images/nlp.png)
 1. Select **examples>>text_classification>>tc_transformers_azureml_pipeline** folder and open this
