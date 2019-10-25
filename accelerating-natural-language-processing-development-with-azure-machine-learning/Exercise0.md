@@ -13,7 +13,7 @@ In this exercise you will Log into your **jupyterhub portal** using your labvm u
 1. Select **examples>>text_classification>>tc_transformers_azureml_pipeline** folder and open this
 **tc_transformers_azureml_pipelines.ipynb** file.
      ![](images/pipeline.png)
-1. After clicking on **tc_transformers_azureml_pipelines.ipynb**, a new tab will open and you will see a pop-up to select kernal.
+1. After click on **tc_transformers_azureml_pipelines.ipynb**, a new tab will open and you will see a pop-up to select kernal.
      ![](images/popup.png)
 1. Select **npl_gpu** kernal from drop down menu and click on **Set Kernal**.
      ![](images/nplgpu.png)
