@@ -19,5 +19,6 @@ In this exercise you will Log into your **jupyterhub portal** using your labvm u
      ![](images/nplgpu.png)
 1. Please make sure **npl_gpu** cluster is selected on your notebook before running any command in notebook.
      ![](images/nplselect.png)   
+1.  Fill in the Azure services parameters in the **Define Parameters** section using the corresponding values in the *Environment Details* tab.
 1. You can click anywhere in the cell and execute it by entering **shift + enter** on your keyboard.
 1. Follow all the steps from notebook to finish the exercise.
