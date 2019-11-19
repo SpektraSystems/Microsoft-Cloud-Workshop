@@ -1,214 +1,306 @@
-**In Exercise 2, [Task 8: Review Azure Monitor for Containers](https://github.com/microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps%20-%20Developer%20edition.md#task-8-review-azure-monitor-for-containers)**
+# Cloud-native applications before the hands-on lab setup guide
 
-You will not be able to enable Insights for AKS cluster, Please skip this task and move to next task.
+## Before the hands-on lab
+You should follow all of the steps provided in this section _before_ taking part in the hands-on lab ahead of time as some of these steps take time.
 
-**Pre-Requisite:**
-Once you receive the Lab Environment details after clicking on **Launch Lab**, perform the following task given below before starting with the main lab guide
+### Task 1: Setup Azure Cloud Shell
 
-In later exercises, you will need the Helm client to deploy to your Kubernetes cluster and run commands from your local machine.
+1. Open cloud shell by selecting the cloud shell icon in the menu bar.
 
-1. For MacOS -- use homebrew:
+   ![The cloud shell icon is highlighted on the menu bar.](media/b4-image35.png)
 
-    ```bash
-    brew update
+2. The cloud shell will open in the browser window Choose "Bash" if prompted.
 
-    brew install kubernetes-helm
-    ```
+      ![cloubash](media/cloudbash_1.png)
 
-2. For Windows -- using WSL _on your local machine (not the build agent)_:
+3. Click on **show advanced settings**.
 
-    ```bash
-    curl https://raw.githubusercontent.com/helm/helm/master/scripts/get > get_helm.sh
-    chmod 700 get_helm.sh
-    ./get_helm.sh
-    ```
+      ![cloudbash2](media/cloudbash_2.png)
 
-### Task 12: Download the FabMedical starter files
+4. In **advanced settings** , select **Create new** for storage account and file share and fill the details 
+     
+      ![cloudbash3](media/cloudbash_3.png)
 
-FabMedical has provided starter files for you. They have taken a copy of one of their websites, for their customer Contoso Neuro, and refactored it from a single node.js site into a website with a content API that serves up the speakers and sessions. This is a starting point to validate the containerization of their websites. They have asked you to use this to help them complete a POC that validates the development workflow for running the website and API as Docker containers and managing them within the Azure Kubernetes Service environment.
+5. Bash will start working now 
 
-1. From WSL, download the starter files by typing the following curl instruction (case sensitive):
+   
+### Task 2: Download Starter Files
 
-    ```bash
-    curl -L -o FabMedical.tgz http://bit.ly/2uhZseT
-    ```
+In this task you will use `git` to copy the lab content to your cloud shell so that the lab starter files will be available.
 
-    > **Important note**: If you'll be taking the Infrastructure edition of the lab, instead of using the above instructions, type the following ones:
-    > 
-    > ```bash
-    > curl -L -o FabMedical.tgz https://bit.ly/2uDDZNq
-    > ```
-    > 
-    > This will download the version of the starter files that will be used by that edition of the lab.
+> **Note**: If you don't have cloud shell available, refer back to Task 1: Setup Azure Cloud Shell.
 
-2. Create a new directory named FabMedical by typing in the following command:
+1. Type the following command and press `<ENTER>`:
 
-    ```bash
-    mkdir FabMedical
-    ```
+   ```bash
+   git clone https://github.com/microsoft/MCW-Containers-and-DevOps.git
+   ```
 
-3. Unpack the archive with the following command. This command will extract the files from the archive to the FabMedical directory you created. The directory is case sensitive when you navigate to it.
+2. The lab files will download.
 
-    ```bash
-    tar -C FabMedical -xzf FabMedical.tgz --strip-components=1
-    ```
+   ![In this screenshot of a Bash window, git clone has been typed and run at the command prompt. The output from git clone is shown.](media/b4-2019-09-30_21-25-06.png)
 
-4. Navigate to FabMedical folder and list the contents.
+3. We do not need the `.git` folder and later steps will be
+   less complex if we remove it. Run this command:
 
-    ```bash
-    cd FabMedical
+   ```bash
+   rm -rf MCW-Containers-and-DevOps/.git
+   ```
 
-    # on Mac bash you may need to type `ls`
-    ll
-    ```
 
-5. You'll see the listing includes three folders, one for the web site, another for the content API and one to initialize API data:
+### Task 3: Setup Azure DevOps project
 
-    ```bash
-    content-api/
-    content-init/
-    content-web/
-    ```
+FabMedical has provided starter files for you. They have taken a copy of one of their websites, for their customer Contoso Neuro, and refactored it from a
+single node.js site into a website with a content API that serves up the speakers and sessions. This is a starting point to validate the containerization of their websites. They have asked you to use this to help them complete a POC that validates the development workflow for running the website and API as Docker containers and managing them within the Azure Kubernetes Service environment.
 
-6. Next log into your Azure DevOps account.
+1. Open a **new** Azure Cloud Shell console.
+2. Navigate to FabMedical source code folder and list the contents.
 
-    If this is your first time logging into this account you will be taken through a first-run experience:
+   ```bash
+   cd ~/MCW-Containers-and-DevOps/Hands-on\ lab/lab-files/developer/
+   ll
+   ```
 
-    - Confirm your contact information and select next.
-    - Select "Create new account".
-    - Enter a fabmedical-SUFFIX for your account name and select Continue.
+   > **Important note**: If you will be taking the Infrastructure edition of the lab, instead of using the above instructions, type the following ones:
+   >
+   > ```bash
+   > cd ~/MCW-Containers-and-DevOps/Hands-on\ lab/lab-files/infrastructure/
+   > ll
+   > ```
+   >
+   > This will take you to the version of the starter files that will be used by that edition of the lab.
 
-7. Create repositories to host the code.
+3. You'll see the listing includes three folders, one for the web site, another
+   for the content API and one to initialize API data:
 
-    - Enter fabmedical as the project name.
-    - Ensure the project is Private.
-    - Click the Advanced dropdown.
-    - Ensure the Version control is set to Git.
-    - Click the "Create Project" button.
+   ```bash
+   content-api/
+   content-init/
+   content-web/
+   ```
 
-        ![Home page icon](media/b4-image51.png)
+4. Set your username and email which are used for git commits.
 
-    - Once the project creation has completed, use the repository dropdown to create a new repository by selecting "+ New repository".
+   ```bash
+   git config --global user.email "you@example.com"
+   git config --global user.name "Your Name"
+   ```
 
-        ![Repository dropdown](media/b4-image53.png)
+5. Configure git CLI to cache your credentials, so that you don't have to keep
+   re-typing them.
+
+   ```bash
+   git config --global credential.helper cache
+   ```
+
+6. Open a new browser tab to visit [Azure DevOps][devops] and log into your
+   account.
+
+   If this is your first time logging into this account you will be taken through a first-run experience:
+
+   - Confirm your contact information and select next.
+   - Select "Create new account".
+   - Enter a fabmedical-SUFFIX for your account name and select Continue.
+
+7. Create Azure DevOps Project.
+
+   - Enter fabmedical as the project name.
+   - Ensure the project is Private.
+   - Choose the Advanced dropdown.
+   - Ensure the Version control is set to Git.
+   - Select the "Create Project" button.
+
+   ![Create Project Dialog with an arrow pointing at the Create Project button](media/b4-image51.png)
+
+8. Enable multi-stage pipelines:
+
+   - Select your user icon in the top right corner.
+   - Then choose the three dots to access the "Preview Features" menu item.
+   - Toggle multi-stage pipelines to "On".
+
+9. Next add an Azure Service Connection to your Azure DevOps account. Select the
+   Project settings gear icon to access your settings. Then select Service Connections.
+
+10. Choose "+ New service connection". Then pick "Azure Resource Manager" from
+    the menu.
+
+    ![A screenshot of the New service connection selection in Azure DevOps with Azure Resource Manager highlighted.](media/vso-service-connection-settings.png)
+
+11. Select the link indicated in the screenshot below to access the advanced settings.
+
+    ![A screenshot of the Add Azure Resource Manager dialog where you can enter your subscription information.](media/vso-service-connection-settings2.png)
+
+12. Enter the required information using the service principal information you
+    created earlier.
+
+    - **Connection name**: azurecloud
+    - **Environment**: AzureCloud
+    - **Subscription ID**: `id` from `az account show` output
+    - **Subscription Name**: `name` from `az account show` output
+    - **Service Principal Client ID**: `appId` from service principal output.
+    - **Service Principal Key**: `password` from service principal output.
+    - **Tenant ID**: `tenant` from service principal output.
+
+    ![A screenshot of the Add Resource Manager Add Service Endpoint dialog.](media/Ex1-Task7.16.png)
+
+13. Select "Verify connection" then select "OK".
+
+    > **Note**: If the connection does not verify, then recheck and reenter the required data.
+
+14. Next add another Azure Service Connection to your Azure DevOps account.
+    Select the Project settings gear icon to access your settings. Then choose
+    Service Connections.
+
+15. Choose "+ New service connection". Then pick "Docker Registry" from
+    the menu.
+    
+        Enter the required information :
+
+    - **Registry type**: Others
+
+    - **Connection name**: Fabmedical ACR
+
+    - **Docker registry**: **https://**(Login server of your azure container registry)
+
+    - **Docker ID**: Username of your container registry
+    
+    - **Password**: Enter Password of your container registry, you can get password in Access keys.
+    ![](media/docker_regist.png)
+
+16. Select "OK".
+
+17. Next, choose "Repos" then use the repository dropdown to create a new
+    repository by selecting "+ New repository".
+
+    ![Repository dropdown](media/b4-image53.png)
 
     - Enter "content-web" as the repository name.
 
-    - Once the project is created click "Generate Git credentials".
+    - Once the project is created select "Generate Git credentials".
 
-        ![Generate Git Credentials](media/b4-image50.png)
+      ![Generate Git Credentials](media/b4-image50.png)
 
-        - Enter a password.
-        - Confirm the password.
-        - Select "Save Git Credentials".
+18. Copy the Personal Access Token and save it for later steps
 
-    - Using your WSL window, set your username and email which are used in Azure DevOps for Git Commits.
+19. Using your cloud shell window, initialize a new git repository for `content-web`.
 
-        ```bash
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
-        ```
+    ```bash
+    cd content-web
+    git init
+    git add .
+    git commit -m "Initial Commit"
+    ```
 
-        For example:
+20. Return to your Azure DevOps tab and copy the commands to add your Azure DevOps repository as a new remote for
+    push. Copy the commands for "**HTTPS**" similar to this example:
 
-        ```bash
-        git config --global user.email "you@example.onmicrosoft.com"
-        git config --global user.name "you@example.onmicrosoft.com"
-        ```
+    ```bash
+    git remote add origin https://fabmedical-sol@dev.azure.com/fabmedical-sol/fabmedical/_git/content-web
+    git push -u origin --all
+    ```
 
-    - Using your WSL window, configure git CLI to cache your credentials, so that you don't have to keep re-typing them.
+21. Now use the commands copied from Azure DevOps to configure the remote repository and push the code to Azure DevOps. When prompted for a password, paste your Azure DevOps Personal Access Token you copied earlier in this task.
 
-        ```bash
-        git config --global credential.helper cache
-        ```
+22. Return to Azure DevOps and use the repository dropdown to create a second repository called `content-api`.
 
-    - Using your WSL window, initialize a new git repository.
+    > Note: You do not need to generate git credentials again. The same PAT will work for both repositories.
 
-        ```bash
-        cd content-web
-        git init
-        git add .
-        git commit -m "Initial Commit"
-        ```
+23. Using your cloud shell window, initialize a new git repository in the `content-api` directory.
 
-    - Setup your Azure DevOps repository as a new remote for push. You can copy the commands for "**HTTPS**" to do this from your browser.  Edit the HTTPS URL as given below:
+    ```bash
+    cd ../content-api
+    git init
+    git add .
+    git commit -m "Initial Commit"
+    ```
 
-       Remove characters between "https://" and "dev.azure.com" from HTTPS URL of the copied commands.
-       For example:
+24. Copy the commands to add your `content-api` repository as a new remote for push. Copy the commands for "**HTTPS**".
 
-       ```bash
-       From this https URL
-       "git remote add origin https://fabmedical-sol@dev.azure.com/fabmedical-sol/fabmedical/_git/content-web
-        git push -u origin --all"
+25. Now use the commands copied from Azure DevOps to configure the remote repository and push the code to Azure DevOps. When prompted for a password, paste your Azure DevOps Personal Access Token you copied earlier in this task.
 
-       Remove "fabmedical-sol@" from the above url to make it like below:
-       "git remote add origin https://dev.azure.com/fabmedical-sol/fabmedical/_git/content-web
-        git push -u origin --all"
-       ```
+26. Use the repository drop down to create a third repository called
+    `content-init`.
 
-       Paste these commands into your WSL window.
+    > Note: You do not need to generate git credentials again. The same PAT will work for both repositories.
 
-       - When prompted, enter your Azure DevOps username and the git credentials password you created earlier in this task.
+27. Using your cloud shell window, initialize a new git repository in the `content-init` directory.
 
-    - Use the repository dropdown to create a second repository called "content-api".
+    ```bash
+    cd ../content-init
+    git init
+    git add .
+    git commit -m "Initial Commit"
+    ```
 
-    - Using your WSL window, initialize a new git repository in the content-api directory.
+28. Copy the commands to add your `content-init` repository as a new remote for push. Copy the commands for "**HTTPS**".
 
-        ```bash
-        cd ../content-api
-        git init
-        git add .
-        git commit -m "Initial Commit"
-        ```
+29. Now use the commands copied from Azure DevOps to configure the remote repository and push the code to Azure DevOps. When prompted for a password, paste your Azure DevOps Personal Access Token you copied earlier in this task.
 
-    - Setup your Azure DevOps repository as a new remote for push. Use the repository dropdown to switch to the "content-api" repository. You can then copy the commands for the setting up the content-api repository from your browser, then update the HTTPS URL as you did earlier for content-web repository HTTPS url. Paste these commands into your WSL window.
+### Task 4: Connect securely to the build agent
 
-        - When prompted, enter your Azure DevOps username and the git credentials password you created earlier in this task.
+In this section, you will validate that you can connect to the new build agent
+VM.
 
-    - Use the repository drop down to create a third repository called "content-init".
+1. From Environment details page go to **Command to Connect to Build Agent VM** copy the ssh key and paste in cloud shell:
 
-    - Using your WSL window, initialize a new git repository in the content-init directory.
+   > **Note**: If you don't have cloud shell available, refer back to Task 1: Setup Azure Cloud Shell.
 
-        ```bash
-        cd ../content-init
-        git init
-        git add .
-        git commit -m "Initial Commit"
-        ```
 
-    - Setup your Azure DevOps repository as a new remote for push.  Use the repository drop down to switch to the "content-init" repository. You can then copy the commands for the setting up the content-init repository from your browser, then update the HTTPS URL as you did earlier for other repo's HTTPS url's. Paste these commands into your WSL window.
+2. In the cloud shell output, paste  the ssh key that you copied earlier enter **yes** when prompted.
 
-      - When prompted, enter your Azure DevOps username and the git credentials password you created earlier in this task.
+   <kbd>![](media/agent_1.png)</kbd></br></br>
 
-8. Clone your repositories to the build agent.
+3. Enter the Buid Agent VM password provided in environment details, you will be connected to Build Agent VM:
+   <kbd>![](media/agent_2.png)</kbd></br></br>
 
-    - From WSL, connect to the build agent VM as you did previously in Before the hands-on lab - Task 6: Connect securely to the build agent using the SSH command.
+### Task 5: Clone Repositories to the Build Agent
 
-    - In your browser, switch to the "content-web" repository and click "Clone" in the right corner.
+In this task you will clone your repositories from Azure DevOps so you can work
+with them on the build agent.
 
-        ![This is a screenshot of the content-web repository page with the Clone button indicated.](media/b4-image55.png)
+1. As you previously did in cloud shell, set your username and email which are
+   used for git commits.
 
-    - Copy the repository url.
+   ```bash
+   git config --global user.email "you@example.com"
+   git config --global user.name "Your Name"
+   ```
 
-    - Update the repository url by removing the characters between "https://" and "dev.azure.com".
+2. Configure git CLI to cache your credentials, so that you don't have to keep
+   re-typing them.
 
-      For example: modify the repository url "https://fabmedical-sol@dev.azure.com/fabmedical-sol/fabmedical/_git/content-web"
-      as "https://dev.azure.com/fabmedical-sol/fabmedical/_git/content-web"
+   ```bash
+   git config --global credential.helper cache
+   ```
 
-    - Use the repository url to clone the content-web code to your build agent machine.
+3. Visit the `content-web` repository in Azure DevOps and select "Clone" in the
+   right corner.
 
-        ```bash
-        git clone <REPOSITORY_URL>
-        ```
+   ![This is a screenshot of the content-web repository page with the Clone button indicated.](media/b4-image55.png)
 
-    - In your browser, switch to the "content-api" repository and select "Clone" to see and copy the repository url and update the URL by removing some characters as you did earlier for content-web repository.
+4. Copy the repository url.
 
-    - Use the repository url and `git clone` to copy the content-api code to your build agent.
+5. Use the repository url to clone the content-web code to your build agent machine.
 
-    - In your browser, switch to the "content-init" repository and select "Clone" to see and copy the repository url and then update the url by removing some characters as you did earlier for other repositories.
+   ```bash
+   git clone <REPOSITORY_URL>
+   ```
 
-    - Use the repository url and `git clone` to copy the content-init code to your build agent.
+6. When prompted for password use your PAT token from previous steps.
 
->**Note**: Keep this WSL window open as your build agent SSH connection. You will later open new WSL sessions to other machines.
+7. In your browser, switch to the `content-api` repository and select "Clone" to see and copy the repository url.
 
-You should follow all steps provided *before* performing the Hands-on lab.
+8. Use the repository url and `git clone` to copy the content-api code to your build agent.
+
+9. In your browser, switch to the `content-init` repository and select "Clone" to see and copy the repository url.
+
+10. Use the repository url and `git clone` to copy the content-init code to your build agent.
+
+> **Note**: Keep this cloud shell window open as your build agent SSH
+> connection. The lab will instruct you to open additional cloudshell sessions
+> as and when needed.
+
+After Completing all the steps go to next and perform the Hands-on lab.
+
+[logo]: https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png
+[devops]: https://dev.azure.com
