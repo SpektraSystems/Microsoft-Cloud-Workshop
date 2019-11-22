@@ -3,68 +3,79 @@
 **Azure Databricks** is an Apache Spark-based big data analytics and machine learning framework optimized for the Microsoft Azure Cloud.
 Databricks is integrated with Azure to provide one-click setup, streamlined workflows, and an interactive workspace that enables collaboration between data scientists, data engineers, and business analysts.
 
-This tutorial consists of six labs that are designed to help you to understand how to use Azure Databricks for different use cases, including:
-
-* Analysis of structured and unstructured data.
-* Analysis of streaming data.
-* Machine Learning.
-
-The six labs are implemented as six independent Azure Databricks notebooks as described below. You can find the Azure Databricks notebooks in the Databricks workspace.
-
-#### Lab-01 Data Engineering:
 
 This tutorial helps you understand how to use Azure Databricks Spark to prepare raw data for analytics.
 
-#### Lab-02 SparkSQL & Performance Optimization
-
-This tutorial help you to understand the capabilities and features of **Spark SQL** and the various performance options provided by Azure Databricks.
-
-#### Lab-03 Machine Learning
-
-This tutorial helps you understand the capabilities and features of **Azure Spark MLlib** for machine learning. It shows how to construct the end-to-end process for building and refining a machine learning model.
-	
-#### Lab-04 Real-time Stream Analytics
-		
-This tutorial helps you understand Azure Databricks **Spark Structured Streaming**. It shows the end-to-end process starting with data ingestion into a Azure Databricks cluster in near real-time, through analysis of the the streaming data and integration with machine learning.
-
-#### Lab-05 Databricks Delta
-	 
-This tutorial is helps you understand the features and capabilities of **Azure Databricks Delta**. Azure Databricks Delta is a next-generation unified analytics engine built on Apache Spark™. It provides ACID transactions, optimized layouts and indexes to enable big data use cases, from batch and streaming ingests, fast interactive queries to machine learning.
-		
-#### Lab-06: Data orchestration using Azure Data Factory
-	
-This tutorial helps you understand how **Azure Data Factory** (ADF) can be used with Azure Databricks, to create and automate piplines.
 
 # Getting Started
 
-Follow these instruction to set up the lab environment for the lab.
-
-## Step 1: Verify the pre-deployed resources.
+Follow the **Step 1** to set up the lab environment for the Data Engineering lab and Spark sql & Performance optimization.
+## Step 1: Deploy Sql Data Warehouse.
 
 1. **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
-2. **Open** the resource group and you can find a **Databricks workspace** already deployed.</br></br>
+2. **Select** Create a Resource  search for **Sql Data Warehouse** select Create, add the details as follows:
+    * **Select** the Pre-created Resource group 
+    * **Data Warehouse name**: nyctaxidb
+    * In server **Create new** add the credentials as follows:
+      * **Server name**: nyctaxicab-**SUFFIX**
+      * **Server Admin Login**: demouser
+      * **Password**: demo@pass123
+      * **Select** the location used in your Resource group
+     * **Allow** Azure services to access server
+   
+   <kbd>![](images/data_warehouse.png)</kbd></br></br>
+3. In **Performance level** Select **Gen2 DW100c**.
+   <kbd>![](images/data_warehouse1.png)</kbd></br></br>
+4. Go to Data Warehouse , go to **security** select **Firewalls and virtual networks**
+     * **Rule Name**: all
+     * **START IP**: 0.0.0.0
+     * **END IP**: 255.255.255.255
+     * **Save**
+   <kbd>![](images/ip_config.png)</kbd></br></br>  
+5. In **Sql DataWarehouse** go to **Connection strings** copy the **JDBC** url and save it for later use.
+    <kbd>![](images/jdbc_3.png)</kbd></br></br>
+   
+   
+
+## Step 2: Verify the resources.
+
+1. **Open** the resource group and you can find a **Databricks workspace** already deployed.</br></br>
 <kbd>![](images/01_rg.jpg)</kbd></br></br>
-3. Go to the Azure Databricks workspace, and then click on **Launch Workspace**.</br></br>
+2. Go to the Azure Databricks workspace, and then click on **Launch Workspace**.</br></br>
 <kbd>![](images/02_Launch.jpg)</kbd></br></br>
-4. You are now inside your Databricks workspace.</br></br>
+3. You are now inside your Databricks workspace.</br></br>
 <kbd>![](images/databricks.jpg)</kbd>
 
 
-## Step 6: Attach the Notebook to your cluster.
+## Step 3: Attach the Notebook to your cluster.
 
 1. **Open** the Databricks Workspace.</br>
 2. Click on **Clusters** tab to view the available Databricks Clusters. **Start** the cluster if it is in terminated state.</br></br>
-<kbd>![](images/03_cluster.jpg)</kbd></br></br>
-3. Now let's **Click** on the **Workspace** tab and open the folder named **Shared**, where you can find multiple notebooks. Open the first notebook.</br></br>
-<kbd>![](images/04_labguide.jpg)</kbd></br></br>
+<kbd>![](images/cluster_1.png)</kbd></br></br>
+3. Now let's **Click** on the **Workspace** tab and open the folder named **Shared**, where you can find Data Engineering notebook. Open the  notebook.</br></br>
+<kbd>![](images/data_engineering.png)</kbd></br></br>
 4. Click on **`detached`** written on the top-left corner, and you'll see a list of active clusters.</br></br>
 <kbd>![](images/05_attach.jpg)</kbd></br></br>
 5. **Attach** your notebook to a running cluster. A green icon shall appear on top, meaning our notebook is now attached to our cluster and is ready to be executed. Now you need to follow the instructions specified in each of the Notebooks.
 
 ### Your Databricks Environment is ready now and you can proceed with the labs.
 1. **Open** the Databricks Workspace.</br>
-2. **Click** on the **Workspace** tab, open the folder named **Shared**, where you can find multiple Notebooks. **Open** the first notebook named **Lab-01_DataEngineering**.</br></br>
-<kbd>![](images/04_labguide.jpg)</kbd></br></br>
+2. **Click** on the **Workspace** tab, open the folder named **Shared**, where you can find a Notebook. **Open** the notebook named **Lab-DataEngineering**.</br></br>
+<kbd>![](images/data_engineering.png)</kbd></br></br>
 3. **Attach** the cluster in to this Notebook, if you haven't attached it yet.</br>
+**Note**: We have to install a Library in our cluster as **Machine Learning and Real-Time Stream Analytics** require some packages to import.
+Following are the steps to install a library.
+* **Open** the Databricks Workspace.</br>
+* Go to cluster and click on **Libraries**.
+    <kbd>![](images/library.png)</kbd></br></br>
+* Then click on **Install New** and go to maven and add co-ordinate as **com.microsoft.azure:azure-eventhubs-spark_2.11:2.3.3** and install.
+   <kbd>![](images/library_1.png)</kbd></br></br>
+*  You can see that Library package is installed , the package will be used in Real-Time stream analytics notebook.
+    <kbd>![](images/library_2.png)</kbd></br></br>
+
 4. Follow the instructions in the notebook to continue with the lab. To run the cells in the Notebook, **Click** on the **Play** button in the top right corner of that cell and then **Click** on **Run Cell**</br></br>
 <kbd>![](images/run_cell.jpg)</kbd></br>
+5. After completeing `Lab-DataEngineering`,  **Open** the Databricks Workspace. **Click** on the **Workspace** tab, open the folder named **Shared**, where you can find Notebooks. **Open** the notebook named **SparkSql & Performance Optimization**, attach the cluster and follow the instructions in the notebook.</br></br>
+6. Follow the same for **Machine Learning** ,**Real-Time stream analytics** ,**Azure Databricks Delta** and **Data Orchestration using Azure data Factory** notebooks.
+
+`Note :` For **Real-Time stream analytics** and **Data orchestration using Azure Data factory** , First we need to have **Machine Learning** Tested as we require trained model for Real-Time stream analytics and Data orchestration using Azure Data factory
