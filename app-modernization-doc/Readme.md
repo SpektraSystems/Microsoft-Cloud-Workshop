@@ -41,7 +41,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 Solution - Follow the following steps and then publish Contoso.WebApi project again:
  1. In Exercise 4 - Task 3 - Step 2 - Comment the whole TODO1 part as shown below and then save it.
   
-  ![](Images/todo1.png)
+   ![](Images/todo1.png)
  
  2. In Exercise 4 - Task 3 - Step 6 - After adding code to TODO2, add connection string of SQL Database as shown below, then save the file.
   ![](Images/todo2.png)
