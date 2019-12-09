@@ -15,12 +15,12 @@ This is a supplement guide to  ‘Microsoft Cloud Workshop - [App-modernization]
   1. IE Enhanced Security has been disabled
   2. SQL Server Express 2017
   3. SQL Server Management Studio 2017
-  4. Files are downloaded into **C:\Hackathon**
+  4. Files are downloaded into **C:\MCW**
 
 5. Users can select **LABVM** and click on **Connect** to download the RDP file
 * Open the RDP file to connect to the LABVM. Provide the credentials you received to login to the VM
 * Once you login to the LABVM, server manager will open. Select Local Server and verify that IE Enhanced Security Configuration has also been turned off
-6. Now go to C:\Hackathon and verify the student files are there.
+6. Now go to C:\MCW and verify the student files are there.
  
 ## Verify Azure Access
 
@@ -36,19 +36,27 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 # Known Issues
 
-* In Exercise 5 - Task 1 - Users can face issue with Provision function app, **consumption tier is not existing in resource group**, In this case Users can select different region it will work.
+* **In Exercise 4 - Task 5 - Step 8 -** On publishing Contoso.WebApi Project, it may give HTTP 500 error in step 8. 
 
-* In Exercise 8 - Task 1 - Step 4 - Users open the solution file,after opening the solution file, it will show one error, users should ignore and can continue.
+**Solution** - Follow the following steps and then publish Contoso.WebApi project again:
+ 1. In Exercise 4 - Task 3 - Step 2 - Comment the whole TODO1 part as shown below and then save it.
+  
+   ![](Images/1todo.png)
+ 
+ 2. In Exercise 4 - Task 3 - Step 6 - After adding code to TODO2, add connection string of SQL Database as shown below, then save the file.
+  ![](Images/todo2.png)
 
-* Exercise 9 - Task 3 - Users can deploy the web app and verifying it. It will only publish the web app. Users have to skip steps 6-8.
+* **In Exercise 5 - Task 1 -** Users can face issue with Provision function app, **consumption tier is not existing in resource group**, In this case Users can select different region it will work.
+
+* **In Exercise 5 - Task 2 - Step 10 -** If users find that the policy holder data is not fetched, then first Build the solution and then Publish it. Then sign in the webapp again.
+
+* **In Exercise 8 - Task 1 - Step 4 -** Users open the solution file,after opening the solution file, it will show one error, users should ignore and can continue.
+
+* **In Exercise 9 - Task 3 -** Users can deploy the web app and verifying it. It will only publish the web app. Users have to skip steps 6-8.
 
 # Notes to Instructors / Proctors
 
-* Exercise 1 - Task 3 - Step 2: Connect to your local SQL Express instance, Use Default Username: **sa**  and Password: **P@ssword**
-
-* Exercise 3 - Task 3 - Step 6: Users should create new guid.User can generate a new Guid by opening PowerShell and running the following command: **[guid]::NewGuid()** 
-
-* Exercise 4 - Task 3 - Step 6: FILE-SOURCE: This is the path to the Files folder in your sample project directory, such as C:\Hackathon\Files
+* **Exercise 3 - Task 3**: Users have to skip Step 6 and Step 7 as a pre-created Service Principal is provided. Details of the pre-creteated Service Principal are available on environment details page.
 
 * Users should use the Azure Credentials given to them to login to Visual Studio.
 
