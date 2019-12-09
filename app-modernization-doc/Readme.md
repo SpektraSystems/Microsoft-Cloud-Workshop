@@ -36,9 +36,9 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 # Known Issues
 
-* In Exercise 4 - Task 5 - Step 8 - On publishing Contoso.WebApi Project, it may give HTTP 500 error in step 8. 
+* **In Exercise 4 - Task 5 - Step 8 -** On publishing Contoso.WebApi Project, it may give HTTP 500 error in step 8. 
 
-Solution - Follow the following steps and then publish Contoso.WebApi project again:
+**Solution** - Follow the following steps and then publish Contoso.WebApi project again:
  1. In Exercise 4 - Task 3 - Step 2 - Comment the whole TODO1 part as shown below and then save it.
   
    ![](Images/1todo.png)
@@ -46,13 +46,13 @@ Solution - Follow the following steps and then publish Contoso.WebApi project ag
  2. In Exercise 4 - Task 3 - Step 6 - After adding code to TODO2, add connection string of SQL Database as shown below, then save the file.
   ![](Images/todo2.png)
 
-* In Exercise 5 - Task 1 - Users can face issue with Provision function app, **consumption tier is not existing in resource group**, In this case Users can select different region it will work.
+* **In Exercise 5 - Task 1 -** Users can face issue with Provision function app, **consumption tier is not existing in resource group**, In this case Users can select different region it will work.
 
-* In Exercise 5 - Task 2 - Step 10 - If users find that the policy holder data is not fetched, then first Build the solution and then Publish it. Then sign in the webapp again.
+* **In Exercise 5 - Task 2 - Step 10 -** If users find that the policy holder data is not fetched, then first Build the solution and then Publish it. Then sign in the webapp again.
 
-* In Exercise 8 - Task 1 - Step 4 - Users open the solution file,after opening the solution file, it will show one error, users should ignore and can continue.
+* **In Exercise 8 - Task 1 - Step 4 -** Users open the solution file,after opening the solution file, it will show one error, users should ignore and can continue.
 
-* Exercise 9 - Task 3 - Users can deploy the web app and verifying it. It will only publish the web app. Users have to skip steps 6-8.
+* **In Exercise 9 - Task 3 -** Users can deploy the web app and verifying it. It will only publish the web app. Users have to skip steps 6-8.
 
 # Notes to Instructors / Proctors
 
