@@ -37,11 +37,13 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 # Known Issues
 
 * In Exercise 4 - Task 5 - Step 8 - On publishing Contoso.WebApi Project, it may give HTTP 500 error in step 8. 
-Solution - Follow the following steps and Publish Contoso.WebApi project again.
-1. In Exercise 4 - Task 3 - Step 2 - Comment the whole TODO1 part as shown below and then save it.
+
+Solution - Follow the following steps and Publish Contoso.WebApi project again:
+ 1. In Exercise 4 - Task 3 - Step 2 - Comment the whole TODO1 part as shown below and then save it.
+  
   ![](Images/todo1.png)
  
-2. In Exercise 4 - Task 3 - Step 6 - After adding code to TODO2, add connection string of SQL Database as shown below, then save the file.
+ 2. In Exercise 4 - Task 3 - Step 6 - After adding code to TODO2, add connection string of SQL Database as shown below, then save the file.
   ![](Images/todo2.png)
 
 * In Exercise 5 - Task 1 - Users can face issue with Provision function app, **consumption tier is not existing in resource group**, In this case Users can select different region it will work.
