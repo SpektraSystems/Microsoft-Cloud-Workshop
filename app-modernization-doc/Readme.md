@@ -38,7 +38,7 @@ You are provided a Visual Studio Community 2017 on Windows Server 2016 (x64)Micr
 
 * In Exercise 4 - Task 5 - Step 8 - On publishing Contoso.WebApi Project, it may give HTTP 500 error in step 8. 
 
-Solution - Follow the following steps and Publish Contoso.WebApi project again:
+Solution - Follow the following steps and then publish Contoso.WebApi project again:
  1. In Exercise 4 - Task 3 - Step 2 - Comment the whole TODO1 part as shown below and then save it.
   
   ![](Images/todo1.png)
