@@ -33,7 +33,7 @@ In this task you will use `git` to copy the lab content to your cloud shell so t
 1. Type the following command and press `<ENTER>`:
 
    ```bash
-   git clone https://github.com/microsoft/MCW-Containers-and-DevOps.git
+   git clone https://github.com/microsoft/MCW-Cloud-native-applications.git
    ```
 
 2. The lab files will download.
@@ -44,7 +44,7 @@ In this task you will use `git` to copy the lab content to your cloud shell so t
    less complex if we remove it. Run this command:
 
    ```bash
-   rm -rf MCW-Containers-and-DevOps/.git
+   rm -rf MCW-Cloud-native-applications/.git
    ```
 
 
@@ -57,14 +57,14 @@ single node.js site into a website with a content API that serves up the speaker
 2. Navigate to FabMedical source code folder and list the contents.
 
    ```bash
-   cd ~/MCW-Containers-and-DevOps/Hands-on\ lab/lab-files/developer/
+   cd ~/MCW-Cloud-native-applications/Hands-on\ lab/lab-files/developer/
    ll
    ```
 
    > **Important note**: If you will be taking the Infrastructure edition of the lab, instead of using the above instructions, type the following ones:
    >
    > ```bash
-   > cd ~/MCW-Containers-and-DevOps/Hands-on\ lab/lab-files/infrastructure/
+   > cd ~/MCW-Cloud-native-applications/Hands-on\ lab/lab-files/infrastructure/
    > ll
    > ```
    >
