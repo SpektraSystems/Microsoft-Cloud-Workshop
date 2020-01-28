@@ -75,7 +75,7 @@ The scenario will challenge you to setup continuous integration and delivery of 
     
 ## Notes to Instructors / Proctors / Attendees
 
-* Attendees have to complete task 4 and task 5 from [Before HOL](https://github.com/Microsoft/MCW-OSS-PaaS-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL.md#task-4-create-github-account)
+* Attendees have to complete task 8 and task 9 from [Before HOL](https://github.com/Microsoft/MCW-OSS-PaaS-and-DevOps/blob/master/Hands-on%20lab/Before%20the%20HOL.md#task-4-create-github-account)
 
 * All the deployment tasks in Before Hands on Lab section is pre deployed.
 
