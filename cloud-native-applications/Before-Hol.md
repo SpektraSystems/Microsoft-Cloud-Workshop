@@ -128,7 +128,7 @@ single node.js site into a website with a content API that serves up the speaker
 
 11. Select "Services principal (manual)". Then select Next indicated in the screenshot.
 
-    ![A screenshot of the Add Azure Resource Manager dialog where you can enter your subscription information.](media/SP-manual.png)
+    ![A screenshot of the Add Azure Resource Manager dialog where you can enter your subscription information.](media/SPmanual.png)
 
 12. Enter the required information using the service principal information you
     created earlier.
