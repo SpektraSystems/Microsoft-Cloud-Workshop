@@ -121,7 +121,7 @@ single node.js site into a website with a content API that serves up the speaker
 9. Next add an Azure Service Connection to your Azure DevOps account. Select the
    Project settings gear icon to access your settings. Then select Service Connections.
 
-10. Choose "+ New service connection". Then pick "Azure Resource Manager" from
+10. Choose "+ Create service connection". Then pick "Azure Resource Manager" from
     the menu.
 
     ![A screenshot of the New service connection selection in Azure DevOps with Azure Resource Manager highlighted.](media/project-setting.png)
