@@ -156,7 +156,7 @@ single node.js site into a website with a content API that serves up the speaker
     
     ![A screenshot of the Add Docker Registry.](media/Docker-registry.png)
        
- 16.Enter the required information using the service principal information you created earlier.
+16.Enter the required information using the service principal information you created earlier.
 
    - **Registry type**: Others
 
@@ -169,9 +169,9 @@ single node.js site into a website with a content API that serves up the speaker
    - **Password**: Enter Password of your container registry, you can get password in Access keys.
     ![](media/docker_regist.png)
 
-16. Select "OK".
+17. Select "OK".
 
-17. Next, choose "Repos" then use the repository dropdown to create a new
+18. Next, choose "Repos" then use the repository dropdown to create a new
     repository by selecting "+ New repository".
 
     ![Repository dropdown](media/b4-image53.png)
@@ -182,9 +182,9 @@ single node.js site into a website with a content API that serves up the speaker
 
       ![Generate Git Credentials](media/b4-image50.png)
 
-18. Copy the Personal Access Token and save it for later steps
+19. Copy the Personal Access Token and save it for later steps
 
-19. Using your cloud shell window, initialize a new git repository for `content-web`.
+20. Using your cloud shell window, initialize a new git repository for `content-web`.
 
     ```bash
     cd content-web
@@ -193,7 +193,7 @@ single node.js site into a website with a content API that serves up the speaker
     git commit -m "Initial Commit"
     ```
 
-20. Return to your Azure DevOps tab and copy the commands to add your Azure DevOps repository as a new remote for
+21. Return to your Azure DevOps tab and copy the commands to add your Azure DevOps repository as a new remote for
     push. Copy the commands for "**HTTPS**" similar to this example:
 
     ```bash
@@ -201,13 +201,13 @@ single node.js site into a website with a content API that serves up the speaker
     git push -u origin --all
     ```
 
-21. Now use the commands copied from Azure DevOps to configure the remote repository and push the code to Azure DevOps. When prompted for a password, paste your Azure DevOps Personal Access Token you copied earlier in this task.
+22. Now use the commands copied from Azure DevOps to configure the remote repository and push the code to Azure DevOps. When prompted for a password, paste your Azure DevOps Personal Access Token you copied earlier in this task.
 
-22. Return to Azure DevOps and use the repository dropdown to create a second repository called `content-api`.
+23. Return to Azure DevOps and use the repository dropdown to create a second repository called `content-api`.
 
     > Note: You do not need to generate git credentials again. The same PAT will work for both repositories.
 
-23. Using your cloud shell window, initialize a new git repository in the `content-api` directory.
+24. Using your cloud shell window, initialize a new git repository in the `content-api` directory.
 
     ```bash
     cd ../content-api
@@ -216,16 +216,16 @@ single node.js site into a website with a content API that serves up the speaker
     git commit -m "Initial Commit"
     ```
 
-24. Copy the commands to add your `content-api` repository as a new remote for push. Copy the commands for "**HTTPS**".
+25. Copy the commands to add your `content-api` repository as a new remote for push. Copy the commands for "**HTTPS**".
 
-25. Now use the commands copied from Azure DevOps to configure the remote repository and push the code to Azure DevOps. When prompted for a password, paste your Azure DevOps Personal Access Token you copied earlier in this task.
+26. Now use the commands copied from Azure DevOps to configure the remote repository and push the code to Azure DevOps. When prompted for a password, paste your Azure DevOps Personal Access Token you copied earlier in this task.
 
-26. Use the repository drop down to create a third repository called
+27. Use the repository drop down to create a third repository called
     `content-init`.
 
     > Note: You do not need to generate git credentials again. The same PAT will work for both repositories.
 
-27. Using your cloud shell window, initialize a new git repository in the `content-init` directory.
+28. Using your cloud shell window, initialize a new git repository in the `content-init` directory.
 
     ```bash
     cd ../content-init
@@ -234,9 +234,9 @@ single node.js site into a website with a content API that serves up the speaker
     git commit -m "Initial Commit"
     ```
 
-28. Copy the commands to add your `content-init` repository as a new remote for push. Copy the commands for "**HTTPS**".
+29. Copy the commands to add your `content-init` repository as a new remote for push. Copy the commands for "**HTTPS**".
 
-29. Now use the commands copied from Azure DevOps to configure the remote repository and push the code to Azure DevOps. When prompted for a password, paste your Azure DevOps Personal Access Token you copied earlier in this task.
+30. Now use the commands copied from Azure DevOps to configure the remote repository and push the code to Azure DevOps. When prompted for a password, paste your Azure DevOps Personal Access Token you copied earlier in this task.
 
 ### Task 4: Connect securely to the build agent
 
