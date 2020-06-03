@@ -124,11 +124,11 @@ single node.js site into a website with a content API that serves up the speaker
 10. Choose "+ Create service connection". Then pick "Azure Resource Manager" from
     the menu.
 
-    ![A screenshot of the New service connection selection in Azure DevOps with Azure Resource Manager highlighted.](media/project-setting.png)
+    ![A screenshot of the New service connection selection in Azure DevOps with Azure Resource Manager highlighted.](media/create.png)
 
 11. Select "Services principal (manual)". Then select Next indicated in the screenshot.
 
-    ![A screenshot of the Add Azure Resource Manager dialog where you can enter your subscription information.](media/SPmanual.png)
+    ![A screenshot of the Add Azure Resource Manager dialog where you can enter your subscription information.](media/Serviceprincipal-manual.png)
 
 12. Enter the required information using the service principal information you
     created earlier.
