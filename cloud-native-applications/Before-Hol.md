@@ -154,17 +154,19 @@ single node.js site into a website with a content API that serves up the speaker
 15. Choose "+ New service connection". Then pick "Docker Registry" from
     the menu.
     
-        Enter the required information :
+    ![A screenshot of the Add Docker Registry.](media/Docker-registry.png)
+       
+ 16.Enter the required information using the service principal information you created earlier.
 
-    - **Registry type**: Others
+   - **Registry type**: Others
 
-    - **Connection name**: Fabmedical ACR
+   - **Connection name**: Fabmedical ACR
 
-    - **Docker registry**: **https://**(Login server of your azure container registry)
+   - **Docker registry**: **https://**(Login server of your azure container registry)
 
-    - **Docker ID**: Username of your container registry
+   - **Docker ID**: Username of your container registry
     
-    - **Password**: Enter Password of your container registry, you can get password in Access keys.
+   - **Password**: Enter Password of your container registry, you can get password in Access keys.
     ![](media/docker_regist.png)
 
 16. Select "OK".
