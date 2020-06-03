@@ -124,7 +124,7 @@ single node.js site into a website with a content API that serves up the speaker
 10. Choose "+ New service connection". Then pick "Azure Resource Manager" from
     the menu.
 
-    ![A screenshot of the New service connection selection in Azure DevOps with Azure Resource Manager highlighted.](media/vso-service-connection-settings.png)
+    ![A screenshot of the New service connection selection in Azure DevOps with Azure Resource Manager highlighted.](media/project-setting.png)
 
 11. Select the link indicated in the screenshot below to access the advanced settings.
 
