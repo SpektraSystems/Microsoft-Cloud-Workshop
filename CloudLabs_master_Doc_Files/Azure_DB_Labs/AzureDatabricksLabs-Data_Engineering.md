@@ -41,10 +41,10 @@ Follow these instruction to set up the lab environment for the lab.
      
    <kbd>![](images/synapse_5.png)</kbd></br></br>  
 5. In **Sql DataWarehouse** go to **Connection strings** copy the **JDBC** url and save it for later use.
+
     <kbd>![](images/jdbc_3.png)</kbd></br></br>
    
    
-
 ## Step 2: Verify the resources.
 
 1. **Open** the resource group and you can find a **Databricks workspace** already deployed.</br></br>
