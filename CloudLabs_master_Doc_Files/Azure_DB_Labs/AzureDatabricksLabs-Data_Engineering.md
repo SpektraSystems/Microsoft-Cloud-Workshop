@@ -13,7 +13,13 @@ Follow these instruction to set up the lab environment for the lab.
 ## Step 1: Deploy Sql Data Warehouse.
 
 1. **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
-2. **Select** Create a Resource  search for **Sql Data Warehouse** select Create, add the details as follows:
+2. **Select** Create a Resource  search for **Azure Synapse Analytics**.
+   
+     <kbd>![](images/synapse_1.png)</kbd></br></br>
+     Select **Create**
+     
+      <kbd>![](images/synapse_2.png)</kbd></br></br>
+   In **Azure Synapse Analytics** pane, add the details as follows:
     * **Select** the Pre-created Resource group 
     * **Data Warehouse name**: nyctaxidb
     * In server **Create new** add the credentials as follows:
@@ -23,15 +29,16 @@ Follow these instruction to set up the lab environment for the lab.
       * **Select** the location used in your Resource group
      * **Allow** Azure services to access server
    
-   <kbd>![](images/data_warehouse.png)</kbd></br></br>
+   <kbd>![](images/synapse_3.png)</kbd></br></br>
 3. In **Performance level** Select **Gen2 DW100c**.
-   <kbd>![](images/data_warehouse1.png)</kbd></br></br>
+   <kbd>![](images/synapse_4.png)</kbd></br></br>
 4. Go to Data Warehouse , go to **security** select **Firewalls and virtual networks**
      * **Rule Name**: all
      * **START IP**: 0.0.0.0
      * **END IP**: 255.255.255.255
      * **Save**
-   <kbd>![](images/ip_config.png)</kbd></br></br>  
+     
+   <kbd>![](images/synapse_5.png)</kbd></br></br>  
 5. In **Sql DataWarehouse** go to **Connection strings** copy the **JDBC** url and save it for later use.
     <kbd>![](images/jdbc_3.png)</kbd></br></br>
    
