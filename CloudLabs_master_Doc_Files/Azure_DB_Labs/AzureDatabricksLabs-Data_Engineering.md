@@ -31,6 +31,7 @@ Follow these instruction to set up the lab environment for the lab.
    
    <kbd>![](images/synapse_3.png)</kbd></br></br>
 3. In **Performance level** Select **Gen2 DW100c**.
+
    <kbd>![](images/synapse_4.png)</kbd></br></br>
 4. Go to Data Warehouse , go to **security** select **Firewalls and virtual networks**
      * **Rule Name**: all
