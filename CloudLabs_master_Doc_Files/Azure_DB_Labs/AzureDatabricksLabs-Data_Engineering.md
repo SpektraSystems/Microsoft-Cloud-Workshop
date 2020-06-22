@@ -10,12 +10,17 @@ This tutorial helps you understand how to use Azure Databricks Spark to prepare 
 # Getting Started
 
 Follow these instruction to set up the lab environment for the lab.
-## Step 1: Deploy Sql Data Warehouse.
+## Step 1: Deploying Azure Synapse Analytics(formerly SQL DW).
 
 1. **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
-2. **Select** Create a Resource  search for **Azure Synapse Analytics**.
+2. **Click**  on Create a Resource.  
    
-     <kbd>![](images/synapse_1.png)</kbd></br></br>
+     <kbd>![](images/synapse_0.png)</kbd></br></br>
+     
+     Search for **Azure Synapse Analytics**.
+     
+      <kbd>![](images/synapse_1.png)</kbd></br></br>
+          
      Select **Create**
      
       <kbd>![](images/synapse_2.png)</kbd></br></br>
