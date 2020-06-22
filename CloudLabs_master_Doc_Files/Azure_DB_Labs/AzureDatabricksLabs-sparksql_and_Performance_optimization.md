@@ -13,7 +13,7 @@ Follow these instruction to set up the lab environment for the lab.
 ## Step 1: Deploying Azure Synapse Analytics(formerly SQL DW).
 
 1. **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
-2. **Click** on Create a Resource  
+2. **Click** on Create a Resource.  
 
       <kbd>![](images/synapse_0.png)</kbd></br></br>
      Search for **Azure Synapse Analytics**. 
