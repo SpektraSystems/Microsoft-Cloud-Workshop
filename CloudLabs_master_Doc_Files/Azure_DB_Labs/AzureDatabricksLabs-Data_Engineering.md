@@ -19,7 +19,7 @@ Follow these instruction to set up the lab environment for the lab.
      
      Search for **Azure Synapse Analytics**.
      
-      <kbd>![](images/synapse_1.png)</kbd></br></br>
+      <kbd>![](images/synapse_6.png)</kbd></br></br>
           
      Select **Create**
      
