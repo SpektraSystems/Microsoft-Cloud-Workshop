@@ -11,6 +11,6 @@ Password:**<inject key="AzureAdUserPassword" />**
 
    and Click on **Sign in**.
 
-3. After sign-in please click on **Next** button in bottom right corner of lab guide
+3. After sign-in please click on **Next** button in bottom right corner of lab guide.
 
 
